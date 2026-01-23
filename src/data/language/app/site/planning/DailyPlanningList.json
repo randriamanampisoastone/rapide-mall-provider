@@ -1,0 +1,58 @@
+{
+    "en": {
+        "add_planning": "Add planning",
+        "planning": "Planning",
+        "pages": "Pages {page} of {maxPage}",
+        "created_at": "Created at",
+        "start_hour": "Start hour",
+        "end_hour": "End hour",
+        "select_sites": "Select sites",
+        "select_all": "Select all",
+        "search": "Search",
+        "filter_by_date": "Filter by date",
+        "filter_by_site": "Filter by site",
+        "filter": "Filter"
+    },
+    "fr": {
+        "add_planning": "Ajouter un planning",
+        "planning": "Planning",
+        "pages": "Page {page} sur {maxPage}",
+        "created_at": "Créé le",
+        "start_hour": "Heure de début",
+        "end_hour": "Heure de fin",
+        "select_sites": "Sélectionner des sites",
+        "select_all": "Tout sélectionner",
+        "search": "Rechercher",
+        "filter_by_date": "Filtrer par date",
+        "filter_by_site": "Filtrer par site",
+        "filter": "Filtrer"
+    },
+    "mg": {
+        "add_planning": "Ampio fandaminana",
+        "planning": "Fandaminana",
+        "pages": "Pejy {page} amin'ny {maxPage}",
+        "created_at": "Noforonina tamin'ny",
+        "start_hour": "Ora fanombohana",
+        "end_hour": "Ora fiafarana",
+        "select_sites": "Misafidiana toerana",
+        "select_all": "Safidio rehetra",
+        "search": "Mitady",
+        "filter_by_date": "Sivana araka ny daty",
+        "filter_by_site": "Sivana araka ny toerana",
+        "filter": "Sivana"
+    },
+    "zh": {
+        "add_planning": "添加计划",
+        "planning": "计划",
+        "pages": "第 {page} 页，共 {maxPage} 页",
+        "created_at": "创建于",
+        "start_hour": "开始时间",
+        "end_hour": "结束时间",
+        "select_sites": "选择站点",
+        "select_all": "全选",
+        "search": "搜索",
+        "filter_by_date": "按日期筛选",
+        "filter_by_site": "按站点筛选",
+        "filter": "筛选"
+    }
+}

@@ -1,0 +1,46 @@
+{
+   "en": {
+      "gender": "Gender",
+      "ride": "Ride",
+      "express": "Express",
+      "food": "Food",
+      "mart": "Mart",
+      "clients": "Clients",
+      "drivers": "Drivers",
+      "admins": "Admins",
+      "coupons": "Coupons"
+   },
+   "fr": {
+      "gender": "Genre",
+      "ride": "Course",
+      "express": "Livraison",
+      "food": "Repas",
+      "mart": "Supérette",
+      "clients": "Clients",
+      "drivers": "Chauffeurs",
+      "admins": "Admins",
+      "coupons": "Coupons"
+   },
+   "mg": {
+      "gender": "Sokajin'ny lahy sy vavy",
+      "ride": "Dia",
+      "express": "Fandefasana",
+      "food": "Sakafo",
+      "mart": "Fivarotana",
+      "clients": "Mpanjifa",
+      "drivers": "Mpamily",
+      "admins": "Mpandrindra",
+      "coupons": "Tapakila fihenam-bidy"
+   },
+   "zh": {
+      "gender": "性别",
+      "ride": "出行",
+      "express": "快递",
+      "food": "食品",
+      "mart": "超市",
+      "clients": "客户",
+      "drivers": "司机",
+      "admins": "管理员",
+      "coupons": "优惠券"
+   }
+}

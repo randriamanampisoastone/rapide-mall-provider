@@ -1,0 +1,26 @@
+{
+   "en": {
+      "signIn": "Sign in",
+      "expired": "Expired",
+      "created": "Created",
+      "updated": "Updated"
+   },
+   "fr": {
+      "signIn": "Se connecter",
+      "expired": "Expiré",
+      "created": "Créé",
+      "updated": "Mis à jour"
+   },
+   "mg": {
+      "signIn": "Hiditra",
+      "expired": "Lany daty",
+      "created": "Noforonina",
+      "updated": "Nohavaozina"
+   },
+   "zh": {
+      "signIn": "登录",
+      "expired": "已过期",
+      "created": "已创建",
+      "updated": "已更新"
+   }
+}

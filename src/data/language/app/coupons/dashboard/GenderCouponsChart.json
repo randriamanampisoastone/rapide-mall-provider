@@ -1,0 +1,30 @@
+{
+   "en": {
+      "gender": "Gender",
+      "men": "Men",
+      "women": "Women",
+      "others": "Others",
+      "all": "All"
+   },
+   "fr": {
+      "gender": "Genre",
+      "men": "Hommes",
+      "women": "Femmes",
+      "others": "Autres",
+      "all": "Tous"
+   },
+   "mg": {
+      "gender": "Sokajin'ny lahy sy vavy",
+      "men": "Lehilahy",
+      "women": "Vehivavy",
+      "others": "Hafa",
+      "all": "Rehetra"
+   },
+   "zh": {
+      "gender": "性别",
+      "men": "男性",
+      "women": "女性",
+      "others": "其他",
+      "all": "全部"
+   }
+}

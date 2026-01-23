@@ -1,0 +1,22 @@
+{
+    "en": {
+        "switch_location": "Click to switch location to set",
+        "search_pick_up_location": "Search pick up location",
+        "search_drop_off_location": "Search drop off location"
+    },
+    "fr": {
+        "switch_location": "Cliquez pour changer l'emplacement à définir",
+        "search_pick_up_location": "Rechercher le lieu de prise en charge",
+        "search_drop_off_location": "Rechercher le lieu de dépose"
+    },
+    "mg": {
+        "switch_location": "Kitiho raha te hanova ny toerana apetraka",
+        "search_pick_up_location": "Karohy ny toerana fakana mpandeha",
+        "search_drop_off_location": "Karohy ny toerana fametrahana mpandeha"
+    },
+    "zh": {
+        "switch_location": "点击切换要设置的位置",
+        "search_pick_up_location": "搜索上车地点",
+        "search_drop_off_location": "搜索下车地点"
+    }
+}

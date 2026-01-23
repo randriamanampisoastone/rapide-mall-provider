@@ -1,0 +1,58 @@
+{
+   "en": {
+      "profile": "Profile",
+      "show_on_map": "Show on map",
+      "send_notification": "Send notification",
+      "send_message": "Send message",
+      "unschedule_today": "Unschedule today",
+      "unschedule_message": "Are you sure to want to unschedule this driver today?",
+      "yes": "Yes. Unschedule.",
+      "no": "No. Don't unschedule.",
+      "process_close_with_success": "Process closed successfully",
+      "enter_your_password": "Enter your password",
+      "cancel": "Cancel",
+      "confirm": "Confirm"
+   },
+   "fr": {
+      "profile": "Profil",
+      "show_on_map": "Afficher sur la carte",
+      "send_notification": "Envoyer une notification",
+      "send_message": "Envoyer un message",
+      "unschedule_today": "Déprogrammer aujourd'hui",
+      "unschedule_message": "Êtes-vous sûr de vouloir déprogrammer ce chauffeur aujourd'hui ?",
+      "yes": "Oui. Déprogrammer.",
+      "no": "Non. Ne pas déprogrammer.",
+      "process_close_with_success": "Processus terminé avec succès",
+      "enter_your_password": "Entrez votre mot de passe",
+      "cancel": "Annuler",
+      "confirm": "Confirmer"
+   },
+   "mg": {
+      "profile": "Mombamomba",
+      "show_on_map": "Asehoy anaty sarintany",
+      "send_notification": "Alefaso fampandrenesana",
+      "send_message": "Alefaso hafatra",
+      "unschedule_today": "Avao anio ny fandaharana",
+      "unschedule_message": "Azonao antoka ve fa hanafoana ny fandaharam-potoanan’ity mpamily ity anio ianao?",
+      "yes": "Eny. Foano.",
+      "no": "Tsia. Aza foanana.",
+      "process_close_with_success": "Vita soa aman-tsara ny dingana",
+      "enter_your_password": "Ampidiro ny tenimiafinao",
+      "cancel": "Foano",
+      "confirm": "Hamafiso"
+   },
+   "zh": {
+      "profile": "个人资料",
+      "show_on_map": "在地图上显示",
+      "send_notification": "发送通知",
+      "send_message": "发送消息",
+      "unschedule_today": "取消今天的排班",
+      "unschedule_message": "您确定要取消该司机今天的排班吗？",
+      "yes": "是的。取消。",
+      "no": "不。不要取消。",
+      "process_close_with_success": "流程已成功完成",
+      "enter_your_password": "输入您的密码",
+      "cancel": "取消",
+      "confirm": "确认"
+   }
+}

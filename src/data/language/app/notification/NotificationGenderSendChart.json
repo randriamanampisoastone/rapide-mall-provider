@@ -1,0 +1,34 @@
+{
+    "en": {
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "unsend": "Unsend",
+        "send": "Send",
+        "notification_send_by_gender": "Notification send by gender"
+    },
+    "fr": {
+        "male": "Homme",
+        "female": "Femme",
+        "other": "Autre",
+        "unsend": "Annuler l'envoi",
+        "send": "Envoyer",
+        "notification_send_by_gender": "Notification envoyée par genre"
+    },
+    "mg": {
+        "male": "Lehilahy",
+        "female": "Vehivavy",
+        "other": "Hafa",
+        "unsend": "Foano ny fandefasana",
+        "send": "Alefa",
+        "notification_send_by_gender": "Fampahafantarana araka ny sokajin-kevitra"
+    },
+    "zh": {
+        "male": "男",
+        "female": "女",
+        "other": "其他",
+        "unsend": "取消发送",
+        "send": "发送",
+        "notification_send_by_gender": "按性别发送通知"
+    }
+}

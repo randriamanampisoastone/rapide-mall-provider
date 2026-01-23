@@ -1,0 +1,38 @@
+{
+    "en": {
+        "rapide_wallet": "Rapide wallet",
+        "disable_transfert": "Disable transfert",
+        "disable_deposit": "Disable deposit",
+        "disable_withdrawal": "Disable withdrawal",
+        "reset_default": "Reset default",
+        "reset": "Reset",
+        "save": "Save"
+    },
+    "fr": {
+        "rapide_wallet": "Portefeuille Rapide",
+        "disable_transfert": "Désactiver le transfert",
+        "disable_deposit": "Désactiver le dépôt",
+        "disable_withdrawal": "Désactiver le retrait",
+        "reset_default": "Réinitialiser par défaut",
+        "reset": "Réinitialiser",
+        "save": "Enregistrer"
+    },
+    "mg": {
+        "rapide_wallet": "Kitapo Rapide",
+        "disable_transfert": "Atsaharo ny famindrana",
+        "disable_deposit": "Atsaharo ny fametrahana vola",
+        "disable_withdrawal": "Atsaharo ny fakana vola",
+        "reset_default": "Avereno amin'ny fanombohana",
+        "reset": "Avereno",
+        "save": "Tehirizo"
+    },
+    "zh": {
+        "rapide_wallet": "Rapide 钱包",
+        "disable_transfert": "禁用转账",
+        "disable_deposit": "禁用存款",
+        "disable_withdrawal": "禁用取款",
+        "reset_default": "重置为默认",
+        "reset": "重置",
+        "save": "保存"
+    }
+}

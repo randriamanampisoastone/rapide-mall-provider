@@ -1,0 +1,22 @@
+{
+   "en": {
+      "admins": "Admins",
+      "drivers": "Drivers",
+      "vehicles": "Vehicles"
+   },
+   "fr": {
+      "admins": "Administrateurs",
+      "drivers": "Chauffeurs",
+      "vehicles": "Véhicules"
+   },
+   "mg": {
+      "admins": "Mpandrindra",
+      "drivers": "Mpitondra",
+      "vehicles": "Fiara"
+   },
+   "zh": {
+      "admins": "管理员",
+      "drivers": "司机",
+      "vehicles": "车辆"
+   }
+}

@@ -1,0 +1,35 @@
+{
+    "en": {
+      "count": "Count",
+      "moto": "Moto",
+      "lite": "Lite car",
+      "premium": "Premium car",
+      "on-ride": "On ride",
+      "client-waiting": "Client waiting"
+    },
+    "fr": {
+      "count": "Nombre",
+      "moto": "Moto",
+      "lite": "Petite voiture",
+      "premium": "Voiture premium",
+      "on-ride": "En course",
+      "client-waiting": "Client en attente"
+    },
+    "mg": {
+      "count": "Isan'ny",
+      "moto": "Moto",
+      "lite": "Fiara kely",
+      "premium": "Fiara tsara",
+      "on-ride": "Mandeha",
+      "client-waiting": "Miantso mpamily"
+    },
+    "zh": {
+      "count": "数量",
+      "moto": "摩托车",
+      "lite": "小车",
+      "premium": "豪华车",
+      "on-ride": "行程中",
+      "client-waiting": "客户等待中"
+    }
+  }
+  

@@ -1,0 +1,50 @@
+{
+    "en": {
+        "agency": "Agency",
+        "ride": "Ride",
+        "express": "Express",
+        "food": "Food",
+        "mart": "Mart",
+        "cash": "Cash",
+        "rapideWallet": "Rapide Wallet",
+        "orangeMoney": "Orange Money",
+        "mvola": "Mvola",
+        "card": "Card"
+    },
+    "fr": {
+        "agency": "Agence",
+        "ride": "Trajet",
+        "express": "Express",
+        "food": "Restauration",
+        "mart": "Boutique",
+        "cash": "Espèces",
+        "rapideWallet": "Portefeuille Rapide",
+        "orangeMoney": "Orange Money",
+        "mvola": "MVola",
+        "card": "Carte"
+    },
+    "mg": {
+        "agency": "Agence",
+        "ride": "Dia",
+        "express": "Express",
+        "food": "Sakafo",
+        "mart": "Fivarotana",
+        "cash": "Vola mivantana",
+        "rapideWallet": "Kitapo Rapide",
+        "orangeMoney": "Orange Money",
+        "mvola": "MVola",
+        "card": "Karatra"
+    },
+    "zh": {
+        "agency": "代理机构",
+        "ride": "行程",
+        "express": "快递",
+        "food": "餐饮",
+        "mart": "商城",
+        "cash": "现金",
+        "rapideWallet": "Rapide 钱包",
+        "orangeMoney": "Orange Money",
+        "mvola": "MVola",
+        "card": "银行卡"
+    }
+}

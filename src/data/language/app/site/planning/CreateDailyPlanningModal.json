@@ -1,0 +1,62 @@
+{
+    "en": {
+        "make_new_planning": "Make new planning",
+        "start_time": "Start time",
+        "start_time_help": "The time you want to start the planning",
+        "end_time": "End time",
+        "end_time_help": "The time you want to end the planning",
+        "select_site": "Select the site",
+        "select_site_help": "Select the site where you want to apply the planning",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "select_drivers": "Select drivers",
+        "select_drivers_help": "Select the drivers that you want to apply the planning",
+        "driver_count_selected": "{count} drivers selected",
+        "search": "Search"
+    },
+    "fr": {
+        "make_new_planning": "Créer un nouveau planning",
+        "start_time": "Heure de début",
+        "start_time_help": "L'heure à laquelle vous souhaitez démarrer le planning",
+        "end_time": "Heure de fin",
+        "end_time_help": "L'heure à laquelle vous souhaitez terminer le planning",
+        "select_site": "Sélectionner le site",
+        "select_site_help": "Sélectionnez le site où vous souhaitez appliquer le planning",
+        "cancel": "Annuler",
+        "confirm": "Confirmer",
+        "select_drivers": "Sélectionner les conducteurs",
+        "select_drivers_help": "Sélectionnez les conducteurs à inclure dans le planning",
+        "driver_count_selected": "{count} conducteurs sélectionnés",
+        "search": "Rechercher"
+    },
+    "mg": {
+        "make_new_planning": "Mamorona drafitra vaovao",
+        "start_time": "Ora fiandohana",
+        "start_time_help": "Ny ora tianao hanombohana ny drafitra",
+        "end_time": "Ora farany",
+        "end_time_help": "Ny ora tianao hamaranana ny drafitra",
+        "select_site": "Fidio ny toerana",
+        "select_site_help": "Fidio ny toerana tianao ampiharana ny drafitra",
+        "cancel": "Foano",
+        "confirm": "Hamarino",
+        "select_drivers": "Fidio ny mpamily",
+        "select_drivers_help": "Fidio ny mpamily tianao ampidirina ao amin'ny drafitra",
+        "driver_count_selected": "Mpamily {count} no voafantina",
+        "search": "Mitady"
+    },
+    "zh": {
+        "make_new_planning": "创建新计划",
+        "start_time": "开始时间",
+        "start_time_help": "您希望开始计划的时间",
+        "end_time": "结束时间",
+        "end_time_help": "您希望结束计划的时间",
+        "select_site": "选择站点",
+        "select_site_help": "选择您想应用计划的站点",
+        "cancel": "取消",
+        "confirm": "确认",
+        "select_drivers": "选择司机",
+        "select_drivers_help": "选择您想添加到计划中的司机",
+        "driver_count_selected": "已选择 {count} 位司机",
+        "search": "搜索"
+    }
+}

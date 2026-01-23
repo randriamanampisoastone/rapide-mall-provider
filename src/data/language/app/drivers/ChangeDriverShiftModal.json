@@ -1,0 +1,34 @@
+{
+    "en": {
+        "change_driver_shift": "Change driver shift",
+        "day_shift": "Day shift",
+        "night_shift": "Night shift",
+        "cancel": "Cancel",
+        "save": "Save",
+        "driver_shift_updated_successfully": "The driver shift has been updated successfully"
+    },
+    "fr": {
+        "change_driver_shift": "Changer le quart du conducteur",
+        "day_shift": "Quart de jour",
+        "night_shift": "Quart de nuit",
+        "cancel": "Annuler",
+        "save": "Enregistrer",
+        "driver_shift_updated_successfully": "Le quart du conducteur a été mis à jour avec succès"
+    },
+    "mg": {
+        "change_driver_shift": "Hanova ora fiasan’ny mpamily",
+        "day_shift": "Asa amin’ny andro",
+        "night_shift": "Asa amin’ny alina",
+        "cancel": "Foano",
+        "save": "Tehirizo",
+        "driver_shift_updated_successfully": "Vita soa aman-tsara ny fanovana ny ora fiasan’ny mpamily"
+    },
+    "zh": {
+        "change_driver_shift": "更改司机班次",
+        "day_shift": "白班",
+        "night_shift": "夜班",
+        "cancel": "取消",
+        "save": "保存",
+        "driver_shift_updated_successfully": "司机班次已成功更新"
+    }
+}

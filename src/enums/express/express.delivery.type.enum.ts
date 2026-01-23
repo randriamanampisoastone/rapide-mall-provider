@@ -1,0 +1,9 @@
+export const ExpressDeliveryType = {
+   ECONOMIC_DELIVERY: 'ECONOMIC_DELIVERY',
+   NORMAL_DELIVERY: 'NORMAL_DELIVERY',
+   FAST_DELIVERY: 'FAST_DELIVERY',
+   URGENT_DELIVERY_MOTO: 'URGENT_DELIVERY_MOTO',
+   URGENT_DELIVERY_CAR: 'URGENT_DELIVERY_CAR',
+}
+
+export type ExpressDeliveryType = keyof typeof ExpressDeliveryType

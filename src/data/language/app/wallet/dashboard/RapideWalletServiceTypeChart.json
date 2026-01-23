@@ -1,0 +1,34 @@
+{
+   "en": {
+      "ride": "Ride",
+      "food": "Food",
+      "mart": "Mart",
+      "express": "Express",
+      "weekly_report_by_site_for_service_type": "Weekly Report by Site for service type",
+      "weekly_report": "Weekly Report"
+   },
+   "fr": {
+      "ride": "Course",
+      "food": "Repas",
+      "mart": "Épicerie",
+      "express": "Express",
+      "weekly_report_by_site_for_service_type": "Rapport hebdomadaire par site et type de service",
+      "weekly_report": "Rapport hebdomadaire"
+   },
+   "mg": {
+      "ride": "Fandehanana",
+      "food": "Sakafo",
+      "mart": "Fivarotana",
+      "express": "Express",
+      "weekly_report_by_site_for_service_type": "Tatitra isan-kerinandro isaky ny toerana sy sokajin'ny tolotra",
+      "weekly_report": "Tatitra isan-kerinandro"
+   },
+   "zh": {
+      "ride": "打车",
+      "food": "餐食",
+      "mart": "超市",
+      "express": "快速配送",
+      "weekly_report_by_site_for_service_type": "按站点和服务类型分类的每周报告",
+      "weekly_report": "每周报告"
+   }
+}

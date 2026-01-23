@@ -1,0 +1,28 @@
+{
+   "en": {
+      "send_sms": "Send SMS",
+      "cancel": "Cancel",
+      "send": "Send",
+      "select_all": "Select All",
+      "search": "Search..."
+   },
+   "fr": {
+      "send_sms": "Envoyer un SMS",
+      "cancel": "Annuler",
+      "send": "Envoyer",
+      "select_all": "Tout sélectionner",
+      "search": "Rechercher..."
+   },
+   "mg": {
+      "send_sms": "Mandefa SMS",
+      "cancel": "Foano",
+      "send": "Alefa"
+   },
+   "zh": {
+      "send_sms": "发送短信",
+      "cancel": "取消",
+      "send": "发送",
+      "select_all": "Safidio rehetra",
+      "search": "Tadiavina..."
+   }
+}

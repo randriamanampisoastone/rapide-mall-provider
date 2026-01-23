@@ -1,0 +1,26 @@
+{
+   "en": {
+      "moto": "Moto",
+      "lite": "Lite car",
+      "premium": "Premium car",
+      "weekly_ride_note": "Weekly ride note"
+   },
+   "fr": {
+      "moto": "Moto",
+      "lite": "Petite voiture",
+      "premium": "Voiture premium",
+      "weekly_ride_note": "Note trajets hebdo"
+   },
+   "mg": {
+      "moto": "Moto",
+      "lite": "Fiara kely",
+      "premium": "Fiara tsara",
+      "weekly_ride_note": "Fanamarihana isan-kerinandro"
+   },
+   "zh": {
+      "moto": "摩托车",
+      "lite": "小车",
+      "premium": "豪华车",
+      "weekly_ride_note": "每周行程备注"
+   }
+}

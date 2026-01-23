@@ -1,0 +1,50 @@
+{
+  "en": {
+    "all_rent": "All rents",
+    "all_completed_rent": "All completed rent",
+    "all_pending_rent": "All pending rent",
+    "all_validate_rent": "All validate rent",
+    "all_cancelled_rent": "All cancelled rent",
+    "all_admin_cancelled_rent": "All admin cancelled rent",
+    "all_rejected_rent": "All rejected rent",
+    "all_processing_rent": "All processing rent",
+    "completed_rent_amount": "Completed rent amount",
+    "all_client_not_found_rent": "All client not found rent"
+  },
+  "fr": {
+    "all_rent": "Toutes les locations",
+    "all_completed_rent": "Toutes les locations terminées",
+    "all_pending_rent": "Toutes les locations en attente",
+    "all_validate_rent": "Toutes les locations validées",
+    "all_cancelled_rent": "Toutes les locations annulées",
+    "all_admin_cancelled_rent": "Toutes les locations annulées par l'admin",
+    "all_rejected_rent": "Toutes les locations rejetées",
+    "all_processing_rent": "Toutes les locations en cours de traitement",
+    "completed_rent_amount": "Montant des locations terminées",
+    "all_client_not_found_rent": "Toutes les locations client non trouvées"
+  },
+  "mg": {
+    "all_rent": "Ny fandraisana rehetra",
+    "all_completed_rent": "Ny fandraisana vita tanteraka",
+    "all_pending_rent": "Ny fandraisana mbola miandry",
+    "all_validate_rent": "Ny fandraisana ekena",
+    "all_cancelled_rent": "Ny fandraisana nofoanana",
+    "all_admin_cancelled_rent": "Ny fandraisana nofoanan'ny mpitantana",
+    "all_rejected_rent": "Ny fandraisana nolavina",
+    "all_processing_rent": "Ny fandraisana am-pandinihana",
+    "completed_rent_amount": "Vola azo amin'ny fandraisana vita",
+    "all_client_not_found_rent": "Ny fandraisana tsy hita ny mpanjifa"
+  },
+  "zh": {
+    "all_rent": "所有租赁",
+    "all_completed_rent": "所有已完成租赁",
+    "all_pending_rent": "所有待处理租赁",
+    "all_validate_rent": "所有已验证租赁",
+    "all_cancelled_rent": "所有已取消租赁",
+    "all_admin_cancelled_rent": "所有管理员取消的租赁",
+    "all_rejected_rent": "所有被拒绝的租赁",
+    "all_processing_rent": "所有处理中的租赁",
+    "completed_rent_amount": "已完成租赁金额",
+    "all_client_not_found_rent": "所有客户未找到的租赁"
+  }
+}

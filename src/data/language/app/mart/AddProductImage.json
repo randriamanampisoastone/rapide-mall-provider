@@ -1,0 +1,22 @@
+{
+    "en": {
+        "no_images": "No images",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+    },
+    "fr": {
+        "no_images": "Aucune image",
+        "cancel": "Annuler",
+        "confirm": "Confirmer"
+    },
+    "mg": {
+        "no_images": "Tsy misy sary",
+        "cancel": "Fafaho",
+        "confirm": "Manamafy"
+    },
+    "zh": {
+        "no_images": "没有图像",
+        "cancel": "取消",
+        "confirm": "确认"
+    }
+}

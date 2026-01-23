@@ -1,0 +1,34 @@
+{
+    "en": {
+        "details": "Details",
+        "provider_profile": "Provider profile",
+        "delete": "Delete",
+        "change_status": "Change status",
+        "sales": "Sales",
+        "unavailable": "Unavailable"
+    },
+    "fr": {
+        "details": "Détails",
+        "provider_profile": "Profil du fournisseur",
+        "delete": "Supprimer",
+        "change_status": "Changer le statut",
+        "sales": "Ventes",
+        "unavailable": "Indisponible"
+    },
+    "mg": {
+        "details": "Antsipiriany",
+        "provider_profile": "Mombamomba ny mpamatsy",
+        "delete": "Fafana",
+        "change_status": "Hanova ny sata",
+        "sales": "Varotra",
+        "unavailable": "Tsy misy"
+    },
+    "zh": {
+        "details": "详情",
+        "provider_profile": "供应商资料",
+        "delete": "删除",
+        "change_status": "更改状态",
+        "sales": "销售",
+        "unavailable": "不可用"
+    }
+}

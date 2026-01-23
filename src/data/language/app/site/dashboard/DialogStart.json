@@ -1,0 +1,34 @@
+{
+   "en": {
+      "start_shift": "Start shift",
+      "day_shift": "Day shift",
+      "night_shift": "Night shift",
+      "cancel": "Cancel",
+      "start": "Start",
+      "password": "Enter your password"
+   },
+   "fr": {
+      "start_shift": "Commencer le service",
+      "day_shift": "Service de jour",
+      "night_shift": "Service de nuit",
+      "cancel": "Annuler",
+      "start": "Démarrer",
+      "password": "Entrez votre mot de passe"
+   },
+   "mg": {
+      "start_shift": "Hanomboka ny asa",
+      "day_shift": "Asa antoandro",
+      "night_shift": "Asa alina",
+      "cancel": "Foano",
+      "start": "Atombohy",
+      "password": "Ampidiro ny tenimiafinao"
+   },
+   "zh": {
+      "start_shift": "开始班次",
+      "day_shift": "白班",
+      "night_shift": "夜班",
+      "cancel": "取消",
+      "start": "开始",
+      "password": "输入您的密码"
+   }
+}

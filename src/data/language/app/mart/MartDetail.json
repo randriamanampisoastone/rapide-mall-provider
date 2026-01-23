@@ -1,0 +1,62 @@
+{
+    "en": {
+        "descriptions": "Descriptions",
+        "quantity": "Quantity",
+        "sales": "Sales",
+        "category": "Category",
+        "client_review": "Client review",
+        "commends": "Commends",
+        "enter_a_comment": "Enter a comment",
+        "edit": "Edit",
+        "width": "Width",
+        "height": "Height",
+        "length": "Length",
+        "weight": "Weight",
+        "item_code": "Item code"
+    },
+    "fr": {
+        "descriptions": "Descriptions",
+        "quantity": "Quantité",
+        "sales": "Ventes",
+        "category": "Catégorie",
+        "client_review": "Avis client",
+        "commends": "Commentaires",
+        "enter_a_comment": "Entrer un commentaire",
+        "edit": "Modifier",
+        "width": "Largeur",
+        "height": "Hauteur",
+        "length": "Longueur",
+        "weight": "Poids",
+        "item_code": "Code d'article"
+    },
+    "mg": {
+        "descriptions": "Fanazavana",
+        "quantity": "Isan'ny vokatra",
+        "sales": "Varotra",
+        "category": "Sokajy",
+        "client_review": "Hevitry ny mpanjifa",
+        "commends": "Hevitra",
+        "enter_a_comment": "Ampidiro ny hevitrao",
+        "edit": "Hanova",
+        "width": "Sakany",
+        "height": "Haavon",
+        "length": "Halavan",
+        "weight": "Lanjan",
+        "item_code": "Kaody ny entana"
+    },
+    "zh": {
+        "descriptions": "描述",
+        "quantity": "数量",
+        "sales": "销量",
+        "category": "分类",
+        "client_review": "客户评价",
+        "commends": "评论",
+        "enter_a_comment": "输入评论",
+        "edit": "编辑",
+        "width": "宽度",
+        "height": "高度",
+        "length": "长度",
+        "weight": "重量",
+        "item_code": "商品代码"
+    }
+}

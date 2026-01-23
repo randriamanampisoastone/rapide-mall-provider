@@ -1,0 +1,30 @@
+{
+    "en": {
+        "change_ride_checking": "Change ride checking",
+        "to_checked_message": "Are you sure you want to mark this ride as checked?",
+        "to_unchecked_message": "Are you sure you want to mark this ride as unchecked?",
+        "yes": "Yes",
+        "no": "No"
+    },
+    "fr": {
+        "change_ride_checking": "Modifier l’état de vérification du trajet",
+        "to_checked_message": "Êtes-vous sûr de vouloir marquer ce trajet comme vérifié ?",
+        "to_unchecked_message": "Êtes-vous sûr de vouloir marquer ce trajet comme non vérifié ?",
+        "yes": "Oui",
+        "no": "Non"
+    },
+    "mg": {
+        "change_ride_checking": "Hanova ny fanamarinana ny dia",
+        "to_checked_message": "Azonao antoka ve ny hanamarika ity dia ity ho voamarina?",
+        "to_unchecked_message": "Azonao antoka ve ny hanala ny marika voamarina amin’ity dia ity?",
+        "yes": "Eny",
+        "no": "Tsia"
+    },
+    "zh": {
+        "change_ride_checking": "更改行程核查状态",
+        "to_checked_message": "您确定要将此行程标记为已核查吗？",
+        "to_unchecked_message": "您确定要将此行程标记为未核查吗？",
+        "yes": "是",
+        "no": "否"
+    }
+}

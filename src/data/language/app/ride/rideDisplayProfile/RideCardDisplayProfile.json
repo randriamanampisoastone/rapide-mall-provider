@@ -1,0 +1,38 @@
+{
+    "en": {
+        "Client_profile": "Client profile",
+        "driver_profile": "Driver profile",
+        "show_on_map": "Show on map",
+        "show_discount_details": "Show discount details",
+        "assigne_driver": "Assign driver",
+        "delete_ride": "Delete ride",
+        "account_number": "Account number"
+    },
+    "fr": {
+        "Client_profile": "Profil client",
+        "driver_profile": "Profil chauffeur",
+        "show_on_map": "Voir carte",
+        "show_discount_details": "Voir réduction",
+        "assigne_driver": "Assigner chauffeur",
+        "delete_ride": "Supprimer course",
+        "account_number": "Compte"
+    },
+    "mg": {
+        "Client_profile": "Mpanjifa",
+        "driver_profile": "Mpamily",
+        "show_on_map": "Jereo sarintany",
+        "show_discount_details": "Jereo fihenam-bidy",
+        "assigne_driver": "Atokana mpamily",
+        "delete_ride": "Fafana dia",
+        "account_number": "Kaonty"
+    },
+    "zh": {
+        "Client_profile": "客户",
+        "driver_profile": "司机",
+        "show_on_map": "地图查看",
+        "show_discount_details": "查看优惠",
+        "assigne_driver": "分配司机",
+        "delete_ride": "删除行程",
+        "account_number": "账户"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "en": {
+        "revenue": "Revenue",
+        "cash": "Cash",
+        "rapide_wallet": "Rapide wallet",
+        "mvola": "MVola",
+        "orange_money": "Orange money",
+        "card": "Card",
+        "spends": "Spends",
+        "total": "Total"
+    },
+    "fr": {
+        "revenue": "Revenus",
+        "cash": "Espèces",
+        "rapide_wallet": "Portefeuille Rapide",
+        "mvola": "MVola",
+        "orange_money": "Orange Money",
+        "card": "Carte",
+        "spends": "Dépenses",
+        "total": "Total"
+    },
+    "mg": {
+        "revenue": "Vola miditra",
+        "cash": "Vola mivaingana",
+        "rapide_wallet": "Paosy Rapide",
+        "mvola": "MVola",
+        "orange_money": "Orange Money",
+        "card": "Karatra",
+        "spends": "Fandaniana",
+        "total": "Fitambaran'ny rehetra"
+    },
+    "zh": {
+        "revenue": "收入",
+        "cash": "现金",
+        "rapide_wallet": "Rapide钱包",
+        "mvola": "MVola",
+        "orange_money": "Orange Money",
+        "card": "银行卡",
+        "spends": "支出",
+        "total": "总计"
+    }
+}

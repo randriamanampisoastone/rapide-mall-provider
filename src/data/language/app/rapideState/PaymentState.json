@@ -1,0 +1,58 @@
+{
+    "en": {
+        "payment_method": "Payment method",
+        "disable_cash": "Disable cash",
+        "disable_rapide_wallet": "Disable Rapide Wallet",
+        "disable_mvola": "Disable mVola",
+        "mvola_fees": "mVola fees",
+        "disable_orange_money": "Disable Orange Money",
+        "orange_money_fees": "Orange Money fees",
+        "disable_credit_card": "Disable credit card",
+        "credit_card_fees": "Credit card fees",
+        "reset_default": "Reset to default",
+        "reset": "Reset",
+        "save": "Save"
+    },
+    "fr": {
+        "payment_method": "Méthode de paiement",
+        "disable_cash": "Désactiver l'espèce",
+        "disable_rapide_wallet": "Désactiver le portefeuille Rapide",
+        "disable_mvola": "Désactiver mVola",
+        "mvola_fees": "Frais mVola",
+        "disable_orange_money": "Désactiver Orange Money",
+        "orange_money_fees": "Frais Orange Money",
+        "disable_credit_card": "Désactiver la carte de crédit",
+        "credit_card_fees": "Frais de carte de crédit",
+        "reset_default": "Réinitialiser par défaut",
+        "reset": "Réinitialiser",
+        "save": "Enregistrer"
+    },
+    "mg": {
+        "payment_method": "Fomba fandoavana",
+        "disable_cash": "Atsaharo ny vola mivantana",
+        "disable_rapide_wallet": "Atsaharo ny Rapide Wallet",
+        "disable_mvola": "Atsaharo ny mVola",
+        "mvola_fees": "Saran'ny mVola",
+        "disable_orange_money": "Atsaharo ny Orange Money",
+        "orange_money_fees": "Saran'ny Orange Money",
+        "disable_credit_card": "Atsaharo ny carte de crédit",
+        "credit_card_fees": "Saran'ny carte de crédit",
+        "reset_default": "Avereno amin'ny napetraka",
+        "reset": "Avereno",
+        "save": "Tehirizo"
+    },
+    "zh": {
+        "payment_method": "支付方式",
+        "disable_cash": "禁用现金",
+        "disable_rapide_wallet": "禁用Rapide钱包",
+        "disable_mvola": "禁用mVola",
+        "mvola_fees": "mVola手续费",
+        "disable_orange_money": "禁用Orange Money",
+        "orange_money_fees": "Orange Money手续费",
+        "disable_credit_card": "禁用信用卡",
+        "credit_card_fees": "信用卡手续费",
+        "reset_default": "恢复默认设置",
+        "reset": "重置",
+        "save": "保存"
+    }
+}

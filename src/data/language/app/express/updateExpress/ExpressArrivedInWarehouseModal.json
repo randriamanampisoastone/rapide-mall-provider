@@ -1,0 +1,26 @@
+{
+    "en": {
+        "chose_the_camera": "Choose the camera",
+        "package_arrived_in_warehouse": "Package arrived in warehouse",
+        "cancel": "Cancel",
+        "tracking_number": "Tracking number"
+    },
+    "fr": {
+        "chose_the_camera": "Choisir la caméra",
+        "package_arrived_in_warehouse": "Colis arrivé à l'entrepôt",
+        "cancel": "Annuler",
+        "tracking_number": "Numéro de suivi"
+    },
+    "mg": {
+        "chose_the_camera": "Misafidiana fakantsary",
+        "package_arrived_in_warehouse": "Tonga tao amin’ny trano fanatobiana ny entana",
+        "cancel": "Foano",
+        "tracking_number": "Laharan'ny fanarahana"
+    },
+    "zh": {
+        "chose_the_camera": "选择相机",
+        "package_arrived_in_warehouse": "包裹已到达仓库",
+        "cancel": "取消",
+        "tracking_number": "追踪编号"
+    }
+}

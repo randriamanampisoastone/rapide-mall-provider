@@ -1,0 +1,14 @@
+{
+    "en": {
+        "pages": "Page {page} of {maxPage}"
+    },
+    "fr": {
+        "pages": "Page {page} sur {maxPage}"
+    },
+    "mg": {
+        "pages": "Pejy {page} amin'ny {maxPage}"
+    },
+    "zh": {
+        "pages": "第 {page} 页，共 {maxPage} 页"
+    }
+}

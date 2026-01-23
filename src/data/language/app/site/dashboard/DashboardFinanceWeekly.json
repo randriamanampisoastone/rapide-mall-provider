@@ -1,0 +1,58 @@
+{
+   "en": {
+      "cash": "Cash",
+      "rapide_wallet": "Rapide wallet",
+      "mvola": "MVola",
+      "orange_money": "Orange money",
+      "card": "Card",
+      "moto": "Moto",
+      "all": "All",
+      "selected": "Selected",
+      "amount": "Amount",
+      "count": "Count",
+      "site_finance_weekly_day_shift": "Site Finance Weekly Day Shift",
+      "site_finance_weekly_night_shift": "Site Finance Weekly Night Shift"
+   },
+   "fr": {
+      "cash": "Espèces",
+      "rapide_wallet": "Portefeuille Rapide",
+      "mvola": "MVola",
+      "orange_money": "Orange Money",
+      "card": "Carte",
+      "moto": "Moto",
+      "all": "Tous",
+      "selected": "Sélectionné",
+      "amount": "Montant",
+      "count": "Nombre",
+      "site_finance_weekly_day_shift": "Finances du site - Service de jour (hebdomadaire)",
+      "site_finance_weekly_night_shift": "Finances du site - Service de nuit (hebdomadaire)"
+   },
+   "mg": {
+      "cash": "Vola amin'ny tanana",
+      "rapide_wallet": "Kitapo Rapide",
+      "mvola": "MVola",
+      "orange_money": "Orange Money",
+      "card": "Karatra",
+      "moto": "Moto",
+      "all": "Rehetra",
+      "selected": "Voafantina",
+      "amount": "Sandam-bola",
+      "count": "Isan'ny",
+      "site_finance_weekly_day_shift": "Fitantanam-bola isaky ny herinandro - Asa antoandro",
+      "site_finance_weekly_night_shift": "Fitantanam-bola isaky ny herinandro - Asa alina"
+   },
+   "zh": {
+      "cash": "现金",
+      "rapide_wallet": "Rapide 钱包",
+      "mvola": "MVola",
+      "orange_money": "Orange 钱",
+      "card": "银行卡",
+      "moto": "摩托车",
+      "all": "全部",
+      "selected": "已选",
+      "amount": "金额",
+      "count": "数量",
+      "site_finance_weekly_day_shift": "站点财务每周白班",
+      "site_finance_weekly_night_shift": "站点财务每周夜班"
+   }
+}

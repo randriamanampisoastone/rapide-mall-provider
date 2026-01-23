@@ -1,0 +1,26 @@
+{
+   "en": {
+      "page": "Page(s)",
+      "previous": "Previous",
+      "next": "Next",
+      "no_results": "No results"
+   },
+   "fr": {
+      "page": "Page(s)",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "no_results": "Aucun résultat"
+   },
+   "mg": {
+      "page": "Pejy",
+      "previous": "Alohan'ny",
+      "next": "Manaraka",
+      "no_results": "Tsy nisy vokatra"
+   },
+   "zh": {
+      "page": "页",
+      "previous": "上一页",
+      "next": "下一页",
+      "no_results": "没有结果"
+   }
+}

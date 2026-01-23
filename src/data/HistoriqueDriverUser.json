@@ -1,0 +1,37 @@
+[
+   {
+      "driver": "Setra",
+      "start": "2023-06-05T00:00:00.000Z",
+      "end": "2023-06-05T00:00:00.000Z",
+      "completed": 12,
+      "cancelled": 3
+   },
+   {
+      "driver": "Setra",
+      "start": "2023-07-12T00:00:00.000Z",
+      "end": "2023-07-12T00:00:00.000Z",
+      "completed": 8,
+      "cancelled": 1
+   },
+   {
+      "driver": "Setra",
+      "start": "2023-08-20T00:00:00.000Z",
+      "end": "2023-08-20T00:00:00.000Z",
+      "completed": 10,
+      "cancelled": 0
+   },
+   {
+      "driver": "Setra",
+      "start": "2023-09-03T00:00:00.000Z",
+      "end": "2023-09-03T00:00:00.000Z",
+      "completed": 6,
+      "cancelled": 2
+   },
+   {
+      "driver": "Setra",
+      "start": "2023-09-03T00:00:00.000Z",
+      "end": "2023-09-03T00:00:00.000Z",
+      "completed": 7,
+      "cancelled": 1
+   }
+]

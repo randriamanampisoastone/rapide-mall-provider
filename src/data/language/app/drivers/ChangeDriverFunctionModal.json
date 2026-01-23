@@ -1,0 +1,16 @@
+{
+    "en": {
+        "change_driver_function": "Change driver function",
+        "ride": "Ride",
+        "express": "Express",
+        "mart": "Mart",
+        "food": "Food",
+        "enter_your_password": "Enter your password",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "driver_function_updated_successfully": "The driver function has been updated successfully"
+    },
+    "fr": {},
+    "mg": {},
+    "zh": {}
+}

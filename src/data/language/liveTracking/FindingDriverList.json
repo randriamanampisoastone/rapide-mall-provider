@@ -1,0 +1,62 @@
+{
+   "en": {
+      "clients_whitting_for_a_driver": "Clients waiting for a driver",
+      "show": "Show",
+      "assign_to_driver": "Assign to driver",
+      "at": "at",
+      "distance": "Distance",
+      "driver_nearby": "Driver nearby",
+      "assign_ride": "Assign ride",
+      "assign": "Assign",
+      "enter_your_password": "Enter your password",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "send_sms": "Send SMS",
+      "send_notification": "Send notification"
+   },
+   "fr": {
+      "clients_whitting_for_a_driver": "Clients en attente d’un chauffeur",
+      "show": "Afficher",
+      "assign_to_driver": "Assigner à un chauffeur",
+      "at": "à",
+      "distance": "Distance",
+      "driver_nearby": "Chauffeur à proximité",
+      "assign_ride": "Assigner la course",
+      "assign": "Assigner",
+      "enter_your_password": "Entrez votre mot de passe",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "send_sms": "Envoyer un SMS",
+      "send_notification": "Envoyer une notification"
+   },
+   "mg": {
+      "clients_whitting_for_a_driver": "Mpanjifa miandry mpamily",
+      "show": "Asehoy",
+      "assign_to_driver": "Manendry ho an’ny mpamily",
+      "at": "amin’ny",
+      "distance": "Halavirana",
+      "driver_nearby": "Mpamily akaiky",
+      "assign_ride": "Manendry dia",
+      "assign": "Manendry",
+      "enter_your_password": "Ampidiro ny tenimiafinao",
+      "cancel": "Foano",
+      "confirm": "Manamarina",
+      "send_sms": "Mandefa SMS",
+      "send_notification": "Mandefa fampandrenesana"
+   },
+   "zh": {
+      "clients_whitting_for_a_driver": "等待司机的客户",
+      "show": "显示",
+      "assign_to_driver": "分配给司机",
+      "at": "在",
+      "distance": "距离",
+      "driver_nearby": "附近司机",
+      "assign_ride": "分配行程",
+      "assign": "分配",
+      "enter_your_password": "输入您的密码",
+      "cancel": "取消",
+      "confirm": "确认",
+      "send_sms": "发送短信",
+      "send_notification": "发送通知"
+   }
+}

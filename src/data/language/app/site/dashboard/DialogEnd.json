@@ -1,0 +1,30 @@
+{
+   "en": {
+      "end_shift": "End shift",
+      "are_you_sure": "Are you sure you want to end the shift ?",
+      "cancel": "Cancel",
+      "end": "End",
+      "password": "Enter your password"
+   },
+   "fr": {
+      "end_shift": "Terminer le service",
+      "are_you_sure": "Êtes-vous sûr de vouloir terminer le service ?",
+      "cancel": "Annuler",
+      "end": "Terminer",
+      "password": "Entrez votre mot de passe"
+   },
+   "mg": {
+      "end_shift": "Famaranana asa",
+      "are_you_sure": "Azonao antoka ve fa hifarana ny asa ?",
+      "cancel": "Foano",
+      "end": "Farano",
+      "password": "Ampidiro ny tenimiafinao"
+   },
+   "zh": {
+      "end_shift": "结束班次",
+      "are_you_sure": "您确定要结束班次吗 ？",
+      "cancel": "取消",
+      "end": "结束",
+      "password": "输入您的密码"
+   }
+}

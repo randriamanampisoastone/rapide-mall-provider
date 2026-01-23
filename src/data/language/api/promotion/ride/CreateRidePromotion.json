@@ -1,0 +1,14 @@
+{
+   "en": {
+      "creation_success_message": "Promotion successfully created."
+   },
+   "fr": {
+      "creation_success_message": "Promotion créée avec succès."
+   },
+   "mg": {
+      "creation_success_message": "Navoaka soa ny fandrosoana."
+   },
+   "zh": {
+      "creation_success_message": "促销成功创建。"
+   }
+}

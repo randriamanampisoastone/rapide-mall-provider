@@ -1,0 +1,30 @@
+{
+   "en": {
+      "selected_rides": "Selected rides",
+      "selected_drivers": "Selected drivers",
+      "driver": "Driver",
+      "ride": "Ride",
+      "clear": "Clear"
+   },
+   "fr": {
+      "selected_rides": "Trajets sélectionnés",
+      "selected_drivers": "Chauffeurs sélectionnés",
+      "driver": "Chauffeur",
+      "ride": "Trajet",
+      "clear": "Effacer"
+   },
+   "mg": {
+      "selected_rides": "Fitete voafantina",
+      "selected_drivers": "Mpamily voafantina",
+      "driver": "Mpamily",
+      "ride": "Fitete",
+      "clear": "Esory"
+   },
+   "zh": {
+      "selected_rides": "已选行程",
+      "selected_drivers": "已选司机",
+      "driver": "司机",
+      "ride": "行程",
+      "clear": "清除"
+   }
+}

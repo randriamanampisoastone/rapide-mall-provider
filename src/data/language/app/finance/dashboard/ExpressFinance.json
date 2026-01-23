@@ -1,0 +1,50 @@
+{
+    "en": {
+        "cash": "Card",
+        "rapide_wallet": "Rapide wallet",
+        "mvola": "MVola",
+        "card": "Card",
+        "premium_car": "Premium car",
+        "orange_money": "Orange money",
+        "all": "All",
+        "selected": "Selected",
+        "amount": "Amount",
+        "count": "Count"
+    },
+    "fr": {
+        "cash": "Espèces",
+        "rapide_wallet": "Portefeuille Rapide",
+        "mvola": "MVola",
+        "card": "Carte",
+        "premium_car": "Voiture premium",
+        "orange_money": "Orange Money",
+        "all": "Tous",
+        "selected": "Sélectionné",
+        "amount": "Montant",
+        "count": "Nombre"
+    },
+    "mg": {
+        "cash": "Vola amin'ny tanana",
+        "rapide_wallet": "Kitapo Rapide",
+        "mvola": "MVola",
+        "card": "Karatra",
+        "premium_car": "Fiara manokana",
+        "orange_money": "Orange Money",
+        "all": "Rehetra",
+        "selected": "Voafantina",
+        "amount": "Sandam-bola",
+        "count": "Isan'ny"
+    },
+    "zh": {
+        "cash": "现金",
+        "rapide_wallet": "Rapide 钱包",
+        "mvola": "MVola",
+        "card": "银行卡",
+        "premium_car": "高端汽车",
+        "orange_money": "Orange 钱",
+        "all": "全部",
+        "selected": "已选",
+        "amount": "金额",
+        "count": "数量"
+    }
+}

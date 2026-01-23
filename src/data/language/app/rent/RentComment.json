@@ -1,0 +1,42 @@
+{
+    "en": {
+        "comment_uploaded": "Comment uploaded",
+        "write_a_comment_here": "Write a comment here",
+        "are_you_sure_to_want_to_delete_this_comment": "Are you sure to want to delete this comment",
+        "no": "No",
+        "yes": "Yes",
+        "comment_deleted": "Comment deleted",
+        "comment_updated": "Comment updated",
+        "new_comment_added": "New comment added"
+    },
+    "fr": {
+        "comment_uploaded": "Commentaire publié",
+        "write_a_comment_here": "Écrivez un commentaire ici",
+        "are_you_sure_to_want_to_delete_this_comment": "Êtes-vous sûr de vouloir supprimer ce commentaire ?",
+        "no": "Non",
+        "yes": "Oui",
+        "comment_deleted": "Commentaire supprimé",
+        "comment_updated": "Commentaire mis à jour",
+        "new_comment_added": "Nouveau commentaire ajouté"
+    },
+    "mg": {
+        "comment_uploaded": "Nampidirina ny fanehoan-kevitra",
+        "write_a_comment_here": "Manorata fanehoan-kevitra eto",
+        "are_you_sure_to_want_to_delete_this_comment": "Tena te hamafa ity fanehoan-kevitra ity ve ianao ?",
+        "no": "Tsia",
+        "yes": "Eny",
+        "comment_deleted": "Voafafa ny fanehoan-kevitra",
+        "comment_updated": "Nohavaozina ny fanehoan-kevitra",
+        "new_comment_added": "Nampiana fanehoan-kevitra vaovao"
+    },
+    "zh": {
+        "comment_uploaded": "评论已上传",
+        "write_a_comment_here": "在此输入评论",
+        "are_you_sure_to_want_to_delete_this_comment": "你确定要删除这条评论吗？",
+        "no": "否",
+        "yes": "是",
+        "comment_deleted": "评论已删除",
+        "comment_updated": "评论已更新",
+        "new_comment_added": "已新增评论"
+    }
+}

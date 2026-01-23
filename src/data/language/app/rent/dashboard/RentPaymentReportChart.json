@@ -1,0 +1,22 @@
+{
+    "en": {
+        "rapideincome": "Rapide income",
+        "providerincome": "Your income",
+        "payment_report_last_7_day": "Payment report last 7 day"
+    },
+    "fr": {
+        "rapideincome": "Revenu Rapide",
+        "providerincome": "Votre revenu",
+        "payment_report_last_7_day": "Rapport de paiement des 7 derniers jours"
+    },
+    "zh": {
+        "rapideincome": "快速收入",
+        "providerincome": "您的收入",
+        "payment_report_last_7_day": "最近7天付款报告"
+    },
+    "mg": {
+        "rapideincome": "Karama Rapide",
+        "providerincome": "Kalehotrao",
+        "payment_report_last_7_day": "Tatitra momba ny fandoavana 7 andro farany"
+    }
+}

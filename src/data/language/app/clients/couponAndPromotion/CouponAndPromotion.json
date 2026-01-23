@@ -1,0 +1,42 @@
+{
+   "en": {
+      "coupon": "Coupon Used",
+      "promotion": "Promotion Used",
+      "page_size": "Page size",
+      "pages": "Page {page} of {maxPage}",
+      "previous": "Previous",
+      "next": "Next",
+      "liste_all_promotion_used": "List all promotions used",
+      "liste_all_coupons_used": "List all coupons used"
+   },
+   "fr": {
+      "coupon": "Coupon utilisé",
+      "promotion": "Promotion utilisée",
+      "page_size": "Taille de page",
+      "pages": "Page {page} sur {maxPage}",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "liste_all_promotion_used": "Lister toutes les promotions utilisées",
+      "liste_all_coupons_used": "Lister tous les coupons utilisés"
+   },
+   "mg": {
+      "coupon": "Tapakila nampiasaina",
+      "promotion": "Fampiroboroboana nampiasaina",
+      "page_size": "Haben'ny pejy",
+      "pages": "Pejy {page} amin'ny {maxPage}",
+      "previous": "Teo aloha",
+      "next": "Manaraka",
+      "liste_all_promotion_used": "Lisitra ny fampiroboroboana rehetra nampiasaina",
+      "liste_all_coupons_used": "Lisitra ny tapakila rehetra nampiasaina"
+   },
+   "zh": {
+      "coupon": "已使用优惠券",
+      "promotion": "已使用促销",
+      "page_size": "页面大小",
+      "pages": "第 {page} 页，共 {maxPage} 页",
+      "previous": "上一页",
+      "next": "下一页",
+      "liste_all_promotion_used": "列出所有已使用的促销",
+      "liste_all_coupons_used": "列出所有已使用的优惠券"
+   }
+}

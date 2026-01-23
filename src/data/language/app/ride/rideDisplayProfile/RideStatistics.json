@@ -1,0 +1,30 @@
+{
+   "en": {
+      "moto": "Moto",
+      "lite": "Lite car",
+      "premium": "Premium car",
+      "rides_statistics": "Ride statistics",
+      "express_statistics": "Express statistics"
+   },
+   "fr": {
+      "moto": "Moto",
+      "lite": "Petite voiture",
+      "premium": "Voiture premium",
+      "rides_statistics": "Statistiques des courses",
+      "express_statistics": "Statistiques des Livraisons"
+   },
+   "mg": {
+      "moto": "Moto",
+      "lite": "Fiara kely",
+      "premium": "Fiara tsara",
+      "rides_statistics": "Statistika momba ny zotra",
+      "express_statistics": "Statistika momba ny fandefasana"
+   },
+   "zh": {
+      "moto": "摩托车",
+      "lite": "小车",
+      "premium": "豪华车",
+      "rides_statistics": "行程统计",
+      "express_statistics": "快递统计"
+   }
+}

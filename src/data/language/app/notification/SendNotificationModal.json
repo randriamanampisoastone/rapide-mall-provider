@@ -1,0 +1,26 @@
+{
+    "en": {
+        "send_notification": "Send notification",
+        "title": "Title",
+        "send": "Send",
+        "cancel": "Cancel"
+    },
+    "fr": {
+        "send_notification": "Envoyer une notification",
+        "title": "Titre",
+        "send": "Envoyer",
+        "cancel": "Annuler"
+    },
+    "mg": {
+        "send_notification": "Mandefa fampahafantarana",
+        "title": "Lohateny",
+        "send": "Alefa",
+        "cancel": "Foana"
+    },
+    "zh": {
+        "send_notification": "发送通知",
+        "title": "标题",
+        "send": "发送",
+        "cancel": "取消"
+    }
+}

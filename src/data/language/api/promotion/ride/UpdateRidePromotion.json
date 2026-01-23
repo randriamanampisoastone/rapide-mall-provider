@@ -1,0 +1,14 @@
+{
+   "en": {
+      "updated_success_message": "Promotion successfully updated."
+   },
+   "fr": {
+      "updated_success_message": "La promotion a été mise à jour avec succès."
+   },
+   "mg": {
+      "updated_success_message": "Nohavaozina soa ny fandrosoana."
+   },
+   "zh": {
+      "updated_success_message": "促销已成功更新。"
+   }
+}

@@ -1,0 +1,22 @@
+{
+    "en": {
+        "welcome_message": "Welcome to Rapide App back office.",
+        "open_web_site": "Open web site",
+        "open_console": "Open console"
+    },
+    "fr": {
+        "welcome_message": "Bienvenue sur le back-office de l'application Rapide.",
+        "open_web_site": "Ouvrir le site web",
+        "open_console": "Ouvrir la console"
+    },
+    "mg": {
+        "welcome_message": "Tongasoa eto amin'ny back-office an'ny Rapide App.",
+        "open_web_site": "Sokafy ny tranonkala",
+        "open_console": "Sokafy ny console"
+    },
+    "zh": {
+        "welcome_message": "欢迎来到 Rapide 应用后台管理系统。",
+        "open_web_site": "打开网站",
+        "open_console": "打开控制台"
+    }
+}

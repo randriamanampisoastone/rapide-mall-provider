@@ -1,0 +1,42 @@
+{
+   "en": {
+      "driver_name": "Driver name",
+      "phone_number": "Phone number",
+      "assign_At": "Assign At",
+      "revoked_At": "Revoked At",
+      "previous": "Previous",
+      "pages": "Page {page} of {maxPage}",
+      "next": "Next",
+      "vehicle_driver_history": "Vehicle driver history"
+   },
+   "fr": {
+      "driver_name": "Nom du chauffeur",
+      "phone_number": "Numéro de téléphone",
+      "assign_At": "Attribué le",
+      "revoked_At": "Révoqué le",
+      "previous": "Précédent",
+      "pages": "Page {page} sur {maxPage}",
+      "next": "Suivant",
+      "vehicle_driver_history": "Historique des chauffeurs du véhicule"
+   },
+   "mg": {
+      "driver_name": "Anaran’ny mpamily",
+      "phone_number": "Laharan’ny finday",
+      "assign_At": "Nanolorana tamin’ny",
+      "revoked_At": "Noesorina tamin’ny",
+      "previous": "Teo aloha",
+      "pages": "Pejy {page} amin’ny {maxPage}",
+      "next": "Manaraka",
+      "vehicle_driver_history": "Tantaran’ny mpamily fiara"
+   },
+   "zh": {
+      "driver_name": "司机姓名",
+      "phone_number": "电话号码",
+      "assign_At": "分配时间",
+      "revoked_At": "撤销时间",
+      "previous": "上一页",
+      "pages": "第 {page} 页，共 {maxPage} 页",
+      "next": "下一页",
+      "vehicle_driver_history": "车辆司机历史"
+   }
+}

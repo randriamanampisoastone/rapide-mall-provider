@@ -1,0 +1,15 @@
+export const BottomSheetItemsType = {
+   HOME: 'HOME',
+   FINDING_CLIENT: 'FINDING_CLIENT',
+   CANCELLED: 'CANCELLED',
+   DRIVER_ACCEPTED: 'DRIVER_ACCEPTED',
+   DRIVER_ON_THE_WAY: 'DRIVER_ON_THE_WAY',
+   STOPPED: 'STOPPED',
+   DRIVER_ARRIVED: 'DRIVER_ARRIVED',
+   ON_RIDE: 'ON_RIDE',
+   ARRIVED_DESTINATION: 'ARRIVED_DESTINATION',
+   COMPLETED: 'COMPLETED',
+   PAY: 'PAY',
+}
+
+export type BottomSheetItemsType = keyof typeof BottomSheetItemsType

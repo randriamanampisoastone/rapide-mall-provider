@@ -1,0 +1,35 @@
+{
+    "en": {
+      "title": "Vehicle affectation",
+      "count": "Count",
+      "moto": "Moto",
+      "lite": "Lite car",
+      "premium": "Premium car",
+      "unassigned": "Unassigned"
+    },
+    "fr": {
+      "title": "Affectation véhicule",
+      "count": "Nombre",
+      "moto": "Moto",
+      "lite": "Voiture légère",
+      "premium": "Voiture premium",
+      "unassigned": "Non assigné"
+    },
+    "mg": {
+      "title": "Fizaràna fiara",
+      "count": "Isan'ny",
+      "moto": "Môtô",
+      "lite": "Fiara kely",
+      "premium": "Fiara tsara",
+      "unassigned": "Tsy voatendry"
+    },
+    "zh": {
+      "title": "车辆分配",
+      "count": "数量",
+      "moto": "摩托",
+      "lite": "小车",
+      "premium": "高级车",
+      "unassigned": "未分配"
+    }
+  }
+  

@@ -1,0 +1,43 @@
+{
+    "en": {
+      "count": "Count",
+      "cash": "Cash",
+      "rapide_wallet": "Rapide wallet",
+      "mvola": "MVola",
+      "orange": "Orange Money",
+      "card": "Card",
+      "today-payments": "Today payments",
+      "payments": "Payments"
+    },
+    "fr": {
+      "count": "Nombre",
+      "cash": "Espèces",
+      "rapide_wallet": "Portefeuille Rapide",
+      "mvola": "MVola",
+      "orange": "Orange Money",
+      "card": "Carte",
+      "today-payments": "Paiements du jour",
+      "payments": "Paiements"
+    },
+    "mg": {
+      "count": "Isan'ny",
+      "cash": "Vola amin-tanana",
+      "rapide_wallet": "Kitapo Rapide",
+      "mvola": "MVola",
+      "orange": "Orange Money",
+      "card": "Karta",
+      "today-payments": "Fandoavam-bola androany",
+      "payments": "Fandoavam-bola"
+    },
+    "zh": {
+      "count": "数量",
+      "cash": "现金",
+      "rapide_wallet": "Rapide钱包",
+      "mvola": "MVola",
+      "orange": "橙子支付",
+      "card": "银行卡",
+      "today-payments": "今日付款",
+      "payments": "付款"
+    }
+  }
+  

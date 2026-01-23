@@ -1,0 +1,30 @@
+{
+   "en": {
+      "vehicles": "Vehicles",
+      "broken": "Broken",
+      "online": "Onlines",
+      "vehicles_weekly_report": "Vehicles Weekly Report",
+      "there_is_another_ride_booked": "There is another ride booked"
+   },
+   "fr": {
+      "vehicles": "Véhicules",
+      "broken": "Cassé",
+      "online": "En ligne",
+      "vehicles_weekly_report": "Rapport hebdomadaire des véhicules",
+      "there_is_another_ride_booked": "Il y a encore un trajet réservé"
+   },
+   "mg": {
+      "vehicles": "Fiara",
+      "broken": "Ratsy",
+      "online": "An-tserasera",
+      "vehicles_weekly_report": "Tatitra isan-kerinandro momba ny fiara",
+      "there_is_another_ride_booked": "Misy dia hafa voatokana indray"
+   },
+   "zh": {
+      "vehicles": "车辆",
+      "broken": "故障",
+      "online": "在线",
+      "vehicles_weekly_report": "车辆周报",
+      "there_is_another_ride_booked": "又有一个行程被预订了"
+   }
+}

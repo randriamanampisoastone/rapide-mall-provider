@@ -1,0 +1,30 @@
+{
+    "en": {
+        "name": "Name",
+        "content": "Content",
+        "text": "Text",
+        "number": "Number",
+        "color": "Color"
+    },
+    "fr": {
+        "name": "Nom",
+        "content": "Contenu",
+        "text": "Texte",
+        "number": "Nombre",
+        "color": "Couleur"
+    },
+    "mg": {
+        "name": "Anarana",
+        "content": "Votoaty",
+        "text": "Lahatsoratra",
+        "number": "Isa",
+        "color": "Loko"
+    },
+    "zh": {
+        "name": "名称",
+        "content": "内容",
+        "text": "文本",
+        "number": "数字",
+        "color": "颜色"
+    }
+}

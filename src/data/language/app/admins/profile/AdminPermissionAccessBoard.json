@@ -1,0 +1,38 @@
+{
+   "en": {
+      "assigned_date": "Assigned date",
+      "action": "Action",
+      "description": "Description",
+      "search_permission": "Search permission",
+      "page": "Page",
+      "page_size": "Page size",
+      "no_results_found": "No results found"
+   },
+   "fr": {
+      "assigned_date": "Date d'attribution",
+      "action": "Action",
+      "description": "Description",
+      "search_permission": "Permission de recherche",
+      "page": "Page",
+      "page_size": "Taille de la page",
+      "no_results_found": "Aucun résultat trouvé"
+   },
+   "mg": {
+      "assigned_date": "Daty nanendrena",
+      "action": "Asa",
+      "description": "Famaritana",
+      "search_permission": "Fahazoan-dàlana fitadiavana",
+      "page": "Pejy",
+      "page_size": "Haben'ny pejy",
+      "no_results_found": "Tsy nisy vokatra hita"
+   },
+   "zh": {
+      "assigned_date": "指派日期",
+      "action": "操作",
+      "description": "描述",
+      "search_permission": "搜索权限",
+      "page": "页面",
+      "page_size": "页面大小",
+      "no_results_found": "未找到结果"
+   }
+}

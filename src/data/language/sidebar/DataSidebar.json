@@ -1,0 +1,30 @@
+{
+   "en": {
+      "mart": "Mart",
+      "add_product": "Add product",
+      "all_products": "All products",
+      "orders": "Orders",
+      "transactions": "Transactions"
+   },
+   "fr": {
+      "mart": "Boutique",
+      "add_product": "Ajouter un produit",
+      "all_products": "Tous les produits",
+      "orders": "Commandes",
+      "transactions": "Transactions"
+   },
+   "mg": {
+      "mart": "Fivarotana",
+      "add_product": "Manampy vokatra",
+      "all_products": "Vokatra rehetra",
+      "orders": "Kaomandy",
+      "transactions": "Fifanakalozana"
+   },
+   "zh": {
+      "mart": "商城",
+      "add_product": "添加产品",
+      "all_products": "所有产品",
+      "orders": "订单",
+      "transactions": "交易"
+   }
+}

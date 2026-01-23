@@ -1,0 +1,60 @@
+{
+    "en": {
+        "open": "Open",
+        "close": "Close",
+        "register_number": "Register number",
+        "open_time": "Open time",
+        "contact": "Contact",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday",
+        "cancel": "Cancel",
+        "save": "Save"
+    },
+    "fr": {
+        "open": "Ouvrir",
+        "close": "Fermer",
+        "register_number": "Numéro d'enregistrement",
+        "open_time": "Heure d'ouverture",
+        "contact": "Contact",
+        "monday": "Lundi",
+        "tuesday": "Mardi",
+        "wednesday": "Mercredi",
+        "thursday": "Jeudi",
+        "friday": "Vendredi",
+        "saturday": "Samedi",
+        "sunday": "Dimanche"
+    },
+    "mg": {
+        "open": "Sokafy",
+        "close": "Akatony",
+        "register_number": "Laharana",
+        "open_time": "Fotoana fidirana",
+        "contact": "Mifandraisa",
+        "monday": "Alatsinainy",
+        "tuesday": "Talata",
+        "wednesday": "Alarobia",
+        "thursday": "Alakamisy",
+        "friday": "Zoma",
+        "saturday": "Sabotsy",
+        "sunday": "Alahady"
+    },
+    "zh": {
+        "open": "打开",
+        "close": "关闭",
+        "register_number": "注册号码",
+        "open_time": "开放时间",
+        "contact": "联系",
+        "monday": "星期一",
+        "tuesday": "星期二",
+        "wednesday": "星期三",
+        "thursday": "星期四",
+        "friday": "星期五",
+        "saturday": "星期六",
+        "sunday": "星期天"
+    }
+}

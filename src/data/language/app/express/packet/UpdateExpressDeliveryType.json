@@ -1,0 +1,86 @@
+{
+  "en": {
+    "fast_delivery": "Fast Delivery",
+    "fast_pickup_text": "Pick Up right now.",
+    "fast_deliver_text": "Delivery immediately.",
+
+    "same_day_delivery": "Same Day Delivery",
+    "same_day_pickup_text": "Pick Up with in 2 hours.",
+    "same_day_deliver_text": "Delivery in same day.",
+
+    "normal_delivery": "Normal delivery",
+    "normal_pickup_text": "Pick Up Today.",
+    "normal_deliver_text": "Deliver tomorrow.",
+
+    "fees": "Fees",
+    "enter_your_password": "Enter your password",
+
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    
+    "delivery_type_updated_successfully": "Delivery type updated successfully"
+  },
+  "fr": {
+    "fast_delivery": "Livraison rapide",
+    "fast_pickup_text": "Ramassage immédiat.",
+    "fast_deliver_text": "Livraison immédiate.",
+
+    "same_day_delivery": "Livraison le jour même",
+    "same_day_pickup_text": "Ramassage dans les 2 heures.",
+    "same_day_deliver_text": "Livraison le jour même.",
+
+    "normal_delivery": "Livraison normale",
+    "normal_pickup_text": "Ramassage aujourd’hui.",
+    "normal_deliver_text": "Livraison demain.",
+
+    "fees": "Frais",
+    "enter_your_password": "Entrez votre mot de passe",
+
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    
+    "delivery_type_updated_successfully": "Type de livraison mis à jour avec succès"
+  },
+  "mg": {
+    "fast_delivery": "Fanaterana haingana",
+    "fast_pickup_text": "Fakana avy hatrany.",
+    "fast_deliver_text": "Fanaterana avy hatrany.",
+
+    "same_day_delivery": "Fanaterana andro mitovy",
+    "same_day_pickup_text": "Fakana ao anatin’ny 2 ora.",
+    "same_day_deliver_text": "Fanaterana andro mitovy.",
+
+    "normal_delivery": "Fanaterana mahazatra",
+    "normal_pickup_text": "Fakana androany.",
+    "normal_deliver_text": "Fanaterana rahampitso.",
+
+    "fees": "Saram-pandraharahana",
+    "enter_your_password": "Ampidiro ny tenimiafinao",
+
+    "cancel": "Foano",
+    "confirm": "Manamarina",
+    
+    "delivery_type_updated_successfully": "Karazana fanaterana nohavaozina soa aman-tsara"
+  },
+  "zh": {
+    "fast_delivery": "快速送达",
+    "fast_pickup_text": "立即取件。",
+    "fast_deliver_text": "立即送达。",
+
+    "same_day_delivery": "当日送达",
+    "same_day_pickup_text": "2小时内取件。",
+    "same_day_deliver_text": "当日送达。",
+
+    "normal_delivery": "普通送达",
+    "normal_pickup_text": "今天取件。",
+    "normal_deliver_text": "明天送达。",
+
+    "fees": "费用",
+    "enter_your_password": "输入密码",
+
+    "cancel": "取消",
+    "confirm": "确认",
+    
+    "delivery_type_updated_successfully": "配送类型更新成功"
+  }
+}

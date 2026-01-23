@@ -1,0 +1,42 @@
+{
+   "en": {
+      "profile": "Profile",
+      "site": "Site",
+      "date": "Date",
+      "admin_profile": "Admin profile",
+      "pages": "Page {page} of {maxPage}",
+      "page_size": "Page size",
+      "previous": "Previous",
+      "next": "Next"
+   },
+   "fr": {
+      "profile": "Profil",
+      "site": "Site",
+      "date": "Date",
+      "admin_profile": "Profil admin",
+      "pages": "Page {page} sur {maxPage}",
+      "page_size": "Taille de page",
+      "previous": "Précédent",
+      "next": "Suivant"
+   },
+   "mg": {
+      "profile": "Mombamomba",
+      "site": "Toerana",
+      "date": "Daty",
+      "admin_profile": "Mombamomba ny admin",
+      "pages": "Pejy {page} amin'ny {maxPage}",
+      "page_size": "Haben'ny pejy",
+      "previous": "Teo aloha",
+      "next": "Manaraka"
+   },
+   "zh": {
+      "profile": "个人资料",
+      "site": "站点",
+      "date": "日期",
+      "admin_profile": "管理员资料",
+      "pages": "第 {page} 页，共 {maxPage} 页",
+      "page_size": "每页数量",
+      "previous": "上一页",
+      "next": "下一页"
+   }
+}

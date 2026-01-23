@@ -1,0 +1,148 @@
+export const packets: {
+   packetId: string
+   deliveryCode: string
+   driverProfileId?: string
+   isFragile: boolean
+   status: 'TO_PICKED' | 'TO_DELIVER'
+}[] = [
+   {
+      packetId: '6b4b2cea-0f1e-4e5f-80c4-34c4f8f6cfa5',
+      deliveryCode: 'E70B84AB',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: 'f4c5b5a0-7fcb-4090-8c9f-9b6f1a9e7f8b',
+      deliveryCode: 'A1B2C3D4',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: 'f17f31c6-8c45-4b7b-9e7c-6b1e2c7d3fb1',
+      deliveryCode: '5E6F7A8B',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: 'f4a9b1fd-4e6b-4b80-9c2c-39b24dcf4b4e',
+      deliveryCode: '9C0D1E2F',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: '6a9f8fa1-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '3A4B5C6D',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: '9c7fa9c2-4e6b-4b80-9c2c-39b24dcf4b4e',
+      deliveryCode: '7E8F9A0B',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: '2c7d3fb1-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: 'C1D2E3F4',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: '1a9e7f8b-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '4F5E6D7C',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: '4b7b9e7c-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '8A9B0C1D',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: '8c9f9b6f-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '2E3F4A5B',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: '1c4e5f80-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '9D0E1F2A',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: '7f8b1a9e-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '3B4C5D6E',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: '3fb14b7b-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '7F8E9D0C',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: '9b6f1a9e-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '1D2E3F4A',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: '4e5f80c4-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '5B6C7D8E',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: '6f1a9e7f-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '0F1E2D3C',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: 'c7d3fb19-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '6A7B8C9D',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: 'e7c6b1e2-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '1F2E3D4C',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_DELIVER',
+   },
+   {
+      packetId: 'b1e2c7d3-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '9A0B1C2D',
+      driverProfileId: undefined,
+      isFragile: false,
+      status: 'TO_PICKED',
+   },
+   {
+      packetId: 'f4b4e6b1-1c7d-4f4c-9c2c-39b24dcf4b4e',
+      deliveryCode: '3E4F5A6B',
+      driverProfileId: undefined,
+      isFragile: true,
+      status: 'TO_DELIVER',
+   },
+]

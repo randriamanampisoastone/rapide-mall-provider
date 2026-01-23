@@ -1,0 +1,22 @@
+{
+   "en": {
+      "phone_number": "Phone Number :",
+      "birth_date": "Birth Date :",
+      "gender": "Gender :"
+   },
+   "fr": {
+      "phone_number": "Numéro téléphone :",
+      "birth_date": "Date de naissance :",
+      "gender": "Genre :"
+   },
+   "mg": {
+      "phone_number": "Laharana finday :",
+      "birth_date": "Daty nahaterahana :",
+      "gender": "Karazany :"
+   },
+   "zh": {
+      "phone_number": "电话号码：",
+      "birth_date": "出生日期：",
+      "gender": "性别："
+   }
+}

@@ -1,0 +1,58 @@
+{
+    "en": {
+        "company_adjustment": "Company adjustment",
+        "increment": "Increment",
+        "decrement": "Decrement",
+        "agency": "Agency",
+        "ride": "Ride",
+        "express": "Express",
+        "food": "Food",
+        "mart": "Mart",
+        "enter_your_password": "Enter your password",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "select_the_company_purpose": "Select the company purpose"
+    },
+    "fr": {
+        "company_adjustment": "Ajustement de l'entreprise",
+        "increment": "Augmentation",
+        "decrement": "Diminution",
+        "agency": "Agence",
+        "ride": "Course",
+        "express": "Express",
+        "food": "Nourriture",
+        "mart": "Magasin",
+        "enter_your_password": "Entrez votre mot de passe",
+        "cancel": "Annuler",
+        "confirm": "Confirmer",
+        "select_the_company_purpose": "Sélectionnez l’objectif de l’entreprise"
+    },
+    "mg": {
+        "company_adjustment": "Fanitsiana orinasa",
+        "increment": "Fanampiana",
+        "decrement": "Fihenana",
+        "agency": "Agence",
+        "ride": "Dia",
+        "express": "Haingana",
+        "food": "Sakafo",
+        "mart": "Fivarotana",
+        "enter_your_password": "Ampidiro ny tenimiafinao",
+        "cancel": "Foano",
+        "confirm": "Hamarino",
+        "select_the_company_purpose": "Safidio ny tanjon’ny orinasa"
+    },
+    "zh": {
+        "company_adjustment": "公司调整",
+        "increment": "增加",
+        "decrement": "减少",
+        "agency": "代理机构",
+        "ride": "行程",
+        "express": "快递",
+        "food": "食物",
+        "mart": "商店",
+        "enter_your_password": "请输入您的密码",
+        "cancel": "取消",
+        "confirm": "确认",
+        "select_the_company_purpose": "选择公司的用途"
+    }
+}

@@ -1,0 +1,26 @@
+{
+   "en": {
+      "weekly_coupons": "Weekly Coupons",
+      "new": "New",
+      "unused": "Unused",
+      "use": "Use"
+   },
+   "fr": {
+      "weekly_coupons": "Coupons hebdomadaires",
+      "new": "Nouveau",
+      "unused": "Non utilisé",
+      "use": "Utiliser"
+   },
+   "mg": {
+      "weekly_coupons": "Tapakila isan-kerinandro",
+      "new": "Vaovao",
+      "unused": "Tsy nampiasaina",
+      "use": "Ampiasao"
+   },
+   "zh": {
+      "weekly_coupons": "每周优惠券",
+      "new": "新增",
+      "unused": "未使用",
+      "use": "使用"
+   }
+}

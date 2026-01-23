@@ -1,0 +1,18 @@
+{
+   "en": {
+      "ride": "RIDE",
+      "express": "EXPRESS"
+   },
+   "fr": {
+      "ride": "COURSE",
+      "express": "EXPRESS"
+   },
+   "mg": {
+      "ride": "FANDEHANANA",
+      "express": "EXPRESS"
+   },
+   "zh": {
+      "ride": "出行",
+      "express": "快递"
+   }
+}

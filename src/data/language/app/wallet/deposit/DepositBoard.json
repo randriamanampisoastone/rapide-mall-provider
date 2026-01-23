@@ -1,0 +1,26 @@
+{
+    "en": {
+        "page": "Page",
+        "page_size": "Page size",
+        "previous": "Previous",
+        "next": "Next"
+    },
+    "fr": {
+        "page": "Page",
+        "page_size": "Taille de page",
+        "previous": "Précédent",
+        "next": "Suivant"
+    },
+    "mg": {
+        "page": "Pejy",
+        "page_size": "Haben'ny pejy",
+        "previous": "Teo aloha",
+        "next": "Manaraka"
+    },
+    "zh": {
+        "page": "页码",
+        "page_size": "每页数量",
+        "previous": "上一页",
+        "next": "下一页"
+    }
+}

@@ -1,0 +1,34 @@
+{
+   "en": {
+      "search_placeholder": "Search",
+      "total": "Total",
+      "selected": "Selected",
+      "Last name": "Last name",
+      "First name": "First name",
+      "Phone number": "Phone number"
+   },
+   "fr": {
+      "search_placeholder": "Rechercher",
+      "total": "Total",
+      "selected": "Sélectionné(s)",
+      "Last name": "Nom",
+      "First name": "Prénom",
+      "Phone number": "Numéro de téléphone"
+   },
+   "mg": {
+      "search_placeholder": "Mitady",
+      "total": "Fitambaran’ny",
+      "selected": "Voafantina",
+      "Last name": "Anarana",
+      "First name": "Fanampiny",
+      "Phone number": "Laharana finday"
+   },
+   "zh": {
+      "search_placeholder": "搜索",
+      "total": "总计",
+      "selected": "已选中",
+      "Last name": "姓",
+      "First name": "名",
+      "Phone number": "电话号码"
+   }
+}

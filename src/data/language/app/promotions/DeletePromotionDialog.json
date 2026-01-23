@@ -1,0 +1,26 @@
+{
+   "en": {
+      "delete_promotion": "Delete promotion",
+      "delete_message": "To delete this promotion, please confirm your password.",
+      "cancel": "Cancel",
+      "continue": "Continue"
+   },
+   "fr": {
+      "delete_coupon": "Supprimer le promotion",
+      "delete_message": "Veuillez confirmer votre mot de passe pour supprimer ce promotion.",
+      "cancel": "Annuler",
+      "continue": "Continuer"
+   },
+   "mg": {
+      "delete_promotion": "Fafana fapiroboroboana",
+      "delete_message": "Ampidiro ny tenimiafinao hanesorana ity fampiroboroboana ity.",
+      "cancel": "Foano",
+      "continue": "Tohizo"
+   },
+   "zh": {
+      "delete_promotion": "删除优惠券",
+      "delete_message": "请确认您的密码以删除此优惠券。",
+      "cancel": "取消",
+      "continue": "继续"
+   }
+}

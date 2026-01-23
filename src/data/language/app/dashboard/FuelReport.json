@@ -1,0 +1,46 @@
+{
+   "en": {
+      "fuel_report": "Fuel report",
+      "global": "Global",
+      "from": "From",
+      "to": "To",
+      "single_date": "Single date",
+      "date_range": "Date range",
+      "all": "All",
+      "gasoline": "Gasoline",
+      "diesel": "Diesel"
+   },
+   "fr": {
+      "fuel_report": "Rapport de fioul",
+      "global": "Global",
+      "from": "De",
+      "to": "À",
+      "single_date": "Date unique",
+      "date_range": "Plage de dates",
+      "all": "Tous",
+      "gasoline": "Essence",
+      "diesel": "Diesel"
+   },
+   "mg": {
+      "fuel_report": "Tatitra solika",
+      "global": "Manerantany",
+      "from": "Avy amin'ny",
+      "to": "Mankany amin'ny",
+      "single_date": "Daty tokana",
+      "date_range": "Elanelam-potoana",
+      "all": "Rehetra",
+      "gasoline": "Solika lasantsy",
+      "diesel": "Gazoala"
+   },
+   "zh": {
+      "fuel_report": "燃油报告",
+      "global": "全球",
+      "from": "从",
+      "to": "到",
+      "single_date": "单一日期",
+      "date_range": "日期范围",
+      "all": "全部",
+      "gasoline": "汽油",
+      "diesel": "柴油"
+   }
+}

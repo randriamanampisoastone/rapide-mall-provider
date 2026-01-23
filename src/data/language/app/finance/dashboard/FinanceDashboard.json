@@ -1,0 +1,58 @@
+{
+   "en": {
+      "agency": "Agency",
+      "ride": "Ride",
+      "express": "Express",
+      "foods": "Foods",
+      "marts": "Marts",
+      "filter_by_purpose": "Filter by purpose",
+      "filter_by_activity": "Filter by activity",
+      "main": "Main",
+      "tax": "Tax",
+      "reserve": "Reserve",
+      "promotion": "Promotion",
+      "refund": "Refund"
+   },
+   "fr": {
+      "agency": "Agence",
+      "ride": "Course",
+      "express": "Express",
+      "foods": "Repas",
+      "marts": "Commerces",
+      "filter_by_purpose": "Filtrer par usage",
+      "filter_by_activity": "Filtrer par activité",
+      "main": "Principal",
+      "tax": "Taxe",
+      "reserve": "Réserver",
+      "promotion": "Promotion",
+      "refund": "Remboursement"
+   },
+   "mg": {
+      "agency": "Agence",
+      "ride": "Lalana",
+      "express": "Express",
+      "foods": "Sakafo",
+      "marts": "Tsena",
+      "filter_by_purpose": "Sivana araka ny tanjona",
+      "filter_by_activity": "Sivana araka ny asa",
+      "main": "Fototra",
+      "tax": "Haba",
+      "reserve": "Famandrihana",
+      "promotion": "Fampiroboroboana",
+      "refund": "Fiverenam-bola"
+   },
+   "zh": {
+      "agency": "代理处",
+      "ride": "行程",
+      "express": "快递",
+      "foods": "食品",
+      "marts": "商店",
+      "filter_by_purpose": "按用途筛选",
+      "filter_by_activity": "按活动筛选",
+      "main": "主要",
+      "tax": "税",
+      "reserve": "预订",
+      "promotion": "促销",
+      "refund": "退款"
+   }
+}

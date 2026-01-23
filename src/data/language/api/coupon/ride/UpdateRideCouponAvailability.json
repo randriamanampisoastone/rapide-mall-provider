@@ -1,0 +1,14 @@
+{
+   "en": {
+      "updated_availability_success_message": "Coupon availability successfully updated."
+   },
+   "fr": {
+      "updated_availability_success_message": "Disponibilité du coupon mise à jour avec succès."
+   },
+   "mg": {
+      "updated_availability_success_message": "Vita soa aman-tsara ny fanavaozana ny fahafahana mampiasa ny tapakila."
+   },
+   "zh": {
+      "updated_availability_success_message": "优惠券可用性已成功更新。"
+   }
+}

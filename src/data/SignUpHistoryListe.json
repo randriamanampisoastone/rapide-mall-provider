@@ -1,0 +1,76 @@
+[
+   {
+      "profile": "john doen",
+      "role": "CLIENT",
+      "date": "2025-07-01T10:24:00Z",
+      "device": "ANDROID",
+      "status": "ACTIVE"
+   },
+   {
+      "profile": "jane admin",
+      "role": "ADMIN",
+      "date": "2025-07-02T09:10:00Z",
+      "device": "PC",
+      "status": "ACTIVE"
+   },
+   {
+      "profile": "driver001",
+      "role": "DRIVER",
+      "date": "2025-07-02T18:45:00Z",
+      "device": "IOS",
+      "status": "INACTIVE",
+      "adminAssign": "jane admin"
+   },
+   {
+      "profile": "provider alpha",
+      "role": "PROVIDER",
+      "date": "2025-07-03T14:15:00Z",
+      "device": "ANDROID",
+      "status": "ACTIVE",
+      "adminAssign": "admin backup"
+   },
+   {
+      "profile": "lucy driver",
+      "role": "DRIVER",
+      "date": "2025-07-03T19:30:00Z",
+      "device": "IOS",
+      "status": "ACTIVE"
+   },
+   {
+      "profile": "admin backup",
+      "role": "ADMIN",
+      "date": "2025-07-04T08:05:00Z",
+      "device": "PC",
+      "status": "INACTIVE"
+   },
+   {
+      "profile": "client007",
+      "role": "CLIENT",
+      "date": "2025-07-04T12:40:00Z",
+      "device": "ANDROID",
+      "status": "ACTIVE",
+      "adminAssign": "admin backup"
+   },
+   {
+      "profile": "pierre provider",
+      "role": "PROVIDER",
+      "date": "2025-07-04T16:20:00Z",
+      "device": "PC",
+      "status": "ACTIVE"
+   },
+   {
+      "profile": "alice",
+      "role": "CLIENT",
+      "date": "2025-07-04T20:00:00Z",
+      "device": "IOS",
+      "status": "INACTIVE"
+   },
+   {
+      "profile": "jack driver",
+      "role": "DRIVER",
+      "date": "2025-07-04T22:10:00Z",
+      "device": "ANDROID",
+      "status": "ACTIVE",
+      "adminAssign": "jane admin"
+   }
+]

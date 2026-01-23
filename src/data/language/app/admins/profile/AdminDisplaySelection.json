@@ -1,0 +1,59 @@
+{
+   "en": {
+      "account_number": "Account number",
+      "about": "About",
+      "permissions": "Permissions",
+      "finance": "Finance",
+      "ride": "Ride",
+      "express": "Express",
+      "food": "Food",
+      "mart": "Mart",
+      "transactions": "Transactions",
+      "deposit_withdrawal": "Deposit and withdrawal",
+      "logs": "Logs",
+      "more": "More",
+      "send_sms": "Send SMS"      
+   },
+   "fr": {
+      "account_number": "Numéro de compte",
+      "about": "À propos",
+      "permissions": "Autorisations",
+      "finance": "Finances",
+      "ride": "Course",
+      "express": "Express",
+      "food": "Nourriture",
+      "mart": "Épicerie",
+      "transactions": "Transactions",
+      "deposit_withdrawal": "Dépôt et retrait",
+      "logs": "Journaux",
+      "more": "Plus"
+   },
+   "mg": {
+      "account_number": "Laharana kaonty",
+      "about": "Momba",
+      "permissions": "Fahazoan-dàlana",
+      "finance": "Fitantanam-bola",
+      "ride": "Fandehanana",
+      "express": "Express",
+      "food": "Sakafo",
+      "mart": "Fivarotana",
+      "transactions": "Fifanakalozana",
+      "deposit_withdrawal": "Fametrahana sy fakana vola",
+      "logs": "Taratasy firaketana",
+      "more": "Bebe kokoa"
+   },
+   "zh": {
+      "account_number": "账户号码",
+      "about": "关于",
+      "permissions": "权限",
+      "finance": "财务",
+      "ride": "出行",
+      "express": "快递",
+      "food": "食品",
+      "mart": "超市",
+      "transactions": "交易",
+      "deposit_withdrawal": "存款和取款",
+      "logs": "日志",
+      "more": "更多"
+   }
+}

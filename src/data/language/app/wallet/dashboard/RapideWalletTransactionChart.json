@@ -1,0 +1,30 @@
+{
+   "en": {
+      "deposit": "Deposit",
+      "withdrawal": "Withdrawal",
+      "transfer": "Transfer",
+      "rapide_wallet_transaction": "Rapide Wallet Transaction",
+      "payment": "Payment"
+   },
+   "fr": {
+      "deposit": "Dépôt",
+      "withdrawal": "Retrait",
+      "transfer": "Transfert",
+      "rapide_wallet_transaction": "Transaction du portefeuille Rapide",
+      "payment": "Paiement"
+   },
+   "mg": {
+      "deposit": "Fampidiram-bola",
+      "withdrawal": "Fanalavana vola",
+      "transfer": "Famindrana",
+      "rapide_wallet_transaction": "Fifanakalozana amin'ny kaonty Rapide",
+      "payment": "Fandoavam-bola"
+   },
+   "zh": {
+      "deposit": "存款",
+      "withdrawal": "提款",
+      "transfer": "转账",
+      "rapide_wallet_transaction": "Rapide钱包交易",
+      "payment": "支付"
+   }
+}

@@ -1,0 +1,42 @@
+{
+   "en": {
+      "site": "Site",
+      "cancel": "Cancel",
+      "assign": "Assign",
+      "select_all": "Select All",
+      "search": "Search...",
+      "password": "Enter your password",
+      "change_site": "Change Site",
+      "select_site": "Select Site"
+   },
+   "fr": {
+      "site": "Site",
+      "cancel": "Annuler",
+      "assign": "Attribuer",
+      "select_all": "Tout sélectionner",
+      "search": "Rechercher...",
+      "password": "Entrez votre mot de passe",
+      "change_site": "Changer de site",
+      "select_site": "Sélectionner un site"
+   },
+   "mg": {
+      "site": "Toerana",
+      "cancel": "Foano",
+      "assign": "Manome",
+      "select_all": "Safidio rehetra",
+      "search": "Tadiavina...",
+      "password": "Ampidiro ny tenimiafinao",
+      "change_site": "Manova toerana",
+      "select_site": "Misafidiana toerana"
+   },
+   "zh": {
+      "site": "站点",
+      "cancel": "取消",
+      "assign": "分配",
+      "select_all": "全选",
+      "search": "搜索...",
+      "password": "输入您的密码",
+      "change_site": "更改站点",
+      "select_site": "选择站点"
+   }
+}

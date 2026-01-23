@@ -1,0 +1,38 @@
+{
+   "en": {
+      "tasks_liste": "Tasks list",
+      "pages": "Page {page} of {maxPage}",
+      "page_size": "Page size",
+      "previous": "Previous",
+      "next": "Next",
+      "cancel": "Cancel",
+      "password": "Enter your password to check the task"
+   },
+   "fr": {
+      "tasks_liste": "Liste des tâches",
+      "pages": "Page {page} sur {maxPage}",
+      "page_size": "Taille de page",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "cancel": "Annuler",
+      "password": "Entrez votre mot de passe pour vérifier la tâche"
+   },
+   "mg": {
+      "tasks_liste": "Lisitr’ireo asa",
+      "pages": "Pejy {page} amin’ny {maxPage}",
+      "page_size": "Haben’ny pejy",
+      "previous": "Teo aloha",
+      "next": "Manaraka",
+      "cancel": "Foano",
+      "password": "Ampidiro ny tenimiafinao hanamarinana ny asa"
+   },
+   "zh": {
+      "tasks_liste": "任务列表",
+      "pages": "第 {page} 页，共 {maxPage} 页",
+      "page_size": "页面大小",
+      "previous": "上一页",
+      "next": "下一页",
+      "cancel": "取消",
+      "password": "输入您的密码以验证任务"
+   }
+}

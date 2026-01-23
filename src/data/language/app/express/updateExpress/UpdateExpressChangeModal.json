@@ -1,0 +1,50 @@
+{
+    "en": {
+        "enter_your_password": "Enter your password",
+        "back": "Back",
+        "confirm": "Confirm",
+        "price_details": "Price details",
+        "delivery_fee": "Delivery fee",
+        "fragile_item_protection": "Fragile item protection",
+        "safety_guarantee": "Safety guarantee",
+        "transaction_fee": "Transaction fee",
+        "tax": "Tax",
+        "total": "Total"
+    },
+    "fr": {
+        "enter_your_password": "Entrez votre mot de passe",
+        "back": "Retour",
+        "confirm": "Confirmer",
+        "price_details": "Détails du prix",
+        "delivery_fee": "Frais de livraison",
+        "fragile_item_protection": "Protection des articles fragiles",
+        "safety_guarantee": "Garantie de sécurité",
+        "transaction_fee": "Frais de transaction",
+        "tax": "Taxe",
+        "total": "Total"
+    },
+    "mg": {
+        "enter_your_password": "Ampidiro ny tenimiafinao",
+        "back": "Miverina",
+        "confirm": "Manamafy",
+        "price_details": "Antsipirian'ny vidiny",
+        "delivery_fee": "Saran'ny fanaterana",
+        "fragile_item_protection": "Fiantohana ny zavatra mora vaky",
+        "safety_guarantee": "Fiantohana ny fiarovana",
+        "transaction_fee": "Saran'ny fifanakalozana",
+        "tax": "Hetra",
+        "total": "Fitambaran'ny rehetra"
+    },
+    "zh": {
+        "enter_your_password": "输入您的密码",
+        "back": "返回",
+        "confirm": "确认",
+        "price_details": "价格明细",
+        "delivery_fee": "运费",
+        "fragile_item_protection": "易碎物品保护",
+        "safety_guarantee": "安全保障",
+        "transaction_fee": "交易手续费",
+        "tax": "税费",
+        "total": "总计"
+    }
+}

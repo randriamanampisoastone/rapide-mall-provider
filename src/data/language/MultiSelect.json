@@ -1,0 +1,22 @@
+{
+   "en": {
+      "no_results_found": "No results found.",
+      "clear": "Clear",
+      "close": "Close"
+   },
+   "fr": {
+      "no_results_found": "Aucun résultat trouvé.",
+      "clear": "Effacer",
+      "close": "Fermer"
+   },
+   "mg": {
+      "no_results_found": "Tsy nisy vokatra hita.",
+      "clear": "Fafana",
+      "close": "Akàtò"
+   },
+   "zh": {
+      "no_results_found": "未找到结果。",
+      "clear": "清除",
+      "close": "关闭"
+   }
+}

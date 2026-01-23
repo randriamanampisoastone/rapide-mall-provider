@@ -1,0 +1,30 @@
+{
+   "en": {
+      "moto": "Moto",
+      "lite": "Lite car",
+      "premium": "Premium car",
+      "weekly_ride_statistics": "Weekly ride statistics",
+      "express_statistics": "Express statistics"
+   },
+   "fr": {
+      "moto": "Moto",
+      "lite": "Petite voiture",
+      "premium": "Voiture premium",
+      "weekly_ride_statistics": "Statistiques hebdomadaires des trajets",
+      "express_statistics": "Statistiques des Livraisons"
+   },
+   "mg": {
+      "moto": "Moto",
+      "lite": "Fiara kely",
+      "premium": "Fiara tsara",
+      "weekly_ride_statistics": "Statistika isan-kerinandro momba ny dia",
+      "express_statistics": "Statistika momba ny fandefasana"
+   },
+   "zh": {
+      "moto": "摩托车",
+      "lite": "小车",
+      "premium": "豪华车",
+      "weekly_ride_statistics": "每周行程统计",
+      "express_statistics": "快递统计"
+   }
+}

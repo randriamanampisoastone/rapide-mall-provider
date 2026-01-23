@@ -1,0 +1,161 @@
+import { ImageViewer } from '@/components/ImageViewer'
+import { ChevronLeft, ChevronRight, Plus, Trash2 } from 'lucide-react'
+import { useState, useRef } from 'react'
+import langue from '@/data/language/app/mart/AddMartProduct.json'
+import useTranslate from '@/hooks/useTranslate'
+
+interface AddProductImageProps {
+   images: (File | string)[]
+   setImages: (data: (File | string)[]) => void
+}
+
+function AddProductImage({ images, setImages }: AddProductImageProps) {
+   const translate = useTranslate(langue)
+   const [currentIndex, setCurrentIndex] = useState(0)
+   const containerRef = useRef(null)
+   const [isImageViewerOpen, setIsImageViewerOpen] = useState(false)
+   const [imageUrl, setImageUrl] = useState<string>('')
+
+   const ITEM_WIDTH = 160
+   const GAP = 8
+   const TOTAL_WIDTH = ITEM_WIDTH + GAP
+
+   const handleViewImage = (src: string) => {
+      setImageUrl(src)
+      setIsImageViewerOpen(true)
+   }
+
+   const handleRemoveImage = (file: File | string) => {
+      setImages(images.filter((img) => img !== file))
+   }
+
+   const handlePrev = () => {
+      setCurrentIndex((prev) => (prev - 1 + images.length) % images.length)
+   }
+
+   const handleNext = () => {
+      setCurrentIndex((prev) => (prev + 1) % images.length)
+   }
+
+   return (
+      <>
+         <div className='h-40 flex gap-2 w-full md:max-w-[calc(100vw-290px)] mx-auto'>
+            <label htmlFor='product-images-card'>
+               <div className='w-40 h-40 rounded-md bg-[var(--background-secondary)] border-2 border-dashed flex items-center justify-center flex-shrink-0 hover:bg-[var(--background)] cursor-pointer transition-colors'>
+                  <Plus className='size-12 text-[var(--foreground)]' />
+               </div>
+               <input
+                  type='file'
+                  className='hidden'
+                  id='product-images-card'
+                  onChange={(e) => {
+                     const files = e.target.files
+                     setImages([...images, ...Array.from(files || [])])
+                  }}
+                  multiple
+                  accept='image/*'
+               />
+            </label>
+
+            <div className='relative flex-1 overflow-hidden'>
+               {/* Bouton Précédent */}
+               <button
+                  className='absolute size-10 top-1/2 -translate-y-1/2 left-2 flex items-center justify-center cursor-pointer hover:bg-[var(--background-secondary)] rounded-full shadow-lg z-10 transition-all disabled:opacity-50'
+                  onClick={handlePrev}
+               >
+                  <ChevronLeft className='size-6' />
+               </button>
+
+               {/* Bouton Suivant */}
+               <button
+                  className='absolute size-10 top-1/2 -translate-y-1/2 right-2 flex items-center justify-center cursor-pointer hover:bg-[var(--background-secondary)] rounded-full shadow-lg z-10 transition-all disabled:opacity-50'
+                  onClick={handleNext}
+               >
+                  <ChevronRight className='size-6' />
+               </button>
+
+               {/* Container du carrousel */}
+               <div className='h-full overflow-hidden' ref={containerRef}>
+                  <div
+                     className='flex gap-2 h-full duration-300 transition-transform ease-in-out'
+                     style={{
+                        transform: `translateX(-${currentIndex * TOTAL_WIDTH}px)`,
+                     }}
+                  >
+                     {images.length > 0 ? (
+                        images.map((image, index) => (
+                           <div
+                              className='h-40 w-40 flex-shrink-0 overflow-hidden rounded-lg shadow-md group cursor-pointer relative'
+                              key={`${index}`}
+                           >
+                              <img
+                                 src={
+                                    typeof image === 'string'
+                                       ? image
+                                       : URL.createObjectURL(image)
+                                 }
+                                 className='object-cover w-full h-full group-hover:scale-110 transition-transform duration-300'
+                                 alt={`Product ${image}`}
+                                 onClick={() =>
+                                    handleViewImage(
+                                       typeof image === 'string'
+                                          ? image
+                                          : URL.createObjectURL(image),
+                                    )
+                                 }
+                              />
+
+                              <div className='absolute bottom-2 right-2 hidden group-hover:block'>
+                                 <button
+                                    className='rounded-md bg-[var(--red)] p-2 cursor-pointer border border-[var(--red)] hover:bg-[var(--foreground)] text-[var(--foreground)] hover:text-[var(--red)]'
+                                    onClick={() => handleRemoveImage(image)}
+                                 >
+                                    <Trash2 className='size-4' />
+                                 </button>
+                              </div>
+                           </div>
+                        ))
+                     ) : (
+                        <div className='text-3xl w-full h-full font-extrabold flex items-center justify-center border rounded-md text-[var(--gray)] text-center'>
+                           {translate('no_image')}
+                        </div>
+                     )}
+                  </div>
+               </div>
+
+               {/* Indicateurs de pagination */}
+               <div className='absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1.5 z-10'>
+                  {images.map((_, i) => (
+                     <button
+                        key={i}
+                        className={`h-2 rounded-full transition-all cursor-pointer ${
+                           i ===
+                           (currentIndex < 0
+                              ? images.length - 1
+                              : currentIndex >= images.length
+                                ? 0
+                                : currentIndex)
+                              ? 'w-6 bg-white'
+                              : 'w-2 bg-white/50 hover:bg-white/75'
+                        }`}
+                        onClick={() => setCurrentIndex(i)}
+                     />
+                  ))}
+               </div>
+            </div>
+         </div>
+
+         {isImageViewerOpen && (
+            <ImageViewer
+               profilePhoto={imageUrl}
+               firstName=''
+               lastName=''
+               isOpen={isImageViewerOpen}
+               setIsOpen={setIsImageViewerOpen}
+            />
+         )}
+      </>
+   )
+}
+
+export default AddProductImage

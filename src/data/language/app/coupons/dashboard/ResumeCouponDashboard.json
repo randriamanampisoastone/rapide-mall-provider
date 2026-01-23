@@ -1,0 +1,50 @@
+{
+   "en": {
+      "new": "New",
+      "unused": "Unused",
+      "use": "Use",
+      "today": "Today",
+      "ride": "Ride",
+      "food": "Food",
+      "mart": "Mart",
+      "express": "Express",
+      "all": "All",
+      "daily": "Daily"
+   },
+   "fr": {
+      "new": "Nouveau",
+      "unused": "Non utiliser",
+      "use": "Utiliser",
+      "today": "Aujourd'hui",
+      "ride": "Course",
+      "food": "Repas",
+      "mart": "Boutique",
+      "express": "Express",
+      "all": "Tous",
+      "daily": "Quotidien"
+   },
+   "mg": {
+      "new": "Vaovao",
+      "unused": "Tsy nampiasaina",
+      "use": "Ampiasao",
+      "today": "Anio",
+      "ride": "Dia",
+      "food": "Sakafo",
+      "mart": "Fivarotana",
+      "express": "Express",
+      "all": "Rehetra",
+      "daily": "Andavanandro"
+   },
+   "zh": {
+      "new": "新增",
+      "unused": "未使用",
+      "use": "使用",
+      "today": "今天",
+      "ride": "出行",
+      "food": "食物",
+      "mart": "商店",
+      "express": "快递",
+      "all": "全部",
+      "daily": "每日"
+   }
+}

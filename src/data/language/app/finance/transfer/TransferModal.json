@@ -1,0 +1,62 @@
+{
+    "en": {
+        "make_a_transfer": "Make a transfer",
+        "site_to_company": "Site to company",
+        "site_to_site": "Site to site",
+        "client": "Client",
+        "site_to_driver": "Site to driver",
+        "company_to_site": "Company to site",
+        "choose_the_site": "Choose the site",
+        "reset": "Reset",
+        "choose_the_driver": "Choose the driver",
+        "amount": "Amount",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "transfer_message": "Are you sure you want to make a transfer of {amount} to {entity} ?"
+    },
+    "fr": {
+        "make_a_transfer": "Effectuer un transfert",
+        "site_to_company": "Site vers entreprise",
+        "site_to_site": "Site vers site",
+        "client": "Client",
+        "site_to_driver": "Site vers conducteur",
+        "company_to_site": "Entreprise vers site",
+        "choose_the_site": "Choisir le site",
+        "reset": "Réinitialiser",
+        "choose_the_driver": "Choisir le conducteur",
+        "amount": "Montant",
+        "cancel": "Annuler",
+        "confirm": "Confirmer",
+        "transfer_message": "Êtes-vous sûr de vouloir effectuer un transfert de {amount} vers {entity} ?"
+    },
+    "mg": {
+        "make_a_transfer": "Manaova famindram-bola",
+        "site_to_company": "Toerana mankany amin'ny orinasa",
+        "site_to_site": "Toerana mankany amin'ny toerana hafa",
+        "client": "Mpanjifa",
+        "site_to_driver": "Toerana mankany amin'ny mpamily",
+        "company_to_site": "Orinasa mankany amin'ny toerana",
+        "choose_the_site": "Fidio ny toerana",
+        "reset": "Avereno amin'ny voalohany",
+        "choose_the_driver": "Fidio ny mpamily",
+        "amount": "Vola",
+        "cancel": "Foano",
+        "confirm": "Hamarino",
+        "transfer_message": "Azonao antoka ve fa hanao famindram-bola mitentina {amount} ho an'i {entity} ianao ?"
+    },
+    "zh": {
+        "make_a_transfer": "进行转账",
+        "site_to_company": "站点到公司",
+        "site_to_site": "站点到站点",
+        "client": "客户",
+        "site_to_driver": "站点到司机",
+        "company_to_site": "公司到站点",
+        "choose_the_site": "选择站点",
+        "reset": "重置",
+        "choose_the_driver": "选择司机",
+        "amount": "金额",
+        "cancel": "取消",
+        "confirm": "确认",
+        "transfer_message": "您确定要将 {amount} 转账给 {entity} 吗？"
+    }
+}

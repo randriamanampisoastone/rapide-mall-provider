@@ -1,0 +1,58 @@
+{
+   "en": {
+      "show_permissions": "Show permissions",
+      "show_roles": "Show roles",
+      "show_all_roles": "Show all roles",
+      "roles": "Roles",
+      "show_all_permissions": "Show all permissions",
+      "permission_access": "Permission access",
+      "default_permission": "Default permission",
+      "phone_number": "Phone number",
+      "birthday": "Birthday",
+      "profile_status": "Profile status",
+      "gender": "Gender",
+      "undefined": "Undefined"
+   },
+   "fr": {
+      "show_permissions": "Afficher les permissions",
+      "show_roles": "Afficher les rôles",
+      "show_all_roles": "Afficher tous les rôles",
+      "roles": "Rôles",
+      "show_all_permissions": "Afficher toutes les permissions",
+      "permission_access": "Accès par permission",
+      "default_permission": "Permission par défaut",
+      "phone_number": "Numéro de téléphone",
+      "birthday": "Date de naissance",
+      "profile_status": "Statut du profil",
+      "gender": "Genre",
+      "undefined": "Indéfini"
+   },
+   "mg": {
+      "show_permissions": "Asehoy ny fahazoan-dàlana",
+      "show_roles": "Asehoy ny andraikitra",
+      "show_all_roles": "Asehoy daholo ny andraikitra",
+      "roles": "Andraikitra",
+      "show_all_permissions": "Asehoy daholo ny fahazoan-dàlana",
+      "permission_access": "Fidirana amin'ny fahazoan-dàlana",
+      "default_permission": "Fahazoan-dàlana ankapobeny",
+      "phone_number": "Laharan-telefaona",
+      "birthday": "Fahaterahana",
+      "profile_status": "Toetry ny mombamomba",
+      "gender": "Sokajin-taovam-pananahana",
+      "undefined": "Tsy voafaritra"
+   },
+   "zh": {
+      "show_permissions": "显示权限",
+      "show_roles": "显示角色",
+      "show_all_roles": "显示所有角色",
+      "roles": "角色",
+      "show_all_permissions": "显示所有权限",
+      "permission_access": "权限访问",
+      "default_permission": "默认权限",
+      "phone_number": "电话号码",
+      "birthday": "生日",
+      "profile_status": "资料状态",
+      "gender": "性别",
+      "undefined": "未定义"
+   }
+}

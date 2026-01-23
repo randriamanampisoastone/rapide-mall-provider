@@ -1,0 +1,62 @@
+{
+  "en": {
+    "vehicle_main_picture": "Vehicle main picture",
+    "vehicle_photo": "Vehicle photo",
+    "vehicle_document": "Vehicle document",
+    "driver_license": "Driver license",
+    "current_photos": "Current photos",
+    "trash": "Trash",
+    "no_photo": "No photo !",
+    "new_photos": "New photos",
+    "save": "Save",
+    "vehicle_main_photo_updated_successfully": "Vehicle main photo updated successfully",
+    "vehicle_photo_updated_successfully": "Vehicle photo updated successfully",
+    "vehicle_document_updated_successfully": "Vehicle document updated successfully",
+    "driver_license_updated_successfully": "Driver license updated successfully"
+  },
+  "fr": {
+    "vehicle_main_picture": "Image principale du véhicule",
+    "vehicle_photo": "Photo du véhicule",
+    "vehicle_document": "Document du véhicule",
+    "driver_license": "Permis de conduire",
+    "current_photos": "Photos actuelles",
+    "trash": "Corbeille",
+    "no_photo": "Aucune photo !",
+    "new_photos": "Nouvelles photos",
+    "save": "Enregistrer",
+    "vehicle_main_photo_updated_successfully": "Photo principale du véhicule mise à jour avec succès",
+    "vehicle_photo_updated_successfully": "Photo du véhicule mise à jour avec succès",
+    "vehicle_document_updated_successfully": "Document du véhicule mis à jour avec succès",
+    "driver_license_updated_successfully": "Permis de conduire mis à jour avec succès"
+  },
+  "mg": {
+    "vehicle_main_picture": "Sary lehibe amin'ny fiara",
+    "vehicle_photo": "Sary ny fiara",
+    "vehicle_document": "Antontan-taratasin'ny fiara",
+    "driver_license": "Permis fanofanana",
+    "current_photos": "Sary ankehitriny",
+    "trash": "Fako",
+    "no_photo": "Tsy misy sary !",
+    "new_photos": "Sary vaovao",
+    "save": "Tehirizo",
+    "vehicle_main_photo_updated_successfully": "Voavonjy ny sary lehibe amin'ny fiara",
+    "vehicle_photo_updated_successfully": "Voavonjy ny sary amin'ny fiara",
+    "vehicle_document_updated_successfully": "Voavonjy ny antontan-taratasin'ny fiara",
+    "driver_license_updated_successfully": "Voavonjy ny permis fanofanana"
+  },
+  "zh": {
+    "vehicle_main_picture": "车辆主图",
+    "vehicle_photo": "车辆照片",
+    "vehicle_document": "车辆文件",
+    "driver_license": "驾驶执照",
+    "current_photos": "当前照片",
+    "trash": "垃圾桶",
+    "no_photo": "没有照片！",
+    "new_photos": "新照片",
+    "save": "保存",
+    "vehicle_main_photo_updated_successfully": "车辆主图更新成功",
+    "vehicle_photo_updated_successfully": "车辆照片更新成功",
+    "vehicle_document_updated_successfully": "车辆文件更新成功",
+    "driver_license_updated_successfully": "驾驶执照更新成功"
+  }
+}

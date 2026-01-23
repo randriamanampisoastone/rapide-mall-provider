@@ -1,0 +1,46 @@
+{
+    "en": {
+        "car": "Car",
+        "motorcycle": "Motorcycle",
+        "three_whileers_or_quads": "Three wheelers or quads",
+        "trucks": "Trucks",
+        "passenger_transport_vehicles": "Passenger transport vehicles",
+        "agricultural_machinery": "Agricultural machinery",
+        "engins": "Heavy equipment",
+        "marine_air_vehicles": "Marine & air vehicles",
+        "rent_count_by_vehicle_category": "Rent count by vehicle category"
+    },
+    "fr": {
+        "car": "Voiture",
+        "motorcycle": "Motocyclette",
+        "three_whileers_or_quads": "Trois-roues ou quads",
+        "trucks": "Camions",
+        "passenger_transport_vehicles": "Véhicules de transport de passagers",
+        "agricultural_machinery": "Machines agricoles",
+        "engins": "Engins de chantier",
+        "marine_air_vehicles": "Véhicules marins & aériens",
+        "rent_count_by_vehicle_category": "Nombre de locations par catégorie de véhicule"
+    },
+    "mg": {
+        "car": "Fiara",
+        "motorcycle": "Motera",
+        "three_whileers_or_quads": "Telo-kodi na quads",
+        "trucks": "Kamiao",
+        "passenger_transport_vehicles": "Fiara fitaterana olona",
+        "agricultural_machinery": "Fitaovam-pambolena",
+        "engins": "Engins",
+        "marine_air_vehicles": "Fiara an-dranomasina sy an'habakabaka",
+        "rent_count_by_vehicle_category": "Isan'ny fanofana amin'ny sokajin-fiara"
+    },
+    "zh": {
+        "car": "汽车",
+        "motorcycle": "摩托车",
+        "three_whileers_or_quads": "三轮车或四轮车",
+        "trucks": "卡车",
+        "passenger_transport_vehicles": "客运车辆",
+        "agricultural_machinery": "农业机械",
+        "engins": "重型设备",
+        "marine_air_vehicles": "海运和空运车辆",
+        "rent_count_by_vehicle_category": "按车辆分类的租赁数量"
+    }
+}

@@ -1,0 +1,30 @@
+{
+   "en": {
+      "ride": "Ride",
+      "express": "Express",
+      "food": "Food",
+      "mart": "Mart",
+      "payment": "Payment"
+   },
+   "fr": {
+      "ride": "Course",
+      "express": "Livraison",
+      "food": "Nourriture",
+      "mart": "Épicerie",
+      "payment": "Paiement"
+   },
+   "mg": {
+      "ride": "Dia",
+      "express": "Fandefasana",
+      "food": "Sakafo",
+      "mart": "Fivarotana",
+      "payment": "Fandoavana"
+   },
+   "zh": {
+      "ride": "行程",
+      "express": "快递",
+      "food": "食品",
+      "mart": "超市",
+      "payment": "付款"
+   }
+}

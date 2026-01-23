@@ -1,0 +1,54 @@
+{
+   "en": {
+      "profile": "Profile",
+      "role": "Role",
+      "date": "Date",
+      "device": "Device",
+      "status": "Status",
+      "pages": "Page {page} of {maxPage}",
+      "page_size": "Page size",
+      "previous": "Previous",
+      "next": "Next",
+      "registration_number": "Registration Number",
+      "no_results": "No results"
+   },
+   "fr": {
+      "profile": "Profil",
+      "role": "Rôle",
+      "date": "Date",
+      "device": "Appareil",
+      "status": "Statut",
+      "pages": "Page {page} sur {maxPage}",
+      "page_size": "Taille de page",
+      "previous": "Précédent",
+      "next": "Suivant",
+      "registration_number": "Numéro d'immatriculation",
+      "no_results": "Aucun résultat"
+   },
+   "mg": {
+      "profile": "Mombamomba",
+      "role": "Andraikitra",
+      "date": "Daty",
+      "device": "Fitaovana",
+      "status": "Sata",
+      "pages": "Pejy {page} amin'ny {maxPage}",
+      "page_size": "Haben'ny pejy",
+      "previous": "Teo aloha",
+      "next": "Manaraka",
+      "registration_number": "Laharana fisoratana anarana",
+      "no_results": "Tsy nisy vokatra"
+   },
+   "zh": {
+      "profile": "个人资料",
+      "role": "角色",
+      "date": "日期",
+      "device": "设备",
+      "status": "状态",
+      "pages": "第 {page} 页，共 {maxPage} 页",
+      "page_size": "每页数量",
+      "previous": "上一页",
+      "next": "下一页",
+      "registration_number": "注册号",
+      "no_results": "无结果"
+   }
+}

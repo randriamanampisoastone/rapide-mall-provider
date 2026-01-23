@@ -1,0 +1,14 @@
+{
+   "en": {
+      "updated_availability_success_message": "Promotion availability successfully updated."
+   },
+   "fr": {
+      "updated_availability_success_message": "La disponibilité de la promotion a été mise à jour avec succès."
+   },
+   "mg": {
+      "updated_availability_success_message": "Nohavaozina soa ny fahafahana amin'ny fandrosoana."
+   },
+   "zh": {
+      "updated_availability_success_message": "促销可用性已成功更新。"
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "en": {
+      "edite": "Edite",
+      "delete": "Delete"
+   },
+   "fr": {
+      "edite": "Modifier",
+      "delete": "Supprimer"
+   },
+   "mg": {
+      "edite": "Hanova",
+      "delete": "Fafana"
+   },
+   "zh": {
+      "edite": "编辑",
+      "delete": "删除"
+   }
+}

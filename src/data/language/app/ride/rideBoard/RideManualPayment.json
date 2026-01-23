@@ -1,0 +1,54 @@
+{
+   "en": {
+      "manual_payment": "Manual payment",
+      "cash": "Cash",
+      "rapide_wallet": "Rapide wallet",
+      "mvola": "Mvola",
+      "orange_money": "Orange money",
+      "enter_the_reference": "Enter the {method_type} reference here (ex: 1a3a4v6e89)",
+      "reference_help": "After the user has processed the manual payment on their side, you must ask for the payment reference and enter it here to link the ride to the payment.",
+      "reference": "{method_type} reference",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "enter_your_password": "Enter your password"
+   },
+   "fr": {
+      "manual_payment": "Paiement manuel",
+      "cash": "Espèces",
+      "rapide_wallet": "Portefeuille Rapide",
+      "mvola": "MVola",
+      "orange_money": "Orange Money",
+      "enter_the_reference": "Entrez ici la référence {method_type} (ex : 1a3a4v6e89)",
+      "reference_help": "Après que l’utilisateur a effectué le paiement manuel de son côté, vous devez lui demander la référence du paiement et l’entrer ici pour lier le trajet au paiement.",
+      "reference": "Référence {method_type}",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "enter_your_password": "Entrez votre mot de passe"
+   },
+   "mg": {
+      "manual_payment": "Fandoavana tanana",
+      "cash": "Vola amin’ny tanana",
+      "rapide_wallet": "Kaonty Rapide",
+      "mvola": "MVola",
+      "orange_money": "Orange Money",
+      "enter_the_reference": "Ampidiro eto ny référence {method_type} (oh: 1a3a4v6e89)",
+      "reference_help": "Rehefa vita ny fandoavana tanana nataon'ny mpampiasa, dia angataho ny référence fandoavana ary ampidiro eto mba hampifandray ny dia amin'ny fandoavana.",
+      "reference": "Référence {method_type}",
+      "cancel": "Hanafoana",
+      "confirm": "Manamafy",
+      "enter_your_password": "Ampidiro ny tenimiafinao"
+   },
+   "zh": {
+      "manual_payment": "手动支付",
+      "cash": "现金",
+      "rapide_wallet": "Rapide 钱包",
+      "mvola": "MVola",
+      "orange_money": "Orange 钱",
+      "enter_the_reference": "在此输入 {method_type} 参考号（例如：1a3a4v6e89）",
+      "reference_help": "用户在自行完成手动支付后，您需要向其索要支付参考号，并在此输入以将行程关联到付款。",
+      "reference": "{method_type} 参考号",
+      "cancel": "取消",
+      "confirm": "确认",
+      "enter_your_password": "输入您的密码"
+   }
+}

@@ -1,0 +1,151 @@
+[
+   {
+      "permission": "update_client_profile_password",
+      "description": "Allows resetting or updating a client's password when requested on-site or remotely.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "delete_client_profile",
+      "description": "Allows permanently deleting a client's account from the Rapide system.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "read_driver_profile",
+      "description": "Allows viewing detailed driver information, including assigned rides and current vehicle.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_driver_profile_phone_number",
+      "description": "Allows modifying the phone number linked to a driver’s profile for communication purposes.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_driver_profile_status",
+      "description": "Allows activating or suspending a driver’s account, preventing or allowing ride assignments.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_driver_profile_password",
+      "description": "Allows resetting or updating a driver's login password.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_driver_profile_points",
+      "description": "Allows modifying the performance score or trust level of a driver based on ride behavior or client feedback.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "delete_driver_profile",
+      "description": "Allows permanently removing a driver’s account from the Rapide system.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "read_admin_profile",
+      "description": "Allows viewing information about other admins, including their site assignment and roles.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "create_admin_profile",
+      "description": "Allows creating a new admin account and assigning it to a specific site.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_admin_profile_phone_number",
+      "description": "Allows modifying the phone number linked to an admin profile.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_admin_profile_status",
+      "description": "Allows activating or suspending an admin to enable or restrict their access to the back office.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_admin_profile_role",
+      "description": "Allows changing the admin’s role, impacting the base level of access they have.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_admin_profile_password",
+      "description": "Allows resetting or updating the password of an admin account.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_admin_profile_permissions",
+      "description": "Allows customizing an admin's individual access rights beyond their role.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "delete_admin_profile",
+      "description": "Allows permanently removing an admin account from the system.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "read_site",
+      "description": "Allows viewing details about local Rapide sites used for deposits, account support, and driver operations.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "create_site",
+      "description": "Allows registering a new Rapide site location to expand service coverage or driver access.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_site_name",
+      "description": "Allows changing the display name or label of a Rapide site.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_site_level",
+      "description": "Allows updating the quality or ranking score assigned to a site based on its performance or capacity.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_site_type",
+      "description": "Allows changing the category of the site (e.g., full-service, deposit-only, driver-only hub).",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_site_location",
+      "description": "Allows modifying the physical address or GPS coordinates of a site."
+   },
+   {
+      "permission": "update_site_vehicles",
+      "description": "Allows managing which vehicles are assigned or available at a specific site.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_site_admins",
+      "description": "Allows assigning or removing admins responsible for a specific site.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "delete_site",
+      "description": "Allows permanently removing a site from the Rapide network.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "create_vehicle",
+      "description": "Allows registering a new vehicle into the Rapide fleet.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "update_vehicle",
+      "description": "Allows modifying details of a registered vehicle (e.g., model, plate number).",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "assign_vehicle_to_driver",
+      "description": "Allows linking a specific vehicle to a driver for ride assignments.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "assign_vehicle_to_hub",
+      "description": "Allows assigning a vehicle to a specific site for operational tracking and dispatching.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   },
+   {
+      "permission": "delete_vehicle",
+      "description": "Allows permanently removing a vehicle from the Rapide fleet.",
+      "assignedAt": "2023-06-05T00:00:00.000Z"
+   }
+]

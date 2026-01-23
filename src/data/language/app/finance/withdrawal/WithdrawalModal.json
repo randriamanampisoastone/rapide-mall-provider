@@ -1,0 +1,46 @@
+{
+    "en": {
+        "phone_number": "Phone number",
+        "make_a_withdrawal": "Make a withdrawal",
+        "amount": "Amount",
+        "enter_your_password": "Enter your password",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "resend": "Resend",
+        "otp_confirmation_message": "Please enter the code that the client received to confirm the withdrawal.",
+        "balance": "Balance"
+    },
+    "fr": {
+        "phone_number": "Numéro de téléphone",
+        "make_a_withdrawal": "Effectuer un retrait",
+        "amount": "Montant",
+        "enter_your_password": "Entrez votre mot de passe",
+        "cancel": "Annuler",
+        "confirm": "Confirmer",
+        "resend": "Renvoyer",
+        "otp_confirmation_message": "Veuillez entrer le code que le client a reçu pour confirmer le retrait.",
+        "balance": "Solde"
+    },
+    "mg": {
+        "phone_number": "Laharana finday",
+        "make_a_withdrawal": "Manaova fisintomam-bola",
+        "amount": "Vola",
+        "enter_your_password": "Ampidiro ny tenimiafinao",
+        "cancel": "Foano",
+        "confirm": "Hamarino",
+        "resend": "Alefaso indray",
+        "otp_confirmation_message": "Ampidiro ny kaody noraisin’ny mpanjifa hanamafisana ny fisintomana.",
+        "balance": "Trosan'ny kaonty"
+    },
+    "zh": {
+        "phone_number": "电话号码",
+        "make_a_withdrawal": "进行取款",
+        "amount": "金额",
+        "enter_your_password": "请输入您的密码",
+        "cancel": "取消",
+        "confirm": "确认",
+        "resend": "重新发送",
+        "otp_confirmation_message": "请输入客户收到的验证码以确认取款。",
+        "balance": "余额"
+    }
+}

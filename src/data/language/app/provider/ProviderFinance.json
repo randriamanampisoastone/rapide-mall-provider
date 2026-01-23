@@ -1,0 +1,34 @@
+{
+    "en": {
+        "finance": "Finance",
+        "card": "Card",
+        "cash": "Cash",
+        "mvola": "Mvola",
+        "orange_money": "Orange money",
+        "rapide_wallet": "Rapide wallet"
+    },
+    "fr": {
+        "finance": "Finance",
+        "card": "Carte",
+        "cash": "Espèces",
+        "mvola": "Mvola",
+        "orange_money": "Orange Money",
+        "rapide_wallet": "Portefeuille Rapide"
+    },
+    "mg": {
+        "finance": "Vola",
+        "card": "Karatra",
+        "cash": "Vola an-tànana",
+        "mvola": "Mvola",
+        "orange_money": "Orange Money",
+        "rapide_wallet": "Paosin'ny Rapide"
+    },
+    "zh": {
+        "finance": "财务",
+        "card": "卡",
+        "cash": "现金",
+        "mvola": "Mvola",
+        "orange_money": "Orange Money",
+        "rapide_wallet": "Rapide 钱包"
+    }
+}

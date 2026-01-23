@@ -1,0 +1,22 @@
+{
+    "en": {
+        "item_sell_quantity": "Item sell quantity",
+        "sell_amount": "Sell amount",
+        "providerprofit": "Amount"
+    },
+    "fr": {
+        "item_sell_quantity": "Quantité d'articles vendus",
+        "sell_amount": "Montant des ventes",
+        "providerprofit": "Montant"
+    },
+    "mg": {
+        "item_sell_quantity": "Habetsahan'ny entana namidy",
+        "sell_amount": "Habetsahan'ny varotra",
+        "providerprofit": "Habetsahan'ny vola"
+    },
+    "zh": {
+        "item_sell_quantity": "商品销售数量",
+        "sell_amount": "销售额",
+        "providerprofit": "金额"
+    }
+}

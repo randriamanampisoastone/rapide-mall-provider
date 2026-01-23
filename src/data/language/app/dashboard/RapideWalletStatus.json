@@ -1,0 +1,38 @@
+{
+    "en": {
+        "rapide_wallet_status": "Rapide wallet status",
+        "active": "Active",
+        "pending": "Pending",
+        "undetermined": "Undetermined",
+        "frozen": "Frozen",
+        "closed": "Closed",
+        "rejected": "Rejected"
+    },
+    "fr": {
+        "rapide_wallet_status": "Statut du portefeuille Rapide",
+        "active": "Actif",
+        "pending": "En attente",
+        "undetermined": "Indéterminé",
+        "frozen": "Gelé",
+        "closed": "Fermé",
+        "rejected": "Rejeté"
+    },
+    "mg": {
+        "rapide_wallet_status": "Sata-n'ny kitapom-bola Rapide",
+        "active": "Miasa",
+        "pending": "Miandry",
+        "undetermined": "Tsy voafaritra",
+        "frozen": "Voasakana",
+        "closed": "Mikatona",
+        "rejected": "Nolavina"
+    },
+    "zh": {
+        "rapide_wallet_status": "Rapide钱包状态",
+        "active": "激活",
+        "pending": "待处理",
+        "undetermined": "未确定",
+        "frozen": "已冻结",
+        "closed": "已关闭",
+        "rejected": "已拒绝"
+    }
+}

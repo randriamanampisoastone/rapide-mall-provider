@@ -1,0 +1,38 @@
+{
+   "en": {
+      "no_vehicle_assigned": "No vehicle assigned",
+      "not_on_site": "Not on site",
+      "pages": "Page {page} of {maxPage}",
+      "success": "Vehicle successfully assigned",
+      "cancel": "Cancel",
+      "confirm": "Confirm",
+      "not_assigned": "Not assigned"
+   },
+   "fr": {
+      "no_vehicle_assigned": "Aucun véhicule assigné",
+      "not_on_site": "Pas sur le site",
+      "pages": "Page {page} sur {maxPage}",
+      "success": "Véhicule assigné avec succès",
+      "cancel": "Annuler",
+      "confirm": "Confirmer",
+      "not_assigned": "Non assigné"
+   },
+   "mg": {
+      "no_vehicle_assigned": "Tsy misy fiara natokana",
+      "not_on_site": "Tsy eo amin'ny toerana",
+      "pages": "Pejy {page} amin'ny {maxPage}",
+      "success": "Voatokana soa aman-tsara ny fiara",
+      "cancel": "Foano",
+      "confirm": "Manamarina",
+      "not_assigned": "Tsy voatendry"
+   },
+   "zh": {
+      "no_vehicle_assigned": "未分配车辆",
+      "not_on_site": "不在站点",
+      "pages": "第 {page} 页，共 {maxPage} 页",
+      "success": "车辆分配成功",
+      "cancel": "取消",
+      "confirm": "确认",
+      "not_assigned": "未分配"
+   }
+}

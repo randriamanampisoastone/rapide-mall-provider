@@ -1,0 +1,22 @@
+{
+    "en": {
+        "best_items": "Best items",
+        "sales": "Sales",
+        "price": "Price"
+    },
+    "fr": {
+        "best_items": "Meilleurs articles",
+        "sales": "Ventes",
+        "price": "Prix"
+    },
+    "mg": {
+        "best_items": "Zavatra tsara indrindra",
+        "sales": "Varotra",
+        "price": "Vidiny"
+    },
+    "zh": {
+        "best_items": "最佳商品",
+        "sales": "销售",
+        "price": "价格"
+    }
+}

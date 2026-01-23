@@ -1,0 +1,34 @@
+{
+    "en": {
+        "package_assigned": "Package assigned",
+        "enter_your_password": "Enter your password",
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "express_assigned_successfully": "Package assigned successfully.",
+        "already_in_process": "This driver is already handling another package. If you are certain you want to assign these additional packages, please enter your password to confirm."
+    },
+    "fr": {
+        "package_assigned": "Colis assigné",
+        "enter_your_password": "Entrez votre mot de passe",
+        "cancel": "Annuler",
+        "confirm": "Confirmer",
+        "express_assigned_successfully": "Colis assigné avec succès.",
+        "already_in_process": "Ce chauffeur gère déjà un autre colis. Si vous êtes certain de vouloir lui attribuer ces colis supplémentaires, veuillez entrer votre mot de passe pour confirmer."
+    },
+    "mg": {
+        "package_assigned": "Voatendry ny fonosana",
+        "enter_your_password": "Ampidiro ny tenimiafinao",
+        "cancel": "Foano",
+        "confirm": "Hamafiso",
+        "express_assigned_successfully": "Voatendry soa aman-tsara ny fonosana.",
+        "already_in_process": "Ity mpamily ity dia efa mikarakara fonosana hafa. Raha azonao antoka fa te hanampy ireo fonosana fanampiny ianao dia ampidiro ny tenimiafinao mba hanamafisana."
+    },
+    "zh": {
+        "package_assigned": "包裹已分配",
+        "enter_your_password": "输入您的密码",
+        "cancel": "取消",
+        "confirm": "确认",
+        "express_assigned_successfully": "包裹分配成功。",
+        "already_in_process": "该司机已经在处理其他包裹。如果您确认要分配这些额外的包裹，请输入您的密码以确认。"
+    }
+}

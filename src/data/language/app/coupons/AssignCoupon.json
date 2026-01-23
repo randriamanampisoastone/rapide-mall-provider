@@ -1,0 +1,42 @@
+{
+   "en": {
+      "assign_coupon": "Assign Coupon",
+      "cancel": "Cancel",
+      "assign": "Assign",
+      "select_coupon": "Select Coupon",
+      "select_all": "Select All",
+      "search": "Search...",
+      "enter_your_password": "Enter your password",
+      "coupon_assigned_successfully": "Coupon assigned successfully"
+   },
+   "fr": {
+      "assign_coupon": "Attribuer un coupon",
+      "cancel": "Annuler",
+      "assign": "Attribuer",
+      "select_coupon": "Sélectionner un coupon",
+      "select_all": "Tout sélectionner",
+      "search": "Rechercher...",
+      "enter_your_password": "Entrez votre mot de passe",
+      "coupon_assigned_successfully": "Coupon attribué avec succès"
+   },
+   "mg": {
+      "assign_coupon": "Manome tapakila fihenam-bidy",
+      "cancel": "Foano",
+      "assign": "Manome",
+      "select_coupon": "Misafidiana tapakila fihenam-bidy",
+      "select_all": "Safidio rehetra",
+      "search": "Tadiavina...",
+      "enter_your_password": "Ampidiro ny tenimiafinao",
+      "coupon_assigned_successfully": "Vita soa aman-tsara ny fanomezana tapakila"
+   },
+   "zh": {
+      "assign_coupon": "分配优惠券",
+      "cancel": "取消",
+      "assign": "分配",
+      "select_coupon": "选择优惠券",
+      "select_all": "全选",
+      "search": "搜索...",
+      "enter_your_password": "请输入密码",
+      "coupon_assigned_successfully": "优惠券分配成功"
+   }
+}

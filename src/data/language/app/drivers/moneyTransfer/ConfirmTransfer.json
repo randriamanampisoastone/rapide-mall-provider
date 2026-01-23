@@ -1,0 +1,30 @@
+{
+    "en": {
+        "message": "Please enter your password to confirm the transfer of :",
+        "confirm_transfer": "Confirm transfer",
+        "enter_your_password": "Enter your password",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+    },
+    "fr": {
+        "message": "Veuillez entrer votre mot de passe pour confirmer le transfert de :",
+        "confirm_transfer": "Confirmer le transfert",
+        "enter_your_password": "Entrez votre mot de passe",
+        "cancel": "Annuler",
+        "confirm": "Confirmer"
+    },
+    "mg": {
+        "message": "Ampidiro ny tenimiafinao hanamafisana ny famindrana vola :",
+        "confirm_transfer": "Manamarina ny famindrana",
+        "enter_your_password": "Ampidiro ny tenimiafinao",
+        "cancel": "Foano",
+        "confirm": "Manamarina"
+    },
+    "zh": {
+        "message": "请输入您的密码以确认转账：",
+        "confirm_transfer": "确认转账",
+        "enter_your_password": "请输入您的密码",
+        "cancel": "取消",
+        "confirm": "确认"
+    }
+}

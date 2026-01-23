@@ -1,0 +1,38 @@
+{
+    "en": {
+        "role": "Role",
+        "search-permission-access": "Search permission access...",
+        "remove-all-access": "Remove all access",
+        "assign-all-access": "Assign all access",
+        "reset": "Reset",
+        "save": "Save",
+        "site": "Site"
+    },
+    "fr": {
+        "role": "Rôle",
+        "search-permission-access": "Rechercher un accès...",
+        "remove-all-access": "Tout retirer",
+        "assign-all-access": "Tout attribuer",
+        "reset": "Réinitialiser",
+        "save": "Enregistrer",
+        "site": "Site"
+    },
+    "mg": {
+        "role": "Anjara",
+        "search-permission-access": "Karoka fidirana...",
+        "remove-all-access": "Esory rehetra",
+        "assign-all-access": "Manome rehetra",
+        "reset": "Averina",
+        "save": "Tehirizo",
+        "site": "Toerana"
+    },
+    "zh": {
+        "role": "角色",
+        "search-permission-access": "搜索权限访问...",
+        "remove-all-access": "移除全部权限",
+        "assign-all-access": "分配全部权限",
+        "reset": "重置",
+        "save": "保存",
+        "site": "站点"
+    }
+}

@@ -1,0 +1,30 @@
+{
+   "en": {
+      "remove_on_planning_title": "Remove the driver {driverName} off of this planning",
+      "remove_message": "Are you sure to want to take this driver off the planning ?",
+      "no": "No",
+      "yes": "Yes",
+      "driver_removed_from_planning": "The driver {driverName} has been removed from the planning"
+   },
+   "fr": {
+      "remove_on_planning_title": "Retirer le conducteur {driverName} de cette planification",
+      "remove_message": "Êtes-vous sûr de vouloir retirer ce conducteur de la planification ?",
+      "no": "Non",
+      "yes": "Oui",
+      "driver_removed_from_planning": "Le conducteur {driverName} a été retiré de la planification"
+   },
+   "mg": {
+      "remove_on_planning_title": "Esory amin'ity fandaharana ity ny mpamily {driverName}",
+      "remove_message": "Azonao antoka ve fa te-hiala ity mpamily ity amin'ny fandaharana ?",
+      "no": "Tsia",
+      "yes": "Eny",
+      "driver_removed_from_planning": "Ny mpamily {driverName} dia nesorina tamin'ny fandaharana"
+   },
+   "zh": {
+      "remove_on_planning_title": "将司机 {driverName} 从此计划中移除",
+      "remove_message": "您确定要将此司机从计划中移除吗？",
+      "no": "否",
+      "yes": "是",
+      "driver_removed_from_planning": "司机 {driverName} 已从计划中移除"
+   }
+}

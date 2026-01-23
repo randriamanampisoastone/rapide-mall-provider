@@ -1,0 +1,62 @@
+{
+    "en": {
+        "cash": "Cash",
+        "rapide_wallet": "Rapide wallet",
+        "mvola": "MVola",
+        "orange_money": "Orange money",
+        "card": "Card",
+        "amount": "Amount",
+        "count": "Count",
+        "deposit": "Deposit",
+        "withdrawal": "Withdrawal",
+        "deposits": "Deposits",
+        "selected": "Selected",
+        "all": "All",
+        "withdrawals": "Withdrawals"
+    },
+    "fr": {
+        "cash": "Espèces",
+        "rapide_wallet": "Portefeuille Rapide",
+        "mvola": "MVola",
+        "orange_money": "Orange Money",
+        "card": "Carte",
+        "amount": "Montant",
+        "count": "Nombre",
+        "deposit": "Dépôt",
+        "withdrawal": "Retrait",
+        "deposits": "Dépôts",
+        "selected": "Sélectionné",
+        "all": "Tout",
+        "withdrawals": "Retraits"
+    },
+    "mg": {
+        "cash": "Vola amin'ny tanana",
+        "rapide_wallet": "Kaonty Rapide",
+        "mvola": "MVola",
+        "orange_money": "Orange Money",
+        "card": "Karatra",
+        "amount": "Vola",
+        "count": "Isan'ny",
+        "deposit": "Fametrahana vola",
+        "withdrawal": "Fakana vola",
+        "deposits": "Fametrahana vola",
+        "selected": "Voafantina",
+        "all": "Rehetra",
+        "withdrawals": "Fakana vola"
+    },
+    "zh": {
+        "cash": "现金",
+        "rapide_wallet": "Rapide钱包",
+        "mvola": "MVola",
+        "orange_money": "Orange Money",
+        "card": "银行卡",
+        "amount": "金额",
+        "count": "数量",
+        "deposit": "存款",
+        "withdrawal": "取款",
+        "deposits": "存款记录",
+        "selected": "已选",
+        "all": "全部",
+        "withdrawals": "取款记录"
+    }
+}

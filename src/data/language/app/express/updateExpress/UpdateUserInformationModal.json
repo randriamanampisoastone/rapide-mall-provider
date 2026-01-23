@@ -1,0 +1,50 @@
+{
+    "en": {
+        "name": "Name",
+        "address_name": "Address name",
+        "is_tana_city": "Is tana city",
+        "region": "Region",
+        "district": "District",
+        "select_location": "Select location",
+        "back": "Back",
+        "save": "Save",
+        "sender_information": "Sender information",
+        "receiver_information": "Receiver information"
+    },
+    "fr": {
+        "name": "Nom",
+        "address_name": "Nom de l'adresse",
+        "is_tana_city": "Est dans la ville de Tana",
+        "region": "Région",
+        "district": "District",
+        "select_location": "Sélectionner un lieu",
+        "back": "Retour",
+        "save": "Enregistrer",
+        "sender_information": "Informations de l'expéditeur",
+        "receiver_information": "Informations du destinataire"
+    },
+    "mg": {
+        "name": "Anarana",
+        "address_name": "Anaran'ny adiresy",
+        "is_tana_city": "Ao an-tanànan’Antananarivo",
+        "region": "Faritra",
+        "district": "Distrika",
+        "select_location": "Misafidiana toerana",
+        "back": "Hiverina",
+        "save": "Tehirizo",
+        "sender_information": "Mombamomba ny mpandefa",
+        "receiver_information": "Mombamomba ny mpandray"
+    },
+    "zh": {
+        "name": "姓名",
+        "address_name": "地址名称",
+        "is_tana_city": "是否在塔那市",
+        "region": "地区",
+        "district": "区",
+        "select_location": "选择位置",
+        "back": "返回",
+        "save": "保存",
+        "sender_information": "寄件人信息",
+        "receiver_information": "收件人信息"
+    }
+}
