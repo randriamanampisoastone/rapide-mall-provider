@@ -46,7 +46,6 @@ export interface ProviderGetOrderItemsResponseData {
    orderCode: number
    martOrderShortCode: string
    clientProfile: ProfileType
-   transactionReference?: number
    driverPickedUp?: ProfileType
    driverDelivered?: ProfileType
 }

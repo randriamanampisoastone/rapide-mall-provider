@@ -139,7 +139,7 @@ function AddItems() {
                   />
                </div>
 
-               <p className='font-bold'>{translate('main_product')}</p>
+               <p className='font-bold'>{translate('main_item')}</p>
             </div>
 
             <div className='flex justify-end gap-2'>
