@@ -26,7 +26,10 @@
         "cancel": "Cancel",
         "product_created_successfully": "Product created successfully!",
         "enter_your_password": "Enter your password",
-        "items_code": "Items code"
+        "items_code": "Items code",
+        "main_item_missing_please_select_one": "Main item missing please select one !",
+        "main_item": "Main item",
+        "add_key_value": "Add key value"
     },
     "fr": {
         "name": "Nom",
@@ -55,7 +58,10 @@
         "cancel": "Annuler",
         "product_created_successfully": "Produit créé avec succès !",
         "enter_your_password": "Entrez votre mot de passe",
-        "items_code": "Code des articles"
+        "items_code": "Code des articles",
+        "main_item_missing_please_select_one": "Élément principal manquant, veuillez en sélectionner un !",
+        "main_item": "Article principal",
+        "add_key_value": "Ajouter une paire clé-valeur"
     },
     "mg": {
         "name": "Anarana",
@@ -83,8 +89,11 @@
         "add_description": "Manampy famaritana",
         "cancel": "Miala",
         "product_created_successfully": "Vokatra noforonina!",
-        "enter_your_password": "Fehezo ny tongotrafinao",
-        "items_code": "Kaody ny entana"
+        "enter_your_password": "Entreo ny tenimiafinao",
+        "items_code": "Kaody ny entana",
+        "main_item_missing_please_select_one": "Tsy hita ny singa lehibe, azafady misafidiana iray!",
+        "main_item": "Singa lehibe",
+        "add_key_value": "Manampy fanalahidy sy sanda"
     },
     "zh": {
         "name": "名称",
@@ -113,6 +122,9 @@
         "cancel": "取消",
         "product_created_successfully": "产品创建成功！",
         "enter_your_password": "输入您的密码",
-        "items_code": "项目代码"
+        "items_code": "项目代码",
+        "main_item_missing_please_select_one": "主要项目缺失，请选择一个！",
+        "main_item": "主项目",
+        "add_key_value": "添加键值"
     }
 }
