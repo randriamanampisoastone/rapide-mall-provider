@@ -264,9 +264,6 @@ function RouteComponent() {
                <div className='font-bold min-w-25 max-w-25'>
                   {translate('order_code')}
                </div>
-               <div className='font-bold min-w-25 max-w-25'>
-                  <ScrollText text={translate('transaction_reference')} />
-               </div>
                <div className='font-bold min-w-40 max-w-40'>
                   {translate('client')}
                </div>
@@ -346,21 +343,6 @@ function RouteComponent() {
                         {/** Order code */}
                         <div className='font-bold min-w-25 max-w-25 text-xl'>
                            {data.martOrderShortCode}
-                        </div>
-
-                        {/** reference */}
-                        <div className='font-bold min-w-25 max-w-25'>
-                           {data.transactionReference ? (
-                              <span className='text-xl'>
-                                 {data.transactionReference
-                                    .toString()
-                                    .padStart(6, '0')}
-                              </span>
-                           ) : (
-                              <span className='text-[var(--gray)] text-xs'>
-                                 {translate('undefined')}
-                              </span>
-                           )}
                         </div>
 
                         {/** Client */}

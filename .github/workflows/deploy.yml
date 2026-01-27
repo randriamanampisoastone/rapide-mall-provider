@@ -1,37 +1,36 @@
 name: Back Office
 
 on:
-   push:
-      branches:
-         - main
-   pull_request:
-      branches:
-         - main
-
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
 jobs:
-   run:
-      runs-on: ubuntu-latest
-      env:
-         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      steps:
-         - uses: actions/checkout@v3
+  run:
+    runs-on: ubuntu-latest
+    env:
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+    steps:
+      - uses: actions/checkout@v3
 
-         - name: Install dependencies
-           run: npm install --legacy-peer-deps
+      - name: Install dependencies
+        run: npm install --legacy-peer-deps
 
-         - name: Build
-           run: npm run build
+      - name: Build
+        run: npm run build
 
-         - name: Deploy
-           uses: reggionick/s3-deploy@v4
-           with:
-              folder: dist
-              bucket: ${{ secrets.S3_BUCKET_NAME }}
-              bucket-region: ${{ secrets.AWS_REGION }}
-              dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-              invalidation: /
-              delete-removed: true
-              no-cache: true
-              private: true
-              files-to-include: '{.*/**,**}'
+      - name: Deploy
+        uses: reggionick/s3-deploy@v4
+        with:
+          folder: dist
+          bucket: ${{ secrets.S3_BUCKET_NAME }}
+          bucket-region: ${{ secrets.AWS_REGION }}
+          dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          invalidation: /
+          delete-removed: true
+          no-cache: true
+          private: true
+          files-to-include: "{.*/**,**}"
