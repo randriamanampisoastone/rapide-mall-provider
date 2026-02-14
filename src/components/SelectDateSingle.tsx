@@ -113,9 +113,12 @@ function SelectDate({
             <PopoverTrigger className='flex'>
                <Button
                   variant='outline'
-                  className={cn('flex items-center cursor-pointer gap-2 font-bold', {
-                     'rounded-r-none': selectedDate,
-                  })}
+                  className={cn(
+                     'flex items-center cursor-pointer gap-2 font-bold',
+                     {
+                        'rounded-r-none': selectedDate,
+                     },
+                  )}
                >
                   <CalendarFold className='cursor-pointer hover:scale-90 duration-300' />
                   <ScrollText
@@ -176,7 +179,7 @@ function SelectDate({
                               )
                            }}
                         >
-                           <SelectTrigger >
+                           <SelectTrigger>
                               <SelectValue placeholder='HH' />
                            </SelectTrigger>
                            <SelectContent className='max-h-60'>
@@ -236,7 +239,7 @@ function SelectDate({
                               )
                            }}
                         >
-                           <SelectTrigger >
+                           <SelectTrigger>
                               <SelectValue placeholder='HH' />
                            </SelectTrigger>
                            <SelectContent className='max-h-60'>
@@ -262,7 +265,7 @@ function SelectDate({
                               )
                            }}
                         >
-                           <SelectTrigger >
+                           <SelectTrigger>
                               <SelectValue placeholder='MM' />
                            </SelectTrigger>
                            <SelectContent className='max-h-60'>

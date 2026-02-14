@@ -1,5 +1,5 @@
 export interface SiteFinanceChartDataInterface {
-   categories: 'deposit' | 'withdrawal' | 'refund'|'transfer'
+   categories: 'deposit' | 'withdrawal' | 'refund' | 'transfer'
    client: number
    fill: string
 }

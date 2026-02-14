@@ -1,4 +1,7 @@
-import { useProviderGetOrderItem } from '@/api/mart/provider.get.order.items.api'
+import {
+   useProviderGetOrderItem,
+   type ProviderGetOrderItemsResponseData,
+} from '@/api/mart/provider.get.order.items.api'
 import ScrollText from '@/components/ScrollText'
 import SearchBar from '@/components/SearchBar'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
@@ -13,7 +16,7 @@ import {
 import type { RootState } from '@/redux/store'
 import { formatTimeDifference, type Lang } from '@/utils/formats/time.utils'
 import { unitConvert } from '@/utils/formats/unit.convert.utils'
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, useNavigate } from '@tanstack/react-router'
 import {
    CalendarClock,
    CalendarDays,
@@ -21,6 +24,9 @@ import {
    ChevronsRight,
    CircleX,
    Clock4,
+   Component,
+   MoreVertical,
+   Shirt,
    Timer,
 } from 'lucide-react'
 import { useMemo, useState } from 'react'
@@ -41,6 +47,40 @@ import {
 } from '@/components/ui/popover'
 import { DateTimePicker } from '@/components/customComponents/DateTimePicker'
 import { utcConvert } from '@/utils/utc.convert.util'
+import {
+   flexRender,
+   getCoreRowModel,
+   useReactTable,
+   type ColumnDef,
+} from '@tanstack/react-table'
+import {
+   HoverCard,
+   HoverCardContent,
+   HoverCardTrigger,
+} from '@/components/ui/hover-card'
+import {
+   DropdownMenu,
+   DropdownMenuContent,
+   DropdownMenuItem,
+   DropdownMenuSub,
+   DropdownMenuSubContent,
+   DropdownMenuSubTrigger,
+   DropdownMenuTrigger,
+} from '@/components/ui/dropdown-menu'
+import {
+   MartOrderItemStatusColor,
+   MartOrderItemStatusType,
+} from '@/enums/mart/mart.order.item.status.enum'
+import {
+   Table,
+   TableBody,
+   TableCell,
+   TableHead,
+   TableHeader,
+   TableRow,
+} from '@/components/ui/table'
+import NotFoundComponent from '@/components/NotFoundComponent'
+import ChangeMartOrderStatusItemModal from '@/components/app/mart/ChangeMartOrderStatusItemModal'
 
 export const Route = createFileRoute('/app/mart/orders')({
    component: RouteComponent,
@@ -48,6 +88,7 @@ export const Route = createFileRoute('/app/mart/orders')({
 
 function RouteComponent() {
    const translate = useTranslate(langue)
+   const navigate = useNavigate()
 
    const [searchValue, setSearchValue] = useState('')
    const [pageSetting, setPageSetting] = useState<{
@@ -66,6 +107,17 @@ function RouteComponent() {
       undefined,
    )
    const [updatedAtTo, setUpdatedAtTo] = useState<Date | undefined>(undefined)
+   const [isChangeMartOrderItemStatusOpen, setIsChangeMartOrderItemStatusOpen] =
+      useState<boolean>(false)
+   const [changeMartOrderItemStatusData, setChangeMartOrderItemStatusData] =
+      useState<
+         | {
+              martOrderItemId: string
+              oldMartOrderItemStatus: MartOrderItemStatusType
+              newMartOrderItemStatus: MartOrderItemStatusType
+           }
+         | undefined
+      >(undefined)
 
    const locale = useSelector((state: RootState) => state.language.locale)
 
@@ -92,6 +144,7 @@ function RouteComponent() {
    const {
       data: orders,
       isSuccess: isSuccessProviderGetOrderItem,
+      isPending: isPendingProviderGetOrderItem,
       refetch: refetchProviderGetOrderItem,
    } = useProviderGetOrderItem({
       page: pageSetting.page,
@@ -108,6 +161,440 @@ function RouteComponent() {
       () => Math.ceil((orders?.totalCount || 1) / pageSetting.pageSize),
       [orders, pageSetting.pageSize],
    )
+
+   const columns: ColumnDef<ProviderGetOrderItemsResponseData>[] = [
+      // createdAt
+      {
+         accessorKey: 'createdAt',
+         header: translate('created_at'),
+         cell: ({ row }) => {
+            const createdAt = new Date(row.getValue('createdAt') ?? '')
+            return (
+               <div className='text-xs space-y-1'>
+                  <div className='flex items-center gap-1'>
+                     <Clock4 className='size-4' />
+                     {new Date(createdAt).toLocaleTimeString(
+                        getLocalDateFormat(),
+                        optionPickUpTime,
+                     )}
+                  </div>
+                  <div className='flex items-center gap-1'>
+                     <CalendarDays className='size-4' />
+                     {new Date(createdAt).toLocaleDateString(
+                        getLocalDateFormat(),
+                        optionPickUpDate,
+                     )}
+                  </div>
+                  <div className='flex items-center gap-1'>
+                     <Timer className='size-4' />
+                     {formatTimeDifference(
+                        new Date(createdAt).getTime(),
+                        locale as Lang,
+                     )}
+                  </div>
+               </div>
+            )
+         },
+      },
+      // updatedAt
+      {
+         id: 'updated_at',
+         header: translate('last_update'),
+         cell: ({ row }) => {
+            const updatedAt = new Date(row.original.updateAt ?? '')
+            return (
+               <div className='text-xs space-y-1'>
+                  <div className='flex items-center gap-1'>
+                     <Clock4 className='size-4' />
+                     {new Date(updatedAt).toLocaleTimeString(
+                        getLocalDateFormat(),
+                        optionPickUpTime,
+                     )}
+                  </div>
+                  <div className='flex items-center gap-1'>
+                     <CalendarDays className='size-4' />
+                     {new Date(updatedAt).toLocaleDateString(
+                        getLocalDateFormat(),
+                        optionPickUpDate,
+                     )}
+                  </div>
+                  <div className='flex items-center gap-1'>
+                     <Timer className='size-4' />
+                     {formatTimeDifference(
+                        new Date(updatedAt).getTime(),
+                        locale as Lang,
+                     )}
+                  </div>
+               </div>
+            )
+         },
+      },
+      // item
+      {
+         id: 'item',
+         header: translate('item'),
+         cell: ({ row }) => (
+            <HoverCard>
+               <HoverCardTrigger asChild>
+                  <div
+                     className='flex gap-2 items-end'
+                     onClick={() =>
+                        navigate({
+                           to: '/app/mart/$martId',
+                           params: {
+                              martId: row.original.martItem.martProductId,
+                           },
+                        })
+                     }
+                  >
+                     <div className='bg-[var(--background-secondary)] w-[50px] min-w-[50px] aspect-square overflow-hidden rounded'>
+                        <img
+                           src={row.original.martItem.images[0]}
+                           alt={row.original.martOrderItemId}
+                           className='object-cover w-full h-full'
+                        />
+                     </div>
+                     <div className='max-w-40 overflow-hidden text-left'>
+                        <div className='truncate font-extrabold'>
+                           {selectValueLanguage(locale as Lang, {
+                              valueEn: row.original.martItem.nameEn,
+                              valueFr: row.original.martItem.nameFr,
+                              valueMg: row.original.martItem.nameMg,
+                              valueZh: row.original.martItem.nameZh,
+                           })}
+                        </div>
+                        <div className='line-clamp-2 text-xs text-wrap text-[var(--gray)]'>
+                           {(
+                              selectValueLanguage(locale as Lang, {
+                                 valueEn: row.original.martItem.descriptionEn,
+                                 valueFr: row.original.martItem.descriptionFr,
+                                 valueMg: row.original.martItem.descriptionMg,
+                                 valueZh: row.original.martItem.descriptionZh,
+                              }) as string[]
+                           ).join('; ')}
+                           ;{' '}
+                           {(
+                              selectValueLanguage(locale as Lang, {
+                                 valueEn:
+                                    row.original.martItem.productDescriptionEn,
+                                 valueFr:
+                                    row.original.martItem.productDescriptionFr,
+                                 valueMg:
+                                    row.original.martItem.productDescriptionMg,
+                                 valueZh:
+                                    row.original.martItem.productDescriptionZh,
+                              }) as string[]
+                           ).join('; ')}
+                        </div>
+                     </div>
+                  </div>
+               </HoverCardTrigger>
+               <HoverCardContent className='max-w-50 text-xs space-y-2'>
+                  <div>
+                     <h1 className='font-bold'>
+                        {translate('product_descriptions')} :
+                     </h1>
+                     <div className='pl-3'>
+                        {(
+                           selectValueLanguage(locale as Lang, {
+                              valueEn:
+                                 row.original.martItem.productDescriptionEn,
+                              valueFr:
+                                 row.original.martItem.productDescriptionFr,
+                              valueMg:
+                                 row.original.martItem.productDescriptionMg,
+                              valueZh:
+                                 row.original.martItem.productDescriptionZh,
+                           }) as string[]
+                        ).map((description) => (
+                           <div className='flex gap-2 items-start'>
+                              <Component className='size-3 mt-1 min-w-3' />{' '}
+                              <p className='text-wrap'>{description}</p>
+                           </div>
+                        ))}
+                     </div>
+                  </div>
+                  <div>
+                     <h1 className='font-bold'>
+                        {translate('item_descriptions')} :
+                     </h1>
+                     <div className='pl-3'>
+                        {(
+                           selectValueLanguage(locale as Lang, {
+                              valueEn: row.original.martItem.descriptionEn,
+                              valueFr: row.original.martItem.descriptionFr,
+                              valueMg: row.original.martItem.descriptionMg,
+                              valueZh: row.original.martItem.descriptionZh,
+                           }) as string[]
+                        ).map((description) => (
+                           <div className='flex gap-2 items-start'>
+                              <Component className='size-3 mt-1 min-w-3' />{' '}
+                              <p className='text-wrap'>{description}</p>
+                           </div>
+                        ))}
+                     </div>
+                  </div>
+               </HoverCardContent>
+            </HoverCard>
+         ),
+      },
+
+      // client
+      {
+         id: 'client',
+         header: translate('client'),
+         cell: ({ row }) => (
+            <HoverCard>
+               <HoverCardTrigger asChild>
+                  <Button variant='link' className='cursor-pointer'>
+                     <div className='truncate max-w-30'>
+                        {row.original.clientProfile.firstName +
+                           ' ' +
+                           (row.original.clientProfile.lastName || '')}
+                     </div>
+                  </Button>
+               </HoverCardTrigger>
+               <HoverCardContent className='max-w-50 select-none cursor-pointer'>
+                  <div className='flex gap-2 items-end'>
+                     <Avatar className='size-10'>
+                        <AvatarImage
+                           src={row.original.clientProfile.profilePhoto}
+                        />
+                        <AvatarFallback>
+                           {row.original.clientProfile.firstName
+                              .charAt(0)
+                              .toUpperCase()}
+                           {row.original.clientProfile.lastName
+                              ?.charAt(0)
+                              .toUpperCase()}
+                        </AvatarFallback>
+                     </Avatar>
+                     <div className='overflow-hidden'>
+                        <ScrollText
+                           text={`${row.original.clientProfile.firstName} ${row.original.clientProfile.lastName || ''}`}
+                        />
+                        <ScrollText
+                           text={row.original.clientProfile.phoneNumber}
+                           className='text-xs text-[var(--gray)]'
+                        />
+                     </div>
+                  </div>
+               </HoverCardContent>
+            </HoverCard>
+         ),
+      },
+
+      // quantity
+      {
+         id: 'quantity',
+         header: translate('quantity'),
+         cell: ({ row }) => (
+            <div className='text-xl'>
+               {row.original.quantity.toString().padStart(3, '0')}
+            </div>
+         ),
+      },
+
+      // price
+      {
+         id: 'price',
+         header: translate('price'),
+         cell: ({ row }) => (
+            <div className='text-left'>
+               <div>{unitConvert(row.original.priceAtTime)} Ar</div>
+               <div className='-space-y-1'>
+                  <div className='text-xs text-[var(--gray)]'>
+                     {translate('total_price')} :
+                  </div>
+                  <div>
+                     {unitConvert(
+                        row.original.priceAtTime * row.original.quantity,
+                     )}{' '}
+                     Ar
+                  </div>
+               </div>
+            </div>
+         ),
+      },
+
+      // status
+      {
+         id: 'order_status',
+         header: translate('order_status'),
+         cell: ({ row }) => (
+            <div
+               className='p-2 rounded-md max-w-30'
+               style={{
+                  backgroundColor: `var(--${MartOrderStatusTypeColor[row.original.orderStatus]}-secondary)`,
+                  color: `var(--${MartOrderStatusTypeColor[row.original.orderStatus]})`,
+               }}
+            >
+               <ScrollText
+                  text={translate(row.original.orderStatus.toLowerCase())}
+               />
+            </div>
+         ),
+      },
+
+      // item status
+      {
+         id: 'order_item_status',
+         header: translate('order_item_status'),
+         cell: ({ row }) => (
+            <div
+               className='p-2 rounded-md max-w-30'
+               style={{
+                  backgroundColor: `var(--${MartOrderItemStatusColor[row.original.martOrderItemStatus]}-secondary)`,
+                  color: `var(--${MartOrderItemStatusColor[row.original.martOrderItemStatus]})`,
+               }}
+            >
+               <ScrollText
+                  text={translate(
+                     row.original.martOrderItemStatus.toLowerCase(),
+                  )}
+               />
+            </div>
+         ),
+      },
+
+      // pickup driver
+      {
+         id: 'pickup_driver',
+         header: translate('pickup_driver'),
+         cell: ({ row }) =>
+            row.original.driverPickedUp ? (
+               <div className='p-2 cursor-pointer hover:bg-[var(--background-secondary)] flex gap-2 max-w-70 overflow-hidden items-center rounded-md'>
+                  <Avatar className='size-9'>
+                     <AvatarImage
+                        src={row.original.driverPickedUp.profilePhoto}
+                     />
+                     <AvatarFallback>
+                        {row.original.driverPickedUp.firstName
+                           .charAt(0)
+                           .toUpperCase()}
+                        {row.original.driverPickedUp.lastName
+                           ?.charAt(0)
+                           .toUpperCase()}
+                     </AvatarFallback>
+                  </Avatar>
+                  <div className='overflow-hidden'>
+                     <ScrollText
+                        text={`${row.original.driverPickedUp.firstName} ${row.original.driverPickedUp.lastName || ''}`}
+                     />
+                     <ScrollText
+                        text={row.original.driverPickedUp.phoneNumber}
+                        className='text-xs text-[var(--gray)]'
+                     />
+                  </div>
+               </div>
+            ) : (
+               <div className='text-[var(--gray)]'>
+                  {translate('undefined')}
+               </div>
+            ),
+      },
+
+      // delivery
+      {
+         id: 'delivery_driver',
+         header: translate('delivery_driver'),
+         cell: ({ row }) =>
+            row.original.driverDelivered ? (
+               <div className='p-2 cursor-pointer hover:bg-[var(--background-secondary)] flex gap-2 max-w-70 overflow-hidden items-center rounded-md'>
+                  <Avatar className='size-9'>
+                     <AvatarImage
+                        src={row.original.driverDelivered.profilePhoto}
+                     />
+                     <AvatarFallback>
+                        {row.original.driverDelivered.firstName
+                           .charAt(0)
+                           .toUpperCase()}
+                        {row.original.driverDelivered.lastName
+                           ?.charAt(0)
+                           .toUpperCase()}
+                     </AvatarFallback>
+                  </Avatar>
+                  <div className='overflow-hidden'>
+                     <ScrollText
+                        text={`${row.original.driverDelivered.firstName} ${row.original.driverDelivered.lastName || ''}`}
+                     />
+                     <ScrollText
+                        text={row.original.driverDelivered.phoneNumber}
+                        className='text-xs text-[var(--gray)]'
+                     />
+                  </div>
+               </div>
+            ) : (
+               <div className='text-[var(--gray)]'>
+                  {translate('undefined')}
+               </div>
+            ),
+      },
+
+      // action
+      {
+         id: 'action',
+         cell: ({ row }) => (
+            <DropdownMenu>
+               <DropdownMenuTrigger asChild>
+                  <div className='p-2 hover:bg-[var(--background-secondary)] cursor-pointer rounded w-fil'>
+                     <MoreVertical className='size-4' />
+                  </div>
+               </DropdownMenuTrigger>
+               <DropdownMenuContent>
+                  <DropdownMenuItem
+                     onClick={() =>
+                        navigate({
+                           to: '/app/mart/$martId',
+                           params: {
+                              martId: row.original.martItem.martProductId,
+                           },
+                        })
+                     }
+                  >
+                     <Shirt /> {translate('show_product')}
+                  </DropdownMenuItem>
+                  <DropdownMenuSub>
+                     <DropdownMenuSubTrigger>
+                        {translate('change_item_status')}
+                     </DropdownMenuSubTrigger>
+                     <DropdownMenuSubContent>
+                        {[
+                           MartOrderItemStatusType.CONFIRMED,
+                           MartOrderItemStatusType.SOLD_OUT,
+                        ].map((status) => (
+                           <DropdownMenuItem
+                              disabled={
+                                 row.original.martOrderItemStatus === status
+                              }
+                              onClick={() => {
+                                 setIsChangeMartOrderItemStatusOpen(true)
+                                 setChangeMartOrderItemStatusData({
+                                    martOrderItemId:
+                                       row.original.martOrderItemId,
+                                    oldMartOrderItemStatus:
+                                       row.original.martOrderItemStatus,
+                                    newMartOrderItemStatus:
+                                       status as MartOrderItemStatusType,
+                                 })
+                              }}
+                           >
+                              {translate(status.toLowerCase())}
+                           </DropdownMenuItem>
+                        ))}
+                     </DropdownMenuSubContent>
+                  </DropdownMenuSub>
+               </DropdownMenuContent>
+            </DropdownMenu>
+         ),
+      },
+   ]
+
+   const table = useReactTable({
+      data: orders?.data ?? [],
+      columns,
+      getCoreRowModel: getCoreRowModel(),
+   })
 
    const filter = () => (
       <>
@@ -229,377 +716,179 @@ function RouteComponent() {
    )
 
    return (
-      <div className='space-y-2'>
-         <SearchBar
-            filterItems={[]}
-            refetchFn={refetchProviderGetOrderItem}
-            searchFilter={[]}
-            setSearchFilter={() => {}}
-            setSearchValue={setSearchValue}
-            totalCount={orders?.totalCount || 0}
-         />
+      <>
+         <div className='space-y-2'>
+            <SearchBar
+               filterItems={[]}
+               refetchFn={refetchProviderGetOrderItem}
+               searchFilter={[]}
+               setSearchFilter={() => {}}
+               setSearchValue={setSearchValue}
+               totalCount={orders?.totalCount || 0}
+            />
 
-         <div className='flex justify-between items-end'>
-            <div className='flex gap-2 items-center'>{filter()}</div>
-            {isSuccessProviderGetOrderItem && (
-               <div className='p-2 bg-[var(--background-secondary)] rounded-md'>
-                  <p className='text-xs text-[var(--gray)]'>
-                     {translate('total_amount')} :
-                  </p>
-                  <p className='font-bold'>
-                     {unitConvert(orders.totalAmount)} Ar
-                  </p>
-               </div>
-            )}
-         </div>
-
-         <div className='space-y-2 overflow-auto md:max-w-[calc(100vw-290px)]'>
-            <div className='flex items-center bg-[var(--background-secondary)] p-2 rounded-md shadow min-w-fit gap-2'>
-               <div className='font-bold min-w-25 max-w-25'>
-                  {translate('created_at')}
-               </div>
-               <div className='font-bold min-w-25 max-w-25'>
-                  {translate('last_update')}
-               </div>
-               <div className='font-bold min-w-25 max-w-25'>
-                  {translate('order_code')}
-               </div>
-               <div className='font-bold min-w-40 max-w-40'>
-                  {translate('client')}
-               </div>
-               <div className='font-bold min-w-50 max-w-50'>
-                  {translate('product_item')}
-               </div>
-               <div className='font-bold min-w-20 max-w-20'>
-                  {translate('quantity')}
-               </div>
-               <div className='font-bold min-w-25 max-w-25'>
-                  {translate('price')}
-               </div>
-               <div className='font-bold min-w-25 max-w-25'>
-                  {translate('order_status')}
-               </div>
-               <div className='font-bold min-w-40 max-w-40'>
-                  {translate('pickup_driver')}
-               </div>
-               <div className='font-bold min-w-40 max-w-40'>
-                  {translate('delivery_driver')}
-               </div>
+            <div className='flex justify-between items-end'>
+               <div className='flex gap-2 items-center'>{filter()}</div>
+               {isSuccessProviderGetOrderItem && (
+                  <div className='p-2 bg-[var(--background-secondary)] rounded-md'>
+                     <p className='text-xs text-[var(--gray)]'>
+                        {translate('total_amount')} :
+                     </p>
+                     <p className='font-bold'>
+                        {unitConvert(orders.totalAmount)} Ar
+                     </p>
+                  </div>
+               )}
             </div>
+
+            {/** Board */}
             {isSuccessProviderGetOrderItem ? (
-               <div className='space-y-2'>
-                  {orders.data.map((data) => (
-                     <div className='flex items-center bg-[var(--background-secondary)] p-2 rounded-md shadow min-w-fit gap-2'>
-                        {/** Created At */}
-                        <div className='text-xs space-y-1 min-w-25 max-w-25'>
-                           <div className='flex items-center gap-1'>
-                              <Clock4 className='size-4' />
-                              {new Date(data.createdAt).toLocaleTimeString(
-                                 getLocalDateFormat(),
-                                 optionPickUpTime,
-                              )}
-                           </div>
-                           <div className='flex items-center gap-1'>
-                              <CalendarDays className='size-4' />
-                              {new Date(data.createdAt).toLocaleDateString(
-                                 getLocalDateFormat(),
-                                 optionPickUpDate,
-                              )}
-                           </div>
-                           <div className='flex items-center gap-1'>
-                              <Timer className='size-4' />
-                              {formatTimeDifference(
-                                 new Date(data.createdAt).getTime(),
-                                 locale as Lang,
-                              )}
-                           </div>
-                        </div>
-
-                        {/** Last update */}
-                        <div className='text-xs space-y-1 min-w-25 max-w-25'>
-                           <div className='flex items-center gap-1'>
-                              <Clock4 className='size-4' />
-                              {new Date(data.updateAt).toLocaleTimeString(
-                                 getLocalDateFormat(),
-                                 optionPickUpTime,
-                              )}
-                           </div>
-                           <div className='flex items-center gap-1'>
-                              <CalendarDays className='size-4' />
-                              {new Date(data.updateAt).toLocaleDateString(
-                                 getLocalDateFormat(),
-                                 optionPickUpDate,
-                              )}
-                           </div>
-                           <div className='flex items-center gap-1'>
-                              <Timer className='size-4' />
-                              {formatTimeDifference(
-                                 new Date(data.updateAt).getTime(),
-                                 locale as Lang,
-                              )}
-                           </div>
-                        </div>
-
-                        {/** Order code */}
-                        <div className='font-bold min-w-25 max-w-25 text-xl'>
-                           {data.martOrderShortCode}
-                        </div>
-
-                        {/** Client */}
-                        <div className='min-w-40 max-w-40 flex items-center gap-2'>
-                           {data.clientProfile ? (
-                              <>
-                                 <Avatar className='size-11 font-bold'>
-                                    <AvatarImage
-                                       src={data.clientProfile.profilePhoto}
-                                    />
-                                    <AvatarFallback>
-                                       {data.clientProfile.firstName
-                                          .charAt(0)
-                                          .toUpperCase()}
-                                       {data.clientProfile.lastName
-                                          ?.charAt(0)
-                                          .toUpperCase()}
-                                    </AvatarFallback>
-                                 </Avatar>
-
-                                 <div className='flex-1'>
-                                    <ScrollText
-                                       text={`${data.clientProfile.firstName} ${data.clientProfile.lastName || ''}`}
-                                       className='font-bold'
-                                    />
-                                    <ScrollText
-                                       text={data.clientProfile.phoneNumber}
-                                       className='text-xs'
-                                    />
-                                 </div>
-                              </>
-                           ) : (
-                              <span className='text-[var(--gray)] text-xs'>
-                                 {translate('undefined')}
-                              </span>
-                           )}
-                        </div>
-
-                        {/** Product item */}
-                        <div className='min-w-50 max-w-50 flex gap-2 overflow-hidden'>
-                           <div className='aspect-square min-w-15 h-15 rounded-md overflow-hidden'>
-                              <img
-                                 src={data.martItem.images[0]}
-                                 alt='product-item'
-                                 className='object-cover w-full h-full'
-                              />
-                           </div>
-
-                           <div className='flex-1 overflow-hidden'>
-                              <ScrollText
-                                 text={data.martItem.code}
-                                 className='font-bold'
-                              />
-                              <ScrollText
-                                 text={selectValueLanguage(locale as Lang, {
-                                    valueEn: data.martItem.nameEn,
-                                    valueFr: data.martItem.nameFr,
-                                    valueMg: data.martItem.nameMg,
-                                    valueZh: data.martItem.nameZh,
-                                 })}
-                                 className='text-xs'
-                              />
-                              <ScrollText
-                                 text={selectValueLanguage(locale as Lang, {
-                                    valueEn: data.martItem.descriptionEn,
-                                    valueFr: data.martItem.descriptionFr,
-                                    valueMg: data.martItem.descriptionMg,
-                                    valueZh: data.martItem.descriptionZh,
-                                 }).join('; ')}
-                                 className='text-xs'
-                              />
-                           </div>
-                        </div>
-
-                        {/** Quantity */}
-                        <div className='font-bold min-w-20 max-w-20 text-center text-2xl'>
-                           {data.quantity.toString().padStart(3, '0')}
-                        </div>
-
-                        {/** Price */}
-                        <div className='min-w-25 max-w-25'>
-                           <ScrollText
-                              text={unitConvert(data.priceAtTime) + ' Ar'}
-                              className='text-xs font-bold'
-                           />
-                           <div className='-space-y-2'>
-                              <p className='text-[var(--gray)] text-xs'>
-                                 {translate('total')} :
-                              </p>
-                              <ScrollText
-                                 text={
-                                    unitConvert(
-                                       data.priceAtTime * data.quantity,
-                                    ) + ' Ar'
-                                 }
-                                 className='font-bold'
-                              />
-                           </div>
-                        </div>
-
-                        {/** Order status */}
-                        <div className='font-bold min-w-25 max-w-25'>
-                           <div
-                              className='p-2 rounded-md text-center'
-                              style={{
-                                 backgroundColor: `var(${MartOrderStatusTypeColor[data.orderStatus]}-secondary)`,
-                                 color: `var(${MartOrderStatusTypeColor[data.orderStatus]})`,
-                              }}
-                           >
-                              <ScrollText
-                                 text={translate(
-                                    data.orderStatus.toLowerCase(),
-                                 )}
-                              />
-                           </div>
-                        </div>
-
-                        {/** Pickup driver */}
-                        <div className='min-w-40 max-w-40 flex items-center gap-2'>
-                           {data.driverPickedUp ? (
-                              <>
-                                 <Avatar className='size-11 font-bold'>
-                                    <AvatarImage
-                                       src={data.driverPickedUp.profilePhoto}
-                                    />
-                                    <AvatarFallback>
-                                       {data.driverPickedUp.firstName
-                                          .charAt(0)
-                                          .toUpperCase()}
-                                       {data.driverPickedUp.lastName
-                                          ?.charAt(0)
-                                          .toUpperCase()}
-                                    </AvatarFallback>
-                                 </Avatar>
-
-                                 <div className='flex-1'>
-                                    <ScrollText
-                                       text={`${data.driverPickedUp.firstName} ${data.driverPickedUp.lastName || ''}`}
-                                       className='font-bold'
-                                    />
-                                    <ScrollText
-                                       text={data.driverPickedUp.phoneNumber}
-                                       className='text-xs'
-                                    />
-                                 </div>
-                              </>
-                           ) : (
-                              <span className='text-[var(--gray)] text-xs'>
-                                 {translate('undefined')}
-                              </span>
-                           )}
-                        </div>
-
-                        {/** Delivery driver */}
-                        <div className='min-w-40 max-w-40 flex items-center gap-2'>
-                           {data.driverDelivered ? (
-                              <>
-                                 <Avatar className='size-11 font-bold'>
-                                    <AvatarImage
-                                       src={data.driverDelivered.profilePhoto}
-                                    />
-                                    <AvatarFallback>
-                                       {data.driverDelivered.firstName
-                                          .charAt(0)
-                                          .toUpperCase()}
-                                       {data.driverDelivered.lastName
-                                          ?.charAt(0)
-                                          .toUpperCase()}
-                                    </AvatarFallback>
-                                 </Avatar>
-
-                                 <div className='flex-1'>
-                                    <ScrollText
-                                       text={`${data.driverDelivered.firstName} ${data.driverDelivered.lastName || ''}`}
-                                       className='font-bold'
-                                    />
-                                    <ScrollText
-                                       text={data.driverDelivered.phoneNumber}
-                                       className='text-xs'
-                                    />
-                                 </div>
-                              </>
-                           ) : (
-                              <span className='text-[var(--gray)] text-xs'>
-                                 {translate('undefined')}
-                              </span>
-                           )}
-                        </div>
-                     </div>
-                  ))}
+               <div className='rounded-md border md:max-w-[calc(100vw-290px)] m-auto'>
+                  <Table>
+                     <TableHeader>
+                        {table.getHeaderGroups().map((headerGroup) => (
+                           <TableRow key={headerGroup.id}>
+                              {headerGroup.headers.map((header) => {
+                                 return (
+                                    <TableHead
+                                       key={header.id}
+                                       className='text-center'
+                                    >
+                                       {header.isPlaceholder
+                                          ? null
+                                          : flexRender(
+                                               header.column.columnDef.header,
+                                               header.getContext(),
+                                            )}
+                                    </TableHead>
+                                 )
+                              })}
+                           </TableRow>
+                        ))}
+                     </TableHeader>
+                     <TableBody>
+                        {table.getRowModel().rows?.length ? (
+                           table.getRowModel().rows.map((row) => (
+                              <TableRow
+                                 key={row.id}
+                                 data-state={row.getIsSelected() && 'selected'}
+                              >
+                                 {row.getVisibleCells().map((cell) => (
+                                    <TableCell
+                                       key={cell.id}
+                                       className='text-center'
+                                    >
+                                       {flexRender(
+                                          cell.column.columnDef.cell,
+                                          cell.getContext(),
+                                       )}
+                                    </TableCell>
+                                 ))}
+                              </TableRow>
+                           ))
+                        ) : (
+                           <TableRow>
+                              <TableCell
+                                 colSpan={columns.length}
+                                 className='h-24 text-center'
+                              >
+                                 No results.
+                              </TableCell>
+                           </TableRow>
+                        )}
+                     </TableBody>
+                  </Table>
                </div>
             ) : (
-               <div className='h-100 flex items-center justify-center'>
-                  <ScaleLoader color='var(--green)' />
-               </div>
+               <>
+                  {isPendingProviderGetOrderItem ? (
+                     <div className='w-full h-full flex items-center justify-center'>
+                        <ScaleLoader color='var(--green)' />
+                     </div>
+                  ) : (
+                     <div className='w-full h-full'>
+                        {orders?.data.length === 0 && (
+                           <NotFoundComponent item={'Order'} />
+                        )}
+                     </div>
+                  )}
+               </>
             )}
-         </div>
 
-         <div className='flex items-center justify-between'>
-            <p className='text-xs text-[var(--gray)]'>
-               {translate('pages')
-                  .replace('{page}', unitConvert(pageSetting.page))
-                  .replace('{maxPage}', unitConvert(maxPage))}
-            </p>
+            <div className='flex items-center justify-between'>
+               <p className='text-xs text-[var(--gray)]'>
+                  {translate('pages')
+                     .replace('{page}', unitConvert(pageSetting.page))
+                     .replace('{maxPage}', unitConvert(maxPage))}
+               </p>
 
-            <div className='flex items-center gap-2'>
-               <Select
-                  value={pageSetting.pageSize.toString()}
-                  onValueChange={(value) =>
-                     setPageSetting({
-                        page: 1,
-                        pageSize: parseInt(value),
-                     })
-                  }
-               >
-                  <SelectTrigger size='sm'>
-                     {translate('page_size')}: <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                     {[10, 20, 30, 40, 50].map((value) => (
-                        <SelectItem key={value} value={value.toString()}>
-                           {value}
-                        </SelectItem>
-                     ))}
-                  </SelectContent>
-               </Select>
+               <div className='flex items-center gap-2'>
+                  <Select
+                     value={pageSetting.pageSize.toString()}
+                     onValueChange={(value) =>
+                        setPageSetting({
+                           page: 1,
+                           pageSize: parseInt(value),
+                        })
+                     }
+                  >
+                     <SelectTrigger size='sm'>
+                        {translate('page_size')}: <SelectValue />
+                     </SelectTrigger>
+                     <SelectContent>
+                        {[10, 20, 30, 40, 50].map((value) => (
+                           <SelectItem key={value} value={value.toString()}>
+                              {value}
+                           </SelectItem>
+                        ))}
+                     </SelectContent>
+                  </Select>
 
-               <Button
-                  size={'sm'}
-                  variant={'outline'}
-                  className='flex items-center font-bold'
-                  onClick={() =>
-                     setPageSetting((prev) => ({
-                        ...prev,
-                        page: prev.page - 1,
-                     }))
-                  }
-                  disabled={pageSetting.page === 1}
-               >
-                  <ChevronsLeft /> {translate('previous')}
-               </Button>
-               <Button
-                  size={'sm'}
-                  variant={'outline'}
-                  className='flex items-center font-bold'
-                  onClick={() =>
-                     setPageSetting((prev) => ({
-                        ...prev,
-                        page: prev.page + 1,
-                     }))
-                  }
-                  disabled={!orders?.hasMore}
-               >
-                  {translate('next')} <ChevronsRight />
-               </Button>
+                  <Button
+                     size={'sm'}
+                     variant={'outline'}
+                     className='flex items-center font-bold'
+                     onClick={() =>
+                        setPageSetting((prev) => ({
+                           ...prev,
+                           page: prev.page - 1,
+                        }))
+                     }
+                     disabled={pageSetting.page === 1}
+                  >
+                     <ChevronsLeft /> {translate('previous')}
+                  </Button>
+                  <Button
+                     size={'sm'}
+                     variant={'outline'}
+                     className='flex items-center font-bold'
+                     onClick={() =>
+                        setPageSetting((prev) => ({
+                           ...prev,
+                           page: prev.page + 1,
+                        }))
+                     }
+                     disabled={!orders?.hasMore}
+                  >
+                     {translate('next')} <ChevronsRight />
+                  </Button>
+               </div>
             </div>
          </div>
-      </div>
+         {isChangeMartOrderItemStatusOpen && changeMartOrderItemStatusData && (
+            <ChangeMartOrderStatusItemModal
+               isOpen={isChangeMartOrderItemStatusOpen}
+               setIsOpen={setIsChangeMartOrderItemStatusOpen}
+               martOrderItemId={changeMartOrderItemStatusData.martOrderItemId}
+               oldMartOrderItemStatus={
+                  changeMartOrderItemStatusData.oldMartOrderItemStatus
+               }
+               newMartOrderItemStatus={
+                  changeMartOrderItemStatusData.newMartOrderItemStatus
+               }
+               refetchFn={refetchProviderGetOrderItem}
+            />
+         )}
+      </>
    )
 }

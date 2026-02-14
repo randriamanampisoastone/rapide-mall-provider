@@ -52,7 +52,9 @@ function SelectDateRange({
                      </>
                   )}
                   {!selectedDate?.from && !selectedDate?.to && textLabel && (
-                     <label className='text-muted-foreground'>{textLabel}</label>
+                     <label className='text-muted-foreground'>
+                        {textLabel}
+                     </label>
                   )}
                </Button>
                {selectedDate && (selectedDate?.from || selectedDate?.to) && (

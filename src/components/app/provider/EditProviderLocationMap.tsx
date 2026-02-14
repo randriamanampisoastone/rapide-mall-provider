@@ -67,7 +67,11 @@ function EditProviderLocationMap({
             onLoad={handleLoad}
             onPlacesChanged={handlePlacesChanged}
          >
-            <Input type='search' placeholder={'Search...'} className='w-full rounded-b-none' />
+            <Input
+               type='search'
+               placeholder={'Search...'}
+               className='w-full rounded-b-none'
+            />
          </StandaloneSearchBox>
          <GoogleMap
             zoom={15}

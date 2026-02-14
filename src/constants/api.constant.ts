@@ -1,6 +1,6 @@
-// export const API_BASE_URL = 'http://127.0.0.1:3000'
+export const API_BASE_URL = 'http://127.0.0.1:3000'
 // export const API_BASE_URL = 'http://192.168.88.79:3000'
-export const API_BASE_URL = 'https://apis.rapideapp.mg'
+// export const API_BASE_URL = 'https://apis.rapideapp.mg'
 
 export const RAPIDE_APP_FOKONTANY_URL =
    'https://madagascar-map.rapideapp.mg/getFokotany'
@@ -43,6 +43,8 @@ export const ROUTE_PROVIDER_GET_ORDER_ITEMS =
    '/provider-mart/provider-get-order-items'
 export const ROUTE_PROVIDER_GET_MART_TRANSACTION =
    '/provider-mart/provider-get-mart-transaction'
+export const ROUTE_PROVIDER_UPDATE_MART_ORDER_ITEM_STATUS =
+   '/provider-mart/provider-update-mart-order-item-status'
 
 // Dashboard
 export const ROUTE_GET_BEST_ITEMS = '/provider-mart-dashboard/get-best-items'

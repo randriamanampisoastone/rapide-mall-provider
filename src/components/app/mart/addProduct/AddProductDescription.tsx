@@ -99,9 +99,7 @@ function AddProductDescription({
                )
             })}
 
-            <div
-               className={`grid grid-cols-2 gap-2`}
-            >
+            <div className={`grid grid-cols-2 gap-2`}>
                <Button
                   className='w-full bg-[var(--blue)] hover:bg-[var(--blue)] text-[var(--foreground)] font-extrabold cursor-pointer hover:border-2 border-[var(--foreground)] h-full'
                   onClick={() => {

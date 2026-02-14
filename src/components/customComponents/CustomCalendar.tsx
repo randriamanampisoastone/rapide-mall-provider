@@ -213,25 +213,31 @@ function CustomCalendar({
                      {Array.from(
                         { length: 15 },
                         (_, i) => new Date().getFullYear() - i,
-                     ).reverse().map((y) => (
-                        <div
-                           key={y + yearsOffset}
-                           onClick={() =>
-                              setMonth(
-                                 (m) =>
-                                    new Date(y + yearsOffset, m.getMonth(), 1),
-                              )
-                           }
-                           className='cursor-pointer p-1 rounded-md hover:bg-[var(--background-secondary)] font-bold flex justify-between items-center'
-                        >
-                           <div>
-                              {month.getFullYear() === y + yearsOffset && (
-                                 <CircleCheckBig className='size-4' />
-                              )}
+                     )
+                        .reverse()
+                        .map((y) => (
+                           <div
+                              key={y + yearsOffset}
+                              onClick={() =>
+                                 setMonth(
+                                    (m) =>
+                                       new Date(
+                                          y + yearsOffset,
+                                          m.getMonth(),
+                                          1,
+                                       ),
+                                 )
+                              }
+                              className='cursor-pointer p-1 rounded-md hover:bg-[var(--background-secondary)] font-bold flex justify-between items-center'
+                           >
+                              <div>
+                                 {month.getFullYear() === y + yearsOffset && (
+                                    <CircleCheckBig className='size-4' />
+                                 )}
+                              </div>
+                              <div>{y + yearsOffset}</div>
                            </div>
-                           <div>{y + yearsOffset}</div>
-                        </div>
-                     ))}
+                        ))}
                      <Button
                         variant={'outline'}
                         className='cursor-pointer w-full'

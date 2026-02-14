@@ -1,5 +1,5 @@
 export const FinanceType = {
-   AGENCY: "AGENCY",
+   AGENCY: 'AGENCY',
    RIDE: 'RIDE',
    EXPRESS: 'EXPRESS',
    FOOD: 'FOOD',
