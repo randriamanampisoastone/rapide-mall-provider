@@ -743,7 +743,7 @@ function RouteComponent() {
 
             {/** Board */}
             {isSuccessProviderGetOrderItem ? (
-               <div className='rounded-md border md:max-w-[calc(100vw-290px)] m-auto'>
+               <div className='rounded-md border md:max-w-full m-auto'>
                   <Table>
                      <TableHeader>
                         {table.getHeaderGroups().map((headerGroup) => (

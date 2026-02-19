@@ -528,7 +528,7 @@ export default function AddProductImage({
          <div
             className={`${isPendingUploadMartProduct ? 'opacity-15' : 'opacity-100'}`}
          >
-            <div className='h-40 flex gap-2 md:max-w-[calc(100vw-290px)] overflow-hidden'>
+            <div className='h-40 flex gap-2 md:max-w-full overflow-hidden'>
                {!cropMode && (
                   <label htmlFor='image-resize'>
                      <input

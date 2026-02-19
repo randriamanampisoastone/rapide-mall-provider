@@ -1,6 +1,6 @@
-export const API_BASE_URL = 'http://127.0.0.1:3000'
+// export const API_BASE_URL = 'http://127.0.0.1:3000'
 // export const API_BASE_URL = 'http://192.168.88.79:3000'
-// export const API_BASE_URL = 'https://apis.rapideapp.mg'
+export const API_BASE_URL = 'https://apis.rapideapp.mg'
 
 export const RAPIDE_APP_FOKONTANY_URL =
    'https://madagascar-map.rapideapp.mg/getFokotany'

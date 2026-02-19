@@ -66,7 +66,7 @@ function MartItemsList() {
    )
 
    return (
-      <div className='md:max-w-[calc(100vw-290px)]'>
+      <div className='md:max-w-full'>
          <div className='max-w-7xl mx-auto'>
             <div className='relative'>
                <button
