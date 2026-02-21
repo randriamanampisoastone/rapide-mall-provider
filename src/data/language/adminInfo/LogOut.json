@@ -1,22 +1,22 @@
 {
-   "en": {
-      "title_logout": "Are you sure you want to log out ?",
-      "cancel": "Cancel",
-      "yes": "Yes"
-   },
-   "fr": {
-      "title_logout": "Voulez-vous vraiment vous deconnecter ?",
-      "cancel": "Annuler",
-      "yes": "Oui"
-   },
-   "mg": {
-      "title_logout": "Tena ivoaka ve ianao ?",
-      "cancel": "Foano",
-      "yes": "Eny"
-   },
-   "zh": {
-      "title_logout": "您确定要退出登录吗?",
-      "cancel": "取消",
-      "yes": "是的"
-   }
+    "en":  {
+               "title_logout":  "Are you sure you want to log out ?",
+               "cancel":  "Cancel",
+               "yes":  "Yes"
+           },
+    "fr":  {
+               "title_logout":  "Etes-vous sûr de vouloir vous déconnecter ?",
+               "cancel":  "Annuler",
+               "yes":  "Oui"
+           },
+    "mg":  {
+               "title_logout":  "Tena te-hivoaka ve ianao ?",
+               "cancel":  "hanafoana",
+               "yes":  "ENY"
+           },
+    "zh":  {
+               "title_logout":  "您确定要退出吗？",
+               "cancel":  "取消",
+               "yes":  "是的"
+           }
 }

@@ -1,18 +1,18 @@
 {
-   "en": {
-      "no": "No",
-      "found": "Found !"
-   },
-   "fr": {
-      "no": "Aucun",
-      "found": "Trouvé !"
-   },
-   "mg": {
-      "no": "Tsy misy",
-      "found": "Hita !"
-   },
-   "zh": {
-      "no": "无",
-      "found": "找到了 !"
-   }
+    "en":  {
+               "no":  "No",
+               "found":  "Found !"
+           },
+    "fr":  {
+               "no":  "Non",
+               "found":  "Trouvé !"
+           },
+    "mg":  {
+               "no":  "tsy misy",
+               "found":  "Hita !"
+           },
+    "zh":  {
+               "no":  "不",
+               "found":  "成立 ！"
+           }
 }

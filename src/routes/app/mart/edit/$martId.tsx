@@ -28,7 +28,7 @@ import {
    InputOTPSlot,
 } from '@/components/ui/input-otp'
 import { toast } from 'react-toastify'
-import { errorSound, successSound } from '@/utils/audio.player.util'
+import { errorSound, infoSound } from '@/utils/audio.player.util'
 
 export const Route = createFileRoute('/app/mart/edit/$martId')({
    component: RouteComponent,
@@ -86,8 +86,8 @@ function RouteComponent() {
    useEffect(() => {
       if (isSuccessUpdateMartProduct) {
          dispatch(resetMartProduct())
-         toast.success(translate('product_update_successfully'))
-         successSound.play()
+         toast.success(translate('product_submitted_for_review'))
+         infoSound.play()
          navigate({ to: '/app/mart/$martId', params: { martId } })
       }
    }, [isSuccessUpdateMartProduct])

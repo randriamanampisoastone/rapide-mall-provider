@@ -16,6 +16,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as AppIndexRouteImport } from './routes/app/index'
 import { Route as AppTransactionsIndexRouteImport } from './routes/app/transactions/index'
 import { Route as AppMartIndexRouteImport } from './routes/app/mart/index'
+import { Route as AppMartPendingProductsRouteImport } from './routes/app/mart/pending-products'
 import { Route as AppMartOrdersRouteImport } from './routes/app/mart/orders'
 import { Route as AppMartAllProductsRouteImport } from './routes/app/mart/all-products'
 import { Route as AppMartAddProductRouteImport } from './routes/app/mart/add-product'
@@ -56,6 +57,11 @@ const AppTransactionsIndexRoute = AppTransactionsIndexRouteImport.update({
 const AppMartIndexRoute = AppMartIndexRouteImport.update({
   id: '/mart/',
   path: '/mart/',
+  getParentRoute: () => AppRoute,
+} as any)
+const AppMartPendingProductsRoute = AppMartPendingProductsRouteImport.update({
+  id: '/mart/pending-products',
+  path: '/mart/pending-products',
   getParentRoute: () => AppRoute,
 } as any)
 const AppMartOrdersRoute = AppMartOrdersRouteImport.update({
@@ -100,6 +106,7 @@ export interface FileRoutesByFullPath {
   '/app/mart/add-product': typeof AppMartAddProductRoute
   '/app/mart/all-products': typeof AppMartAllProductsRoute
   '/app/mart/orders': typeof AppMartOrdersRoute
+  '/app/mart/pending-products': typeof AppMartPendingProductsRoute
   '/app/mart': typeof AppMartIndexRoute
   '/app/transactions': typeof AppTransactionsIndexRoute
   '/app/mart/edit/$martId': typeof AppMartEditMartIdRoute
@@ -114,6 +121,7 @@ export interface FileRoutesByTo {
   '/app/mart/add-product': typeof AppMartAddProductRoute
   '/app/mart/all-products': typeof AppMartAllProductsRoute
   '/app/mart/orders': typeof AppMartOrdersRoute
+  '/app/mart/pending-products': typeof AppMartPendingProductsRoute
   '/app/mart': typeof AppMartIndexRoute
   '/app/transactions': typeof AppTransactionsIndexRoute
   '/app/mart/edit/$martId': typeof AppMartEditMartIdRoute
@@ -130,6 +138,7 @@ export interface FileRoutesById {
   '/app/mart/add-product': typeof AppMartAddProductRoute
   '/app/mart/all-products': typeof AppMartAllProductsRoute
   '/app/mart/orders': typeof AppMartOrdersRoute
+  '/app/mart/pending-products': typeof AppMartPendingProductsRoute
   '/app/mart/': typeof AppMartIndexRoute
   '/app/transactions/': typeof AppTransactionsIndexRoute
   '/app/mart/edit/$martId': typeof AppMartEditMartIdRoute
@@ -147,6 +156,7 @@ export interface FileRouteTypes {
     | '/app/mart/add-product'
     | '/app/mart/all-products'
     | '/app/mart/orders'
+    | '/app/mart/pending-products'
     | '/app/mart'
     | '/app/transactions'
     | '/app/mart/edit/$martId'
@@ -161,6 +171,7 @@ export interface FileRouteTypes {
     | '/app/mart/add-product'
     | '/app/mart/all-products'
     | '/app/mart/orders'
+    | '/app/mart/pending-products'
     | '/app/mart'
     | '/app/transactions'
     | '/app/mart/edit/$martId'
@@ -176,6 +187,7 @@ export interface FileRouteTypes {
     | '/app/mart/add-product'
     | '/app/mart/all-products'
     | '/app/mart/orders'
+    | '/app/mart/pending-products'
     | '/app/mart/'
     | '/app/transactions/'
     | '/app/mart/edit/$martId'
@@ -239,6 +251,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppMartIndexRouteImport
       parentRoute: typeof AppRoute
     }
+    '/app/mart/pending-products': {
+      id: '/app/mart/pending-products'
+      path: '/mart/pending-products'
+      fullPath: '/app/mart/pending-products'
+      preLoaderRoute: typeof AppMartPendingProductsRouteImport
+      parentRoute: typeof AppRoute
+    }
     '/app/mart/orders': {
       id: '/app/mart/orders'
       path: '/mart/orders'
@@ -291,6 +310,7 @@ interface AppRouteChildren {
   AppMartAddProductRoute: typeof AppMartAddProductRoute
   AppMartAllProductsRoute: typeof AppMartAllProductsRoute
   AppMartOrdersRoute: typeof AppMartOrdersRoute
+  AppMartPendingProductsRoute: typeof AppMartPendingProductsRoute
   AppMartIndexRoute: typeof AppMartIndexRoute
   AppTransactionsIndexRoute: typeof AppTransactionsIndexRoute
   AppMartEditMartIdRoute: typeof AppMartEditMartIdRoute
@@ -303,6 +323,7 @@ const AppRouteChildren: AppRouteChildren = {
   AppMartAddProductRoute: AppMartAddProductRoute,
   AppMartAllProductsRoute: AppMartAllProductsRoute,
   AppMartOrdersRoute: AppMartOrdersRoute,
+  AppMartPendingProductsRoute: AppMartPendingProductsRoute,
   AppMartIndexRoute: AppMartIndexRoute,
   AppTransactionsIndexRoute: AppTransactionsIndexRoute,
   AppMartEditMartIdRoute: AppMartEditMartIdRoute,

@@ -24,6 +24,7 @@ export const useDataSidebar = () => {
          items: [
             { title: translate('add_product'), url: '/add-product' },
             { title: translate('all_products'), url: '/all-products' },
+            { title: translate('pending_products'), url: '/pending-products' },
             { title: translate('orders'), url: '/orders' },
          ],
       },

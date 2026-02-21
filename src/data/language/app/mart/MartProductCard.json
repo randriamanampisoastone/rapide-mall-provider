@@ -1,34 +1,34 @@
 {
-    "en": {
-        "details": "Details",
-        "provider_profile": "Provider profile",
-        "delete": "Delete",
-        "change_status": "Change status",
-        "sales": "Sales",
-        "unavailable": "Unavailable"
-    },
-    "fr": {
-        "details": "Détails",
-        "provider_profile": "Profil du fournisseur",
-        "delete": "Supprimer",
-        "change_status": "Changer le statut",
-        "sales": "Ventes",
-        "unavailable": "Indisponible"
-    },
-    "mg": {
-        "details": "Antsipiriany",
-        "provider_profile": "Mombamomba ny mpamatsy",
-        "delete": "Fafana",
-        "change_status": "Hanova ny sata",
-        "sales": "Varotra",
-        "unavailable": "Tsy misy"
-    },
-    "zh": {
-        "details": "详情",
-        "provider_profile": "供应商资料",
-        "delete": "删除",
-        "change_status": "更改状态",
-        "sales": "销售",
-        "unavailable": "不可用"
-    }
+    "en":  {
+               "details":  "Details",
+               "provider_profile":  "Provider profile",
+               "delete":  "Delete",
+               "change_status":  "Change status",
+               "sales":  "Sales",
+               "unavailable":  "Unavailable"
+           },
+    "fr":  {
+               "details":  "Détails",
+               "provider_profile":  "Profil du fournisseur",
+               "delete":  "Supprimer",
+               "change_status":  "Changer de statut",
+               "sales":  "Ventes",
+               "unavailable":  "Indisponible"
+           },
+    "mg":  {
+               "details":  "tsipiriany",
+               "provider_profile":  "mombamomba ny mpamatsy",
+               "delete":  "Mamafa",
+               "change_status":  "Hanova sata",
+               "sales":  "Varotra",
+               "unavailable":  "Tsy vonona"
+           },
+    "zh":  {
+               "details":  "细节",
+               "provider_profile":  "供应商简介",
+               "delete":  "删除",
+               "change_status":  "更改状态",
+               "sales":  "销售量",
+               "unavailable":  "不可用"
+           }
 }

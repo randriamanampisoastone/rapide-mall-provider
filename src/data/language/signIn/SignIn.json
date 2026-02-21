@@ -1,47 +1,46 @@
 {
-    "en": {
-      "otp-message": "Please enter the OTP code that you received.",
-      "back": "Back",
-      "resend": "Resend",
-      "sign-in": "Sign in",
-      "sign-up": "Sign up",
-      "welcome-message": "Welcome back to the Rapide back office platform.",
-      "or": "Or",
-      "sign-in-by-sms": "Sign in by SMS",
-      "sign-in-by-whatsapp": "Sign in by WhatsApp"
-    },
-    "fr": {
-      "otp-message": "Veuillez entrer le code OTP que vous avez reçu.",
-      "back": "Retour",
-      "resend": "Renvoyer",
-      "sign-in": "Se connecter",
-      "sign-up": "S'inscrire",
-      "welcome-message": "Bienvenue de nouveau sur la plateforme Rapide back office.",
-      "or": "Ou",
-      "sign-in-by-sms": "Se connecter par SMS",
-      "sign-in-by-whatsapp": "Se connecter par WhatsApp"
-    },
-    "mg": {
-      "otp-message": "Ampidiro azafady ny kaody OTP azonao.",
-      "back": "Hiverina",
-      "resend": "Avereno",
-      "sign-in": "Hiditra",
-      "sign-up": "Hisoratra anarana",
-      "welcome-message": "Tongasoa eto amin'ny sehatra Rapide back office.",
-      "or": "Na",
-      "sign-in-by-sms": "Hiditra amin'ny SMS",
-      "sign-in-by-whatsapp": "Hiditra amin'ny WhatsApp"
-    },
-    "zh": {
-      "otp-message": "请输入您收到的 OTP 验证码。",
-      "back": "返回",
-      "resend": "重发",
-      "sign-in": "登录",
-      "sign-up": "注册",
-      "welcome-message": "欢迎回到 Rapide 后台平台。",
-      "or": "或",
-      "sign-in-by-sms": "通过短信登录",
-      "sign-in-by-whatsapp": "通过 WhatsApp 登录"
-    }
-  }
-  
+    "en":  {
+               "otp-message":  "Please enter the OTP code that you received.",
+               "back":  "Back",
+               "resend":  "Resend",
+               "sign-in":  "Sign in",
+               "sign-up":  "Sign up",
+               "welcome-message":  "Welcome back to the Rapide back office platform.",
+               "or":  "Or",
+               "sign-in-by-sms":  "Sign in by SMS",
+               "sign-in-by-whatsapp":  "Sign in by WhatsApp"
+           },
+    "fr":  {
+               "otp-message":  "Veuillez saisir le code OTP que vous avez reçu.",
+               "back":  "Dos",
+               "resend":  "Renvoyer",
+               "sign-in":  "Se connecter",
+               "sign-up":  "S\u0027inscrire",
+               "welcome-message":  "Bienvenue sur la plateforme back office Rapide.",
+               "or":  "Ou",
+               "sign-in-by-sms":  "Connectez-vous par SMS",
+               "sign-in-by-whatsapp":  "Connectez-vous par WhatsApp"
+           },
+    "mg":  {
+               "otp-message":  "Ampidiro azafady ny kaody OTP noraisinao.",
+               "back":  "indray",
+               "resend":  "Alefaso indray",
+               "sign-in":  "Hiditra",
+               "sign-up":  "Hiditra Mpikambana",
+               "welcome-message":  "Tongasoa eto amin\u0027ny sehatra Rapide back office.",
+               "or":  "Na",
+               "sign-in-by-sms":  "Midira amin\u0027ny SMS",
+               "sign-in-by-whatsapp":  "Midira amin\u0027ny WhatsApp"
+           },
+    "zh":  {
+               "otp-message":  "请输入您收到的 OTP 代码。",
+               "back":  "后退",
+               "resend":  "重新发送",
+               "sign-in":  "登入",
+               "sign-up":  "报名",
+               "welcome-message":  "欢迎回到 Rapide 后台平台。",
+               "or":  "或者",
+               "sign-in-by-sms":  "通过短信登录",
+               "sign-in-by-whatsapp":  "通过 WhatsApp 登录"
+           }
+}

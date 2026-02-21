@@ -39,12 +39,16 @@ function SearchBar({
    const [value, setValue] = useState('')
 
    return (
-      <div className='flex flex-wrap items-center justify-between sticky top-10 z-10 bg-[var(--background)] p-1 rounded-md'>
-         <div className='flex items-center'>
+      <div className='bg-[var(--background)] p-1 rounded-md'>
+         <div className='flex flex-col gap-2 lg:flex-row lg:items-center lg:justify-between'>
+            <div className='flex items-center min-w-0 flex-1'>
             {filterItems.length > 0 && (
                <DropdownMenu>
                   <DropdownMenuTrigger asChild>
-                     <Button variant={'outline'} className='mr-1'>
+                     <Button
+                        variant={'outline'}
+                        className='mr-1 shrink-0'
+                     >
                         <SlidersHorizontal />{' '}
                         {searchFilter.length < 3 ? (
                            searchFilter.map((value) => (
@@ -98,7 +102,7 @@ function SearchBar({
             )}
             <Input
                type='search'
-               className={cn('rounded-r-none')}
+               className={cn('rounded-r-none min-w-0 w-fit')}
                placeholder={
                   placeholder || translate('search_placeholder') + ' ...'
                }
@@ -115,18 +119,19 @@ function SearchBar({
             />
             <Button
                variant={'outline'}
-               className='rounded-l-none'
+               className='rounded-l-none shrink-0'
                onClick={() => setSearchValue(value)}
             >
                <Search />
             </Button>
          </div>
-         <div className='flex gap-4'>
-            <RefetchButton refetchFn={refetchFn} />
-            {customComponent}
-            <div className='font-bold text-end text-xs'>
-               <h2 className='text-[var(--green)]'>{translate('total')}</h2>
-               <p>{unitConvert(totalCount)}</p>
+            <div className='flex flex-wrap items-center gap-2 lg:gap-4 lg:justify-end'>
+               <RefetchButton refetchFn={refetchFn} />
+               {customComponent}
+               <div className='font-bold text-end text-xs shrink-0'>
+                  <h2 className='text-[var(--green)]'>{translate('total')}</h2>
+                  <p>{unitConvert(totalCount)}</p>
+               </div>
             </div>
          </div>
       </div>

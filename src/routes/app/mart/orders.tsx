@@ -463,7 +463,7 @@ function RouteComponent() {
          header: translate('pickup_driver'),
          cell: ({ row }) =>
             row.original.driverPickedUp ? (
-               <div className='p-2 cursor-pointer hover:bg-[var(--background-secondary)] flex gap-2 max-w-70 overflow-hidden items-center rounded-md'>
+               <div className='p-2 cursor-pointer hover:bg-[var(--background-secondary)] flex gap-2 max-w-40 overflow-hidden items-center rounded-md'>
                   <Avatar className='size-9'>
                      <AvatarImage
                         src={row.original.driverPickedUp.profilePhoto}
@@ -477,7 +477,7 @@ function RouteComponent() {
                            .toUpperCase()}
                      </AvatarFallback>
                   </Avatar>
-                  <div className='overflow-hidden'>
+                  <div className='overflow-hidden text-left'>
                      <ScrollText
                         text={`${row.original.driverPickedUp.firstName} ${row.original.driverPickedUp.lastName || ''}`}
                      />
@@ -500,7 +500,7 @@ function RouteComponent() {
          header: translate('delivery_driver'),
          cell: ({ row }) =>
             row.original.driverDelivered ? (
-               <div className='p-2 cursor-pointer hover:bg-[var(--background-secondary)] flex gap-2 max-w-70 overflow-hidden items-center rounded-md'>
+               <div className='p-2 cursor-pointer hover:bg-[var(--background-secondary)] flex gap-2 max-w-40 overflow-hidden items-center rounded-md'>
                   <Avatar className='size-9'>
                      <AvatarImage
                         src={row.original.driverDelivered.profilePhoto}
@@ -514,7 +514,7 @@ function RouteComponent() {
                            .toUpperCase()}
                      </AvatarFallback>
                   </Avatar>
-                  <div className='overflow-hidden'>
+                  <div className='overflow-hidden text-left'>
                      <ScrollText
                         text={`${row.original.driverDelivered.firstName} ${row.original.driverDelivered.lastName || ''}`}
                      />

@@ -26,7 +26,7 @@ import {
    InputOTPGroup,
    InputOTPSlot,
 } from '@/components/ui/input-otp'
-import { errorSound } from '@/utils/audio.player.util'
+import { errorSound, infoSound } from '@/utils/audio.player.util'
 
 export const Route = createFileRoute('/app/mart/add-product')({
    component: RouteComponent,
@@ -68,7 +68,8 @@ function RouteComponent() {
 
    useEffect(() => {
       if (isSuccessCreateMartProduct) {
-         toast.success(translate('product_created_successfully'))
+         toast.success(translate('product_submitted_for_review'))
+         infoSound.play()
          setConfirmMode(false)
          dispatch(resetMartProduct())
       }
