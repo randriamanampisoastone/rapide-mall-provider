@@ -1,5 +1,4 @@
 import { useProviderGetPendingMartProductSubmissions } from '@/api/mart/provider.get.pending.mart.product.submissions.api'
-import { useProviderGetMartProductReviewDecisions } from '@/api/mart/provider.get.mart.product.review.decisions.api'
 import { Badge } from '@/components/ui/badge'
 import { Input } from '@/components/ui/input'
 import RefetchButton from '@/components/customComponents/RefetchButton'
@@ -8,80 +7,19 @@ import useTranslate from '@/hooks/useTranslate'
 import { utcConvert } from '@/utils/utc.convert.util'
 import { createFileRoute } from '@tanstack/react-router'
 import { Clock3, Search } from 'lucide-react'
-import { useEffect, useMemo, useRef, useState } from 'react'
-import { toast } from 'react-toastify'
-import { infoSound } from '@/utils/audio.player.util'
-import { useSelector } from 'react-redux'
-import type { RootState } from '@/redux/store'
+import { useMemo, useState } from 'react'
 
 export const Route = createFileRoute('/app/mart/pending-products')({
    component: RouteComponent,
 })
 
-const EVENT_MART_PRODUCT_REVIEW_DECISION = 'martProductReviewDecision'
-
 function RouteComponent() {
    const translate = useTranslate(langue)
-   const socket = useSelector((state: RootState) => state.socket.socket)
    const [term, setTerm] = useState('')
    const { data, refetch, isLoading } =
       useProviderGetPendingMartProductSubmissions({
          refetchIntervalMs: 30_000,
       })
-   const { data: decisionData, refetch: refetchDecision } =
-      useProviderGetMartProductReviewDecisions({
-         page: 1,
-         pageSize: 10,
-         refetchIntervalMs: 30_000,
-      })
-   const previousDecisionCountRef = useRef(0)
-
-   useEffect(() => {
-      const count = decisionData?.totalCount ?? 0
-      if (previousDecisionCountRef.current === 0) {
-         previousDecisionCountRef.current = count
-         return
-      }
-
-      // If socket is available, realtime event handles sound/toast to avoid duplicates.
-      if (socket) {
-         previousDecisionCountRef.current = count
-         return
-      }
-
-      if (count > previousDecisionCountRef.current) {
-         const latest = decisionData?.data?.[0]
-         if (latest) {
-            infoSound.play()
-            toast.info(
-               latest.decision === 'APPROVED'
-                  ? `${latest.productName || 'Product'} ${translate('approved')}`
-                  : `${latest.productName || 'Product'} ${translate('rejected')}`,
-            )
-         }
-      }
-      previousDecisionCountRef.current = count
-   }, [decisionData, translate, socket])
-
-   useEffect(() => {
-      if (!socket) return
-
-      const onDecision = (latest: { decision: 'APPROVED' | 'REJECTED'; productName?: string }) => {
-         infoSound.play()
-         toast.info(
-            latest.decision === 'APPROVED'
-               ? `${latest.productName || 'Product'} ${translate('approved')}`
-               : `${latest.productName || 'Product'} ${translate('rejected')}`,
-         )
-         refetchDecision()
-         refetch()
-      }
-
-      socket.on(EVENT_MART_PRODUCT_REVIEW_DECISION, onDecision)
-      return () => {
-         socket.off(EVENT_MART_PRODUCT_REVIEW_DECISION, onDecision)
-      }
-   }, [socket, refetchDecision, refetch, translate])
 
    const normalizedTerm = term.trim().toLowerCase()
    const filteredSubmissions = useMemo(() => {
@@ -127,7 +65,6 @@ function RouteComponent() {
             <RefetchButton
                refetchFn={() => {
                   refetch()
-                  refetchDecision()
                }}
             />
          </div>
@@ -176,35 +113,6 @@ function RouteComponent() {
             })}
          </div>
 
-         <div className='space-y-2'>
-            <h2 className='font-bold text-lg'>{translate('recent_decisions')}</h2>
-            <div className='grid sm:grid-cols-2 xl:grid-cols-3 gap-2'>
-               {(decisionData?.data ?? []).map((item) => (
-                  <div className='rounded-md border p-3 space-y-2'>
-                     <div className='flex items-center justify-between'>
-                        <h3 className='font-bold line-clamp-1'>
-                           {item.productName || item.submissionId.slice(0, 8)}
-                        </h3>
-                        <Badge
-                           className={
-                              item.decision === 'APPROVED'
-                                 ? 'bg-[var(--green)] text-white'
-                                 : 'bg-[var(--red)] text-white'
-                           }
-                        >
-                           {item.decision === 'APPROVED'
-                              ? translate('approved')
-                              : translate('rejected')}
-                        </Badge>
-                     </div>
-                     <div className='text-xs text-[var(--gray)] flex items-center gap-1'>
-                        <Clock3 className='size-3' />
-                        {utcConvert(item.reviewedAt).toLocaleString()}
-                     </div>
-                  </div>
-               ))}
-            </div>
-         </div>
       </div>
    )
 }

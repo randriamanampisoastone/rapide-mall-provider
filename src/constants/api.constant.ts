@@ -42,8 +42,6 @@ export const ROUTE_GET_PROVIDER_FULL_PROFILE =
 export const ROUTE_UPDATE_MART_PRODUCT = '/provider-mart/update-mart-product'
 export const ROUTE_PROVIDER_GET_PENDING_MART_PRODUCT_SUBMISSIONS =
    '/provider-mart/provider-get-pending-mart-product-submissions'
-export const ROUTE_PROVIDER_GET_MART_PRODUCT_REVIEW_DECISIONS =
-   '/provider-mart/provider-get-mart-product-review-decisions'
 export const ROUTE_PROVIDER_GET_ORDER_ITEMS =
    '/provider-mart/provider-get-order-items'
 export const ROUTE_PROVIDER_GET_MART_TRANSACTION =
