@@ -1,30 +1,30 @@
 {
-    "en": {
-        "cash": "Cash",
-        "mvola": "Mvola",
-        "orange_money": "Orange money",
-        "card": "Card",
-        "rapide_wallet": "Rapide wallet"
-    },
-    "fr": {
-        "cash": "Espèces",
-        "mvola": "MVola",
-        "orange_money": "Orange Money",
-        "card": "Carte bancaire",
-        "rapide_wallet": "Portefeuille Rapide"
-    },
-    "mg": {
-        "cash": "Vola amin’ny tanana",
-        "mvola": "MVola",
-        "orange_money": "Orange Money",
-        "card": "Karatra fandoavana",
-        "rapide_wallet": "Kitapo Rapide"
-    },
-    "zh": {
-        "cash": "现金",
-        "mvola": "MVola",
-        "orange_money": "Orange Money",
-        "card": "银行卡",
-        "rapide_wallet": "Rapide 钱包"
-    }
+    "en":  {
+               "cash":  "Cash",
+               "mvola":  "Mvola",
+               "orange_money":  "Orange money",
+               "card":  "Card",
+               "rapide_wallet":  "Rapide wallet"
+           },
+    "fr":  {
+               "cash":  "Espèces",
+               "mvola":  "Mvola",
+               "orange_money":  "Argent orange",
+               "card":  "Carte",
+               "rapide_wallet":  "Portefeuille Rapide"
+           },
+    "mg":  {
+               "cash":  "Vola",
+               "mvola":  "Mvola",
+               "orange_money":  "Orange vola",
+               "card":  "KARATRA ARA-BAIBOLY",
+               "rapide_wallet":  "kitapom-bola Rapide"
+           },
+    "zh":  {
+               "cash":  "现金",
+               "mvola":  "姆沃拉",
+               "orange_money":  "橙钱",
+               "card":  "卡片",
+               "rapide_wallet":  "快速钱包"
+           }
 }

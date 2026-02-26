@@ -12,12 +12,12 @@ export const MartOrderStatusType = {
 export type MartOrderStatusType = keyof typeof MartOrderStatusType
 
 export const MartOrderStatusTypeColor: Record<MartOrderStatusType, string> = {
-   PENDING_PAYMENT: '--yellow',
-   CONFIRMED: '--blue',
-   PROCESSING: '--sky-blue',
-   SHIPPED: '--purple',
-   DELIVERED: '--green',
-   CANCELLED: '--red',
-   RETURNED: '--fuchsia',
-   REFUNDED: '--brown',
+   PENDING_PAYMENT: 'yellow',
+   CONFIRMED: 'blue',
+   PROCESSING: 'sky-blue',
+   SHIPPED: 'purple',
+   DELIVERED: 'green',
+   CANCELLED: 'red',
+   RETURNED: 'fuchsia',
+   REFUNDED: 'brown',
 } as const

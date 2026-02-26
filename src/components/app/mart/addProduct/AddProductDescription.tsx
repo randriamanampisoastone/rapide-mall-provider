@@ -99,16 +99,18 @@ function AddProductDescription({
                )
             })}
 
-            <div
-               className={`grid grid-cols-2 gap-2`}
-            >
+            <div className={`grid grid-cols-2 gap-2`}>
                <Button
                   className='w-full bg-[var(--blue)] hover:bg-[var(--blue)] text-[var(--foreground)] font-extrabold cursor-pointer hover:border-2 border-[var(--foreground)] h-full'
                   onClick={() => {
                      setDescriptions([...descriptions, ': '])
                   }}
                >
-                  <TypeOutline /> {translate('add_key_value')}
+                  <TypeOutline className='shrink-0' />
+                  <ScrollText
+                     text={translate('add_key_value')}
+                     className='min-w-0 flex-1'
+                  />
                </Button>
                <Button
                   className='w-full bg-[var(--blue)] hover:bg-[var(--blue)] text-[var(--foreground)] font-extrabold cursor-pointer hover:border-2 border-[var(--foreground)] h-full'
@@ -116,7 +118,11 @@ function AddProductDescription({
                      setDescriptions([...descriptions, ''])
                   }}
                >
-                  <Type /> <ScrollText text={translate('add_description')} />
+                  <Type className='shrink-0' />
+                  <ScrollText
+                     text={translate('add_description')}
+                     className='min-w-0 flex-1'
+                  />
                </Button>
             </div>
          </div>

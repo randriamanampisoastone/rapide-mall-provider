@@ -186,7 +186,7 @@ function RouteComponent() {
                      </div>
                   </div>
 
-                  <div className='space-y-1 z-5 md:max-w-[calc(100vw-320px)] p-2'>
+                  <div className='space-y-1 z-5 md:max-w-full p-2'>
                      {/** Header */}
                      <div>
                         <div className='text-xs max-h-25 min-h-25 overflow-auto [mask-image:linear-gradient(to_bottom,transparent,black_12%,black_88%,transparent)] [webkit-mask-image:linear-gradient(to_bottom,transparent,black_12%,black_88%,transparent)] py-1'>
