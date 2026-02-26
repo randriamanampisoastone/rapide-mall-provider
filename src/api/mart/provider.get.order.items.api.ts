@@ -3,6 +3,7 @@ import { AxiosErrorCustom } from '../axios.error.custum'
 import apiClient from '../main'
 import type { MartOrderStatusType } from '@/enums/mart/mart.order.status.enum'
 import { useQuery } from '@tanstack/react-query'
+import type { MartOrderItemStatusType } from '@/enums/mart/mart.order.item.status.enum'
 
 interface ProviderGetOrderItemsQuery {
    martProductId?: string
@@ -31,12 +32,17 @@ export interface ProviderGetOrderItemsResponseData {
    quantity: number
    priceAtTime: number
    martItem: {
+      martProductId: string
       code: string
       images: string[]
       descriptionEn: string[]
       descriptionFr: string[]
       descriptionMg: string[]
       descriptionZh: string[]
+      productDescriptionEn: string[]
+      productDescriptionFr: string[]
+      productDescriptionMg: string[]
+      productDescriptionZh: string[]
       nameEn?: string
       nameFr?: string
       nameMg?: string
@@ -48,6 +54,7 @@ export interface ProviderGetOrderItemsResponseData {
    clientProfile: ProfileType
    driverPickedUp?: ProfileType
    driverDelivered?: ProfileType
+   martOrderItemStatus: MartOrderItemStatusType
 }
 
 interface ProviderGetOrderItemsResponse {
@@ -73,7 +80,6 @@ const providerGetOrderItems = async ({
       const response = await apiClient.get<ProviderGetOrderItemsResponse>(
          ROUTE_PROVIDER_GET_ORDER_ITEMS + query,
       )
-      console.log(response.data)
       return response.data
    } catch (error) {
       throw new AxiosErrorCustom(error)

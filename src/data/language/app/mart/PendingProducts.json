@@ -1,0 +1,54 @@
+{
+    "en": {
+        "title": "Pending product submissions",
+        "search_placeholder": "Search pending product...",
+        "loading": "Loading...",
+        "expires_in": "Expires in",
+        "create": "Create",
+        "update": "Update",
+        "status": "Status",
+        "pending_review": "Pending review",
+        "approved": "approved",
+        "rejected": "rejected",
+        "expired": "Expired"
+    },
+    "fr": {
+        "title": "Soumissions de produits en attente",
+        "search_placeholder": "Rechercher un produit en attente...",
+        "loading": "Chargement...",
+        "expires_in": "Expire dans",
+        "create": "Créer",
+        "update": "Mise à jour",
+        "status": "Statut",
+        "pending_review": "En attente d'examen",
+        "approved": "approuvé",
+        "rejected": "rejeté",
+        "expired": "Expiré"
+    },
+    "mg": {
+        "title": "Miandry ny fandefasana vokatra",
+        "search_placeholder": "Karohy ny vokatra miandry...",
+        "loading": "Loading...",
+        "expires_in": "Lany daty amin'ny",
+        "create": "MANANGANA",
+        "update": "vaovao farany",
+        "status": "sata",
+        "pending_review": "Miandry famerenana",
+        "approved": "nankatoavina",
+        "rejected": "TSY",
+        "expired": "niala aina"
+    },
+    "zh": {
+        "title": "待提交的产品",
+        "search_placeholder": "搜索待处理产品...",
+        "loading": "加载中...",
+        "expires_in": "到期时间",
+        "create": "创建",
+        "update": "更新",
+        "status": "地位",
+        "pending_review": "待审核",
+        "approved": "得到正式认可的",
+        "rejected": "被拒绝",
+        "expired": "已到期"
+    }
+}

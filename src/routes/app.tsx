@@ -13,9 +13,9 @@ function RouteComponent() {
    return (
       <SidebarProvider className='overflow-x-hidden'>
          <AppSidebar />
-         <SidebarInset>
+         <SidebarInset className='min-w-0 max-w-full overflow-x-hidden'>
             <Navbar />
-            <div className='p-2.5 flex-1'>
+            <div className='p-2.5 flex-1 min-w-0 max-w-full overflow-x-hidden'>
                <Outlet />
             </div>
          </SidebarInset>

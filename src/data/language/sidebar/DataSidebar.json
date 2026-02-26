@@ -1,30 +1,34 @@
 {
-   "en": {
-      "mart": "Mart",
-      "add_product": "Add product",
-      "all_products": "All products",
-      "orders": "Orders",
-      "transactions": "Transactions"
-   },
-   "fr": {
-      "mart": "Boutique",
-      "add_product": "Ajouter un produit",
-      "all_products": "Tous les produits",
-      "orders": "Commandes",
-      "transactions": "Transactions"
-   },
-   "mg": {
-      "mart": "Fivarotana",
-      "add_product": "Manampy vokatra",
-      "all_products": "Vokatra rehetra",
-      "orders": "Kaomandy",
-      "transactions": "Fifanakalozana"
-   },
-   "zh": {
-      "mart": "商城",
-      "add_product": "添加产品",
-      "all_products": "所有产品",
-      "orders": "订单",
-      "transactions": "交易"
-   }
+    "en":  {
+               "mart":  "Mart",
+               "add_product":  "Add product",
+               "all_products":  "All products",
+               "orders":  "Orders",
+               "transactions":  "Transactions",
+               "pending_products":  "Pending products"
+           },
+    "fr":  {
+               "mart":  "Marché",
+               "add_product":  "Ajouter un produit",
+               "all_products":  "Tous les produits",
+               "orders":  "Ordres",
+               "transactions":  "Transactions",
+               "pending_products":  "Produits en attente"
+           },
+    "mg":  {
+               "mart":  "tsenan\u0027ny",
+               "add_product":  "Ampio vokatra",
+               "all_products":  "Ny vokatra rehetra",
+               "orders":  "Filaharana",
+               "transactions":  "varotra",
+               "pending_products":  "vokatra miandry"
+           },
+    "zh":  {
+               "mart":  "市场",
+               "add_product":  "添加产品",
+               "all_products":  "所有产品",
+               "orders":  "订单",
+               "transactions":  "交易",
+               "pending_products":  "待处理产品"
+           }
 }

@@ -1,14 +1,14 @@
 {
-    "en": {
-        "refresh": "Refresh"
-    },
-    "fr": {
-        "refresh": "Rafraîchir"
-    },
-    "mg": {
-        "refresh": "Avaozina"
-    },
-    "zh": {
-        "refresh": "刷新"
-    }
+    "en":  {
+               "refresh":  "Refresh"
+           },
+    "fr":  {
+               "refresh":  "Rafraîchir"
+           },
+    "mg":  {
+               "refresh":  "Havaozina"
+           },
+    "zh":  {
+               "refresh":  "刷新"
+           }
 }

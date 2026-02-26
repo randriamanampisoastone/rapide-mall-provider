@@ -1,22 +1,22 @@
 {
-    "en": {
-        "last_orders": "Last orders",
-        "price": "Price: {amount} Ar",
-        "quantity": "Quantity: {quantity}"
-    },
-    "fr": {
-        "last_orders": "Dernières commandes",
-        "price": "Prix: {amount} Ar",
-        "quantity": "Quantité: {quantity}"
-    },
-    "mg": {
-        "last_orders": "Lastly orders",
-        "price": "Price: {amount} Ar",
-        "quantity": "Quantity: {quantity}"
-    },
-    "zh": {
-        "last_orders": "最后订单",
-        "price": "价格: {amount} Ar",
-        "quantity": "数量: {quantity}"
-    }
+    "en":  {
+               "last_orders":  "Last orders",
+               "price":  "Price: {amount} Ar",
+               "quantity":  "Quantity: {quantity}"
+           },
+    "fr":  {
+               "last_orders":  "Dernières commandes",
+               "price":  "Prix : {amount} Ar",
+               "quantity":  "Quantité : {quantity}"
+           },
+    "mg":  {
+               "last_orders":  "Kaomandy farany",
+               "price":  "Vidiny: {amount} Ar",
+               "quantity":  "Isan\u0027ny: {quantity}"
+           },
+    "zh":  {
+               "last_orders":  "最后订单",
+               "price":  "价格：{amount}Ar",
+               "quantity":  "数量：{quantity}"
+           }
 }

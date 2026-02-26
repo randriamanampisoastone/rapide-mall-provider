@@ -1,8 +1,4 @@
-import {
-   Sidebar,
-   SidebarContent,
-   SidebarHeader,
-} from '@/components/ui/sidebar'
+import { Sidebar, SidebarContent, SidebarHeader } from '@/components/ui/sidebar'
 import { HeaderAppSidebar } from './HeaderAppSidebar'
 import { NavMain } from './NavMain'
 import { useDataSidebar } from '@/hooks/useDataSidebar'

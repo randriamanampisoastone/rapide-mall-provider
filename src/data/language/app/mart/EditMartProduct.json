@@ -24,7 +24,8 @@
         "weight": "Weight",
         "product_update_successfully": "Product updated successfully !",
         "enter_your_password": "Enter your password",
-        "main_item_missing_please_select_one": "Main item missing please select one !"
+        "main_item_missing_please_select_one": "Main item missing please select one !",
+        "product_submitted_for_review": "Product submitted for review"
     },
     "fr": {
         "name": "Nom",
@@ -51,14 +52,15 @@
         "weight": "Poids",
         "product_update_successfully": "Produit mis à jour avec succès !",
         "enter_your_password": "Entrez votre mot de passe",
-        "main_item_missing_please_select_one": "Élément principal manquant, veuillez en sélectionner un !"
+        "main_item_missing_please_select_one": "Article principal manquant, veuillez en sélectionner un !",
+        "product_submitted_for_review": "Produit soumis pour révision"
     },
     "mg": {
         "name": "Anarana",
         "global_description": "Famaritana ankapobeny",
-        "add_item": "Ampio entana",
+        "add_item": "Ampio singa",
         "no_image": "Tsy misy sary voafantina!",
-        "quantity": "Habetsahana",
+        "quantity": "Isany",
         "old_price": "Vidiny taloha",
         "price": "Vidiny",
         "descriptions": "Famaritana",
@@ -67,24 +69,25 @@
         "add_number": "Ampio isa",
         "color": "Loko",
         "key": "Fanalahidy",
-        "value": "Sandany",
-        "main_product": "Vokatra lehibe",
+        "value": "Sanda",
+        "main_product": "Vokatra fototra",
         "save_product": "Tehirizo ny vokatra",
-        "no_product_item": "Tsy misy entana vokatra!",
-        "save_item_change": "Tehirizo ny fanovana entana",
+        "no_product_item": "Tsy misy singa vokatra!",
+        "save_item_change": "Tehirizo ny fanovana singa",
         "width": "Sakany",
         "height": "Haavony",
         "length": "Halavany",
         "weight": "Lanja",
         "product_update_successfully": "Nohavaozina soa aman-tsara ny vokatra!",
         "enter_your_password": "Ampidiro ny tenimiafinao",
-        "main_item_missing_please_select_one": "Tsy hita ny entana lehibe, azafady mifidiana iray!"
+        "main_item_missing_please_select_one": "Tsy misy singa fototra, azafady mifidiana iray!",
+        "product_submitted_for_review": "Nalefa hodinihina ny vokatra"
     },
     "zh": {
         "name": "名称",
         "global_description": "全局描述",
         "add_item": "添加项目",
-        "no_image": "未选择图片！",
+        "no_image": "未选择图像！",
         "quantity": "数量",
         "old_price": "原价",
         "price": "价格",
@@ -97,14 +100,15 @@
         "value": "值",
         "main_product": "主产品",
         "save_product": "保存产品",
-        "no_product_item": "没有产品项！",
-        "save_item_change": "保存项更改",
+        "no_product_item": "没有产品项目！",
+        "save_item_change": "保存项目更改",
         "width": "宽度",
         "height": "高度",
         "length": "长度",
         "weight": "重量",
         "product_update_successfully": "产品更新成功！",
         "enter_your_password": "输入您的密码",
-        "main_item_missing_please_select_one": "缺少主项目，请选择一个！"
+        "main_item_missing_please_select_one": "缺少主要项目，请选择一项！",
+        "product_submitted_for_review": "产品已提交审核"
     }
 }

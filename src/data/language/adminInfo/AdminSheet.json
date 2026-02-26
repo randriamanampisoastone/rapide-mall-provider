@@ -1,26 +1,26 @@
 {
-    "en": {
-        "edit_profile": "Edit profile",
-        "create_password": "Create password",
-        "log_out": "Log out",
-        "change_password": "Change password"
-    },
-    "fr": {
-        "edit_profile": "Modifier le profil",
-        "create_password": "Créer un mot de passe",
-        "log_out": "Se déconnecter",
-        "change_password": "Changer le mot de passe"
-    },
-    "mg": {
-        "edit_profile": "Hanova mombamomba",
-        "create_password": "Mamokatra tenimiafina",
-        "log_out": "Fivoahana",
-        "change_password": "Hanova ny tenimiafina"
-    },
-    "zh": {
-        "edit_profile": "编辑资料",
-        "create_password": "创建密码",
-        "log_out": "退出登录",
-        "change_password": "更改密码"
-    }
+    "en":  {
+               "edit_profile":  "Edit profile",
+               "create_password":  "Create password",
+               "log_out":  "Log out",
+               "change_password":  "Change password"
+           },
+    "fr":  {
+               "edit_profile":  "Modifier le profil",
+               "create_password":  "Créer un mot de passe",
+               "log_out":  "Se déconnecter",
+               "change_password":  "Changer le mot de passe"
+           },
+    "mg":  {
+               "edit_profile":  "Ahitsio ny mombamomba",
+               "create_password":  "Mamorona tenimiafina",
+               "log_out":  "Mivoaha",
+               "change_password":  "Hanova tenimiafina"
+           },
+    "zh":  {
+               "edit_profile":  "编辑个人资料",
+               "create_password":  "创建密码",
+               "log_out":  "退出",
+               "change_password":  "更改密码"
+           }
 }
