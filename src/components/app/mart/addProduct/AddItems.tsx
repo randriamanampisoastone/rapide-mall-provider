@@ -186,8 +186,7 @@ function AddItems() {
                   disabled={
                      currentMartItem.images.length === 0 ||
                      !currentMartItem.price ||
-                     !currentMartItem.oldPrice ||
-                     !currentMartItem.quantity
+                     !currentMartItem.oldPrice 
                   }
                >
                   <ShoppingCart />{' '}
