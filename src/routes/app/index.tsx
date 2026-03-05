@@ -80,7 +80,7 @@ function RouteComponent() {
                      transform: `translateX(-${currentDate * 150}px)`,
                   }}
                >
-                  {weekList.map((value, index) => {
+                  {providerProfile && weekList.map((value, index) => {
                      return (
                         <div className='min-w-[150px] max-w-[150px] px-1 duration-500'>
                            <div
@@ -160,14 +160,16 @@ function RouteComponent() {
 
                                  {openAndCloseComponent()}
                               </div>
-                              <div className='text-lg font-bold'>
-                                 {translate('register_number')}:{' '}
-                                 <span className='text-[var(--gray)]'>
-                                    {providerProfile.registrationNumber
-                                       .toString()
-                                       .padStart(3, '0')}
-                                 </span>
-                              </div>
+                              {providerProfile.registrationNumber && (
+                                 <div className='text-lg font-bold'>
+                                    {translate('register_number')}:{' '}
+                                    <span className='text-[var(--gray)]'>
+                                       {providerProfile.registrationNumber
+                                          .toString()
+                                          .padStart(3, '0')}
+                                    </span>
+                                 </div>
+                              )}
                            </div>
 
                            <div className='flex flex-col items-center'>

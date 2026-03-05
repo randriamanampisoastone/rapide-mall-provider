@@ -4,8 +4,8 @@ import { useEffect, useState } from 'react'
 import { ScaleLoader } from 'react-spinners'
 
 interface ProviderLocationMap {
-   latitude: number
-   longitude: number
+   readonly latitude: number
+   readonly longitude: number
 }
 
 function ProviderLocation({ latitude, longitude }: ProviderLocationMap) {
@@ -13,13 +13,15 @@ function ProviderLocation({ latitude, longitude }: ProviderLocationMap) {
 
    const { isLoaded } = useLoadScript({ googleMapsApiKey: GOOGLE_MAP_API_KEY })
 
+   
+
    useEffect(() => {
       if (mapRef) {
          mapRef.panTo({ lat: latitude, lng: longitude })
       }
    }, [mapRef])
 
-   if (!isLoaded) {
+   if (!isLoaded || !latitude || !longitude) {
       return (
          <div className='h-100 overflow-hidden rounded-xl flex items-center justify-center'>
             <ScaleLoader color='#0c0' />
